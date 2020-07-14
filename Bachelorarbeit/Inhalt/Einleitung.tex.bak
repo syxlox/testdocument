@@ -1,0 +1,251 @@
+\chapter{Einleitung}
+\label{cha:einleitung}
+%%
+%\thispagestyle{scrheadings}
+\pagestyle{scrheadings}
+%%
+Die immer weiter voranschreitende Digitalisierung bietet neben vielen Umstellungen auch viele Vorteile, wie zum Beispiel eine 100\% browserbasierte Application Lifecycle Management-Lösung names Polarion, die es erlaubt Systeme definieren, erstellen, testen und verwalten zu können. Dieses System umfasst in dieser Arbeit eine \ac{hgü}-Anlage, deren Lebenszyklus in Polarion ALM transferiert wurde. Vorangehende Pilotprojekte, haben bereits gezeigt, wie vielversprechend und einfacher die Verwaltung des Produktzykluses über dieses browserbasierte Tool, als herkömmlich über per E-Mail versendete PDF Dateien oder riesige Excel-Tabellen, ist. Das Ziel der Arbeit war es den \ac{mtp} in das Tool zu transferieren. Dabei war es wichtig das Konzept zu verfolgen, auf dem der \ac{mtp} basiert.\
+Neben der Kenntnisse des Dokumentationssystem, definiert durch IEC81346 und IEC61355, und der Oberfläche von Polarion, bedarf es auch der Erstellung von Variablen und Eingabefeldern für das Userinterface. Dieses wurde abschließend noch formkonfiguriert und mit einigen wenigen JavaScript Funktionen benutzerfreundlicher gemacht. Aufgrund der Situation durch SARS-CoV-2 wurde diese Arbeit fast ausschließlich auf lokalen Instanzen und per Remote von zu Hause aus erbracht.
+%%
+\chapter{Theoretische Grundlagen}
+\label{cha:theo}
+%%
+Die Erarbeitung der Arbeitsaufgabe macht ein intensives, dreiwöchiges Einarbeiten in folgende Thematiken notwendig. Einige Thematiken fanden erst im Laufe der Aufgabe Anwendungen und waren ursprünglich nicht bekannt, sind hier aber trotzdem gelistet.
+\section{Grundlagen HGÜ}
+\label{sec:hgü}
+%%
+Diese Arbeit beschäftigt sich grundlegend mit einer Anwendung, die eine \ac{hgü}-Anlage darstellt und verwaltet. Deswegen wird hier kurz über die Grundlagen der Hochspannungsgleichstromübertragung gesprochen.\\
+Folgender Absatz besteht aus Gedankenprotokollen mit Mitarbeitern der Firma Siemens und stichpunktartig aus \cite{11}(Kapitel 1-3).
+Wie der Name schon sagt wird bei \ac{hgü}, oder englisch HVDC (High Voltage Direct Current), elektrische Energie per Gleichstrom statt üblicher Wechselspannung übertragen. Da die durch \ac{ac} enstehenden Blindleistungsverluste durch Übertragungsleitungen ab gewissen Übertragungslängen, wie sie z.B. bei Off-Shore Windparks anzutreffen sind, sehr groß und damit auch sehr teuer werden, lohnt es sich Energie über diese Strecken per \ac{dc} zu übertragen. Ab dem sogenannten break-even point überwiegt Gleichstromübertragen in puncto Kosten der gewöhnlichen Wechselstromübertragung. Um diese Art der Energieübertragung zu bewerkstelligen bedarf es zweier Anlagen, eine am Einspeisepunkt der \ac{dc}-Leitung und eine am Entnahmepunkt. Auf der einen Seite wird Spannung aus einem \ac{ac}-Netz entzogen, gleichgerichtet und als \ac{dc} übertragen. Auf der anderen Seite wird diese wieder wechselgerichtet und in ein \ac{ac}-Netz gespeist. Diese Anlagen und deren Einrichtungen müssen in Betrieb genommen und getestet werden. Es gibt \markss{off-site}- und \markss{on-site}-Tests, wobei ersteres bedeutet, man befindet sich auf dem Testgelände, mit zweiterem ist die Baustelle gemeint. Die Übersicht über alle Testdokumente von Civil-, also Gebäude, bis zu einzelnen Geräte-tests beinhaltet der Master Test Plan, kurz \ac{mtp}.
+%%
+\section{Grundlagen MTP}
+\label{sec:mtp}
+%%
+\markss{Der Master Test Plan beinhaltet alle Testdokumente, die im Rahmen einer Projektabwicklung durchgeführt werden. Dies beginnt bei Werksprüfungen (Routine und Typprüfungen) einzelner Komponenten bis hin zu den Abnahmetests auf der Anlage beim Kunden. Dieser Plan ist zurzeit noch auf Excel basiert und deckt mehrere HGÜ Anwendungen ab. Dieser MTP wird von mehreren Abteilungen über die Projektlaufzeit bearbeitet.} \cite{2}\\
+Der \ac{mtp} beinhaltet Qualitätsnachweisdokumente, Anleitungen und Handbücher, technische Spezifikations- /Anforderungsdokumente, Funktionsübersichtsdokumente, Dokumente, die Orte in Gebäuden beschreiben, Verbindungsbezogene Dokumente und Einstellwertdokumente, nur um die Geläufigsten zu nennen.
+Diese Dokumente werden dort nur schriftlich geführt, nicht physisch hinterlegt. Er dient lediglich zur Übersicht aller Dokumente.
+Das Konzept des \ac{mtp} ist in Abbildung \ref{fig:konzept} zu sehen.
+%%
+\begin{figure}[H]
+   \begin{center}
+   \includegraphics[width=0.9\textwidth]{Bilder/mtp} 
+   \caption{Konzept des MTP, \cite{9}(S.2)} 
+   \label{fig:struktur} 
+   \end{center}
+\end{figure}
+%%
+Er dient als Informationsursprung für viele weitere Dokumente und Arbeitsschritte im Laufe der Projektabwicklung. Durch Importe aus Listen und Diagrammen, die vom Kunden zur Verfügung gestellt werden, soll die Basis des \ac{mtp} einfach geschafft werden. Bei seiner Erstellung soll außerdem mit den beiden Dokumentationsnormen IEC81346 und IEC61355 gearbeitet werden.
+%
+\subsection{MTM}
+\label{sub:mtm}
+%%
+Die \ac{mtm} beschreibt verschiedene Testfälle und Testbedingungen, welchen die Anlage sowohl on- als auch off-site unterzogen wird. 
+Diese Systemtests der Anlage werden auch im \ac{mtp} dokumentiert.
+%%
+\section{Dokumentationsnormen IEC 61355, IEC 81346 und ihre Verwendung}
+\label{sec:iec}
+%%
+Da genannte Normen äußerst umfangreich und tiefgreifend sind, aber nicht alle Informationen zum Bearbeiten des Themas benötigt werden, wird im folgenden nur auf die wichtigen Grundlagen eingegangen.
+Folgendes ist eine Zusammenfassung der relevanten Informatinen aus \cite{3}(Kapitel 1-5), \cite{4}(Kapitel 1-5), \cite{5}(Kapitel 1-4,6) und Gedankenprotokollen aus Mitarbeitergesprächen.
+Die Normen enthalten Aussagen und Regeln zur Klassifizierung von Objekten und Dokumentationen in Stationen für Verteilung und Übertragung elektrischer Energie. Gearbeitet wird grundsätzlich noch mit dem Stand der Normen IEC 81346-1/2 aus dem Jahr 2009 bzw. bei IEC 61355 aus 2008.
+\subsection{IEC 81346}
+\label{sub:81346}
+Die Kennzeichnung nach IEC 81346 bietet gegenüber früher genormten Kennzeichnungen weitergehende Möglichkeiten mit entsprechendem Rationalisierungspotential.
+In IEC 81346-1 kann nach Aspekten unterschieden werden. Diese sind Produktaspekt, Ortsaspekt und Funktionsaspekt. Ein Aspekt beschreibt die Betrachtungsweise für das Objekt. Grundsätzlich sollte jedes Objekt nach Produktaspekt strukturiert werden. IEC 81346-1 strukturiert Objekte nach diesen Aspekten und lässt somit eine klare Anlagenzusammensetzung erkennen. 
+IEC 81346-2 typisiert Objekte in unterschiedliche Klassen und Unterklassen. Diese kommen auch bei der Strukturierung zum Einsatz.
+In \ac{hgü}-Projekten wird die Dokumentenkennezichnung nach obenstehenden Normen durchgeführt. Objektkennzeichen beschreibt im weiteren die Kennzeichnung nach IEC 81346-1 und IEC 81346-2, zusammengesetzt aus Referenzkennzeichen und Objekttyp.
+\\
+\\
+Das Referenzkennzeichen besteht aus maximal acht Leveln, beginnend bei der Stationsnummer. Danach folgt optional eine \markss{tieferliegende} Komponente. 
+Die Strukturierung erfolgt meist von oben nach unten (top-down) oder von unten nach oben (bottom-up). Die Regeln erlauben im Prinzip einen Wechsel des Aspekts zwischen den Untergliederungsstufen einer Struktur.
+Level A bezeichnet immer die Station, Level B beschreibt eine durch einen Kennbuchstaben zugeordnete Funktion, Level C und darunterliegende ebenfalls. Die Kennbuchstaben sind in der Norm tabellarisch festgehalten.
+Einige Kennbuchstaben haben zusätzliche Unterklassen, mit dem Zweck zu präzisieren. Sie werden durch zweistellige Kennbuchstaben definiert.
+Die Kennbuchstaben der Strukturebene B und C plus darunterliegende unterscheiden sich grundsätzlich. Level B beschreibt Infrastrukturklassen, wie z.B. Umspannanlagen durch den Kennbuchstaben \markss{T}, während Level C und folgende eine Klassifizierung nach Zweck oder Aufgabe beschreiben, z.B. definiert \markss{QA} das die Funktion \markss{Schalten und Variieren von elektrischen Energiekreisen}.  
+Im unten stehenden Beispiel \ref{fig:struktur} sieht man die Referenzkennkennzeichenbildung. Der Übergang in das nächst niedrigere Level wird durch ein Trennzeichen dargestellt . Bei einem Funktionssaspekt wäre der Seperator \markss{=}, bei einem Ortsaspekt \markss{+} und bei einem Produktaspekt \markss{-}.
+Erlaubt ist jedoch auch die Schreibweise \markss{-A1B1C1} oder \markss{-A1.B1.C1} statt \markss{-A1-B1-C1}.
+Normalerweise wird jedes Objekt bei Siemens angesichts des Produktaspekt strukturiert. 
+Jedes Referenzkennzeichen ist laut Norm einzigartig.
+%%
+\begin{figure}[H]
+   \begin{center}
+   \includegraphics[width=0.9\textwidth]{Bilder/produktstruktur} 
+   \caption{Struktur, \cite{10}(S.10)} 
+   \label{fig:struktur} 
+   \end{center}
+\end{figure}
+%%
+Der Objekttyp bedient sich den selben Klassen wie Level C und Folgende der Strukturierung. Es definiert Objekte nach Funktion.
+Nachfolgend ein Beispiel einer DC-Vorsteuerung.
+%%
+\begin{figure}[H]
+   \begin{center}
+   \includegraphics[width=0.9\textwidth]{Bilder/objekttypaufbau} 
+   \caption{Zusammensetzung des Objekttyps, \cite{5}(S.18)} 
+   \label{fig:objekttypaufbau} 
+   \end{center}
+\end{figure}
+%%
+%%
+\begin{figure}[H]
+   \begin{center}
+   \includegraphics[width=0.9\textwidth]{Bilder/objekttyp} 
+   \caption{Struktur, \cite{5}(S.26)} 
+   \label{fig:objekttyp} 
+   \end{center}
+\end{figure}
+%%
+Dabei wird unterschieden in physikalische und nicht-physikalische Objekte. 
+Nicht-physikalische Objekte behandeln Dokumente die keinem produkt und keinem ort eindeutig zugeordnet sind oder übergeordnet für die Gesamtanlage dienen. Das sind z.B. Studien oder Projektmanagmentdokumente. Nicht-physikalische Objektklassen werden durch fünf Zahlen gebildet, während physikalische Klassen aus zwei Buchstaben gefolgt von drei Zahlen bestehen.
+Nicht physikalische Objekte sind in aktueller Ausarbeitung noch duch Siemens definiert. Der Zahlencode der physikalischen Objekte wird ebenfalls durch Siemens definiert, die Norm gibt nur den Buchstabencode vor.
+Die Buchstaben entsprechen wie oben genannt dem Objektklassen-Code aus IEC8136-2. Man erkennt, dass die Betrachtung des Objektes durch anhängen von drei Zahlen deutlich spezifiert wird.\\
+Nachfolgende Grafik \ref{fig:objektkennzeichen} veranschaulicht die Kombination des Objekttyps und des Referenzkennzeichens.
+%%
+\pic{zusammen}{0.9}{Objektkennzeichen am Beispiel eines DC-Vorsteuerungsschrankes, \cite{5}(S.27)}{objektkennzeichen}
+%
+\subsection{IEC 61355}
+\label{sub:61355}
+%
+IEC 61355 erlaubt eine klar strukturierte Dokumentation zusammenhängend mit der eigenlichen Anlagenstruktur.
+In der untenstehenden Grafik sieht man die Zusammensetzung der Normen zum Dokumentenkennzeichen bzw. Dokuemnetenseitenkennzeichen.
+%%
+\begin{figure}[H]
+   \begin{center}
+   \includegraphics[width=0.9\textwidth]{Bilder/dokukennzeichen} 
+   \caption{Dokumentenkennzeichnung, \cite{4}(S.12)} 
+   \label{fig:dokk} 
+   \end{center}
+\end{figure}
+%%
+Wichtigster Bestandteil dieser Norm ist der \ac{dcc}, der sich wie folgt zusammensetzt.\\
+Wie man in obiger Abbildung sieht, besteht der \ac{dcc} aus einem Vorzeichen, einem folgenden Kennbuchstaben, der den technischen Bereich des Dokuments bezeichnet, einem zweistelligen Buchstabencode, der die Dokumentenartklasse beschreibt, und der Dokumentenzählnummer. So beschreibt \markss{\& EFS010} einen dem Bereich Elektrotechnik (einschließlich Steuerungs-, Informations- und Kommunikationstechnik) zugeordneten Stromlaufplan. Das Kürzel \markss{FS} beschreibt übergeordnet Schaltkreisdokumente , während der Zahlencode \markss{010} auf Stromlaufplan spezifiziert.
+Optional können noch Seitenzahlen angegeben werden.\\
+Alle physischen Objekte, auch \markss{Equipment} genannt, bei Siemens folgen einer in \cite{12}(S.47) festgelegten Logik, nach welcher über jedes Objekt, übergeordnet eingteilt in Leittechnik- und nicht Leittechnik-Objekt, on-site und off-site, immer die selben Dokumentationen geführt werden müssen. Das komplette relevante Schema ist in Anhang \ref{sec:schema} zu sehen. Zu den in Kapitel \ref{sub:mtm} genannten Systemtests gibt es auch ein Schema, das aber bei der Erarbeitung dieses Themas keine Relevanz hat.
+%%
+\subsection{Dokumentennummer}
+\label{sub:dokunummer}
+%%
+Die Anwendung beider Normen findet sich in der Bildung der Dokumentennummer wieder. Diese wird benötigt um alle Dokumente verschiedenster Art eindeutig zu kennzeichnen. Unter dieser Identifikationsummer werden diese später angelegt.
+\\
+%%
+\begin{figure}[H]
+   \begin{center}
+   \includegraphics[width=0.9\textwidth]{Bilder/referenzkennzeichen} 
+   \caption{Bildung der Dokumentennummer, \cite{5}(S.8)} 
+   \label{fig:doknum} 
+   \end{center}
+\end{figure}
+%%
+Hinzu kommen hierbei noch der Projektcode, die zwei folgenden Kennbuchstaben und die Revisionsnummer an letzter Stelle. Der erste Kennbuchstabe beschreibt die Dokumentationsart, ob intern, extern oder Angebot, der zweite, den Aspektschlüssel aus Norm 81346-1. Hinzu kommt der Aspektschlüsseltyp \amrkss{C}, der ein Objekt klassifiziert, die keinem anderen Aspektschlüssel zugewiesen werden können. Das sind meist übergeordnete Dokumente zu mehreren Komponenten, z.B. Anlagenschaltpläne.
+%%
+\pic{aspectkey}{0.9}{Aspektschlüssel nach \ref{5}}{aspect}
+%%
+In der Grafik nicht sichtbar und auch in Norm bzw. interner Dokumentation nicht erwähnt, gliedert sich vor der Revisionsnummer noch das Sprachenkürzel für die Sprache des Dokuments ein.\\
+Ein komplettes Beispiel einer Dokumentennummer wäre \\
+\lstinline[]!P-xxxxxx_EP_KF312#XY11-AF04-KF01-UH02&EFS010_00!.
+%%
+\subsection{Dokumentendateiname}
+\label{sub:dokudatei}
+%%
+Das Ablegen der Dokumente in den Projektverzeichnissen erfolgt durch einen der Dokumentennummer ähnlichen Dateinamen. Dieser wird aus der Dokumentennummer erzeugt, indem alle Trennzeichen durch \markss{\_} ersetzt werden. \markss{-}, \markss{+} und \markss{=} entfallen. Dadurch wird das Referenzkennzeichen als Block zusammengefasst. Die einzige Ausnahme besteht darin, dass das \markss{-} nach der Stationskennung zu einem \markss{\_} umgeandelt wird.\\
+So ergibt sich \\
+\lstinline[]!P-xxxxx_EP_KF312_XY11_AF04KF01UH02_EFS010_00!.
+%%
+\section{Polarion}
+\label{sec:polarion}
+%%
+Wie einleitend genannt handelt es sich bei Polarion um ein browserbasiertes Tool, das Anforderungs-, Test- und Application-Lifecycle-Management, kurz ALM, liefert. \cite[vgl.]{1} \\
+\markss{Polarion wird von globalen Unternehmen in einer Vielzahl von Branchen eingesetzt, wie zum Beispiel im Automobilbau, in der Medizintechnik und in der Luft- und Raumfahrt. Kunden erzielen mit Polarion die für die Herstellung Ihrer Produkte nötige Agilität, Traceability und Compliance. [...] Mehr als 2,5 Millionen Anwender weltweit vertrauen deswegen auf Polarion um die Zusammenarbeit in ihren Unternehmen voranzutreiben, ALM und Product Lifecycle Management (PLM) zu verknüpfen und um ihre hochwertigen Produkte auf den Markt zu bringen.} \cite{1} \\
+Polarion läuft zentral auf einem Server, auf die der User per Browser zugreifen kann. \\
+Die wichtigsten Features, die zur Implementierung dieser Arbeit dienen, werden folgend genannt. 
+%%
+\subsection{Grundlegende Funktionalität}
+\label{sub:funkti}
+%%
+In Polarion ist es möglich sogenannte Workitems einzupflegen, die an sich ein Objekt beschreiben. Dieses Objekt kann verschiedene Typen haben, dabei gibt es bereits fertige Standardtypen oder eigens erstellte \markss{Custom-Types}. Das Userinterface eines jeden Workitem-Types lässt sich durch erstellen neuer Felder bzw. das Umplatzieren dieser beliebig anpassen. 
+Die in der Grafik erkennbare Kennung \markss{workitem-502} ist eine von Polarion selbst erzeugte ID, um jedes angelegte Workitem eindeutig zu kennzeichnen.
+%%
+\pic{testcase}{1}{Beispiel des Userinterface am Typen \markss{Test Case}}{testcase}
+%%
+Einige Felder des \ac{ui} sind bereits vordefiniert und per default an den in \ref{fig:testcase} zu sehenden Positionen, andere, sogenannte \markss{Custom-Fields} lassen sich per \ac{xml}-Schema anlegen und in einer auch als XML-Schema vorliegenden \markss{Form-Configuartion} im Interface anordnen. Es gibt viele unterschiedliche Custom-Field-Types, am meisten wird jedoch die Enumeration und der String benutzt.
+\\
+%%
+\begin{figure}[H]
+\begin{lstlisting}[language=XML]
+<fields>
+	<field default="EN" description="Document Language" id="language" name="Language" type="enum:language"/>
+	<field id="documentn" name="Document Number" type="string"/>
+	<field description="optional" id="subtype" name="Subtype" type="string"/>
+	<field id="p_stationn" name="Station number" type="string"/>
+	<field id="p_levelb" name="Level B" type="string"/>
+<\fields>
+\end{lstlisting}
+\caption{Beispiel des Custom-Fields XML-Schema}
+\label{fig:schema}
+\end{figure} 
+%%
+Wenn ein Custom-Field als \markss{enum} definiert wird, muss in einem weiteren XML-Schema die Enumeration definiert werden. Enumerationen werden dann gewählt, wenn der Benutzer aus einem \markss{drop-down} Menu vorgegebene Werte auswählen soll. \\
+%%
+\begin{figure}[H]
+\begin{lstlisting}[language=XML]
+<enumeration>
+	<option description="english" id="lan_en" name="EN" sortOrder="1"/>
+	<option description="german" id="lan_de" name="DE" sortOrder="2"/>
+</enumeration>
+\end{lstlisting}
+\caption{Beispiel des Enumeration XML-Schema}
+\label{fig:schema}
+\end{figure} 
+
+Zusätzlich zu oben genannten Features verfügt Polarion über eine Import\-Funktion aus Excel-Workbooks und den Excel-Roundtrip-Change Import, bei dem bestehende Datensätze zuerst aus Polarion exportiert werden, bearbeitet und wieder importiert werden. Exportieren ist in fast alle gängigen Anzeigeformate möglich.\\
+Verschiedene Userrechtegruppen lassen sich auch erstellen.\\
+Außerdem lassen sich in Polarion verschiedene Workitems miteinander verlinken, was es möglich macht Baumstrukturen aus Workitems zu erstellen, oder eine reinen Dokumentennam
+\\
+%%
+%%
+\subsection{Wiki Pages und Velocity}
+\label{sub:veloc}
+%%
+Wiki-Pages sind editierbare Dokumente, die zum Anzeigen von Daten, Objekten und Informationen dienen sollen. Ein einfaches Beispiel hierfür wäre die Anzeige aller Workitems die mit einem bestimmten Flag, z.B. \markss{eilig} versehen sind.  Diese können mit der Java-basierten Template Engine (\cite{6}[vgl.]) programmiert werden. Diese Sprache, genannt \ac{vtl} lässt sich komplett in geschriebenen Text integrieren und bietet einige, wenn auch eingeschränkte, Funktionalitäten.
+Diese Sprache soll \markss{die einfachste, unkomplizierteste und sauberste Möglichkeit bieten, dynamische Inhalte in eine Webseite zu integrieren.} \cite{6}. \\
+Zusätzlich dazu stehen einige Templates aus Polarion zur Verfügung, die die Anzeige von Datensätzen vereinfachen oder einfach nur die Möglichkeit bieten Bilder in die Wiki-Page zu integrieren.
+\\
+Ein Zugriff auf die Polarion API ist über bereits in­s­tan­zi­ie­rte Objekte der Services möglich, die einen Einstiegspunkt in die API ermöglichen.
+ 
+%%
+%%
+\subsection{API}
+\label{sub:api}
+%%
+Polarion verfügt über eine Java API, mit der es möglich ist Workitems zu ändern, zu lesen und zu erstellen, User verwalten, nach Workitems zu filtern oder Projekte aufzulisten, nur um ein paar Funktionen zu nennen. Zur Verfügung stehen verschiedene Services, mit unterschiedlichen Funktionen, mit denen der Zugriff auf den Polarion Server ermöglicht wird. (\cite{7}[vgl.]) \\
+Die wichtigsten sind (\cite{7}):
+\begin{itemize}
+ \item ISecurityService
+ \item ITrackerService
+ \item ITransactionService
+ \item IDataService
+\end{itemize}
+Über beispielsweise \markss{ITrackerService} lassen sich Workitems auf ihren Inhalt abfragen und modifizieren, während zum Speichern dieser Änderungen Funktionen des \markss{ITransactionService} benötigt werden.
+%%
+%%
+\subsection{Extension FMC}
+\label{sub:fmc}
+%%
+Die zur Verfügung gestellten Server haben bereits eine Extension vorinstalliert, die es möglich macht eigens verfasste Skripte in JavaScript in den Polarion-Wokflow zu integrieren. In diesen kann eingeschränkt auf die API zugegriffen werden.\\
+Das Plugin überschreibt die von Polarion aufgerufene \markss{invoke}-Funktion, falls der \markss{save}-Parameter gesetzt ist und lässt somit nach dem Speichern von Workitems, das die \markss{invoke}-Funktion mit dem gesetzten \markss{save}-Parameter aufruft, die Ausführung von eigenem Code zu. Sobald die im Code verfügbare Variable \markss{returnvalue} über einen Inhalt verfügt, wird dem User eine Error-Message angezeigt, die diesen Inhalt anzeigt. Das Speichern wird somit verhindert. \\
+Ein einfaches Beispiel wäre z.B. eine Überprüfung auf das Einhalten eines Prozentsatzes. Eine Kombination aus drei Feldern soll einen Prozentsatz von 100\% ergeben, bei einer Ungleichheit zu 100\% soll ein Speichern nicht möglich sein.
+%%
+%%
+\subsection{PAM}
+\label{sub:pam}
+%%
+Folgende Informationen sind aus einem Gedächtnisprotokoll mit Hr. Paul-Heinz Esters. \ac{pam} ist ursprünglich konzipiert um Software automatisch aus Anlagen-Datensätzen zu generieren. In \ac{pam} sollen zukünftig alle anlagenbezogenen Daten, von Nenndaten bis zu den Referenzkennzeichen der Bauteile gesammelt werden. Statt \ac{pam} zur Parametrisierung von Software zu benutzen, wird \ac{pam} allerdings als Daten-Backbone verwendet. 
+%%
+\chapter{Stand der Technik}
+\label{cha:stand}
+%%
+Aktuell werden die Datensätze des \ac{mtp} über eine Excel-Tabelle verwaltet. Auf ein bestehendes Template wird über verschiedene Informationszugänge von Hand der schlussendliche Datensatz aufgebaut. Dieser Ansatz ist zwar funktional, aber grundsätzlich unhandlich und ohne einsichtlichen Userworkflow. Zusätzlich ist kein ausreichender Schutz vor Datenverlust bei Mehrfachzugriff möglich. 
+Zu Arbeiten mit Polarion gibt es aktuell ein Pilotprojekt, dass die \ac{mtm} behandelt, ähnlich wie der \ac{mtp} über Excel verwaltet wurde.
+
+
+
+

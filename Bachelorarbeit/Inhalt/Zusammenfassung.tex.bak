@@ -1,0 +1,8 @@
+\chapter{Zusammenfassung und Ausblick}
+\label{cha:zusammenfassung}
+\thispagestyle{scrheadings}
+%
+\hyphenation{} %% if the "compiler" does not seperate the word correctly, u can manually seperate words inside the brackets
+%%
+%\thispagestyle{scrheadings}
+%\pagestyle{scrheadings}

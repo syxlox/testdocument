@@ -1,0 +1,494 @@
+\chapter{Bedarfsanalyse}
+\label{cha:bedarf}
+%%
+\thispagestyle{scrheadings}
+\pagestyle{scrheadings}
+%%
+Das Ziel der Arbeit ist das Transferieren eines \ac{mtp} einer \ac{hgü}-Anlage in die Umgebung von Polarion.\\
+Die Oberfläche soll der Excel-Tabelle ähneln und für den Anwender leicht zu bedienen sein.
+Folgende Punkte sind zu berücksichtigen:
+\begin{compactenum}[(i)]
+ \item Hinterlegung eines Workflows im Tool (Zugriffsrechte auf verschiedene Phasen und Komponenten je nach Projektrolle) 
+ \item Import- und Exportfunktionen aus dieser Datenbasis 
+ \item Berücksichtigung der Dokumentationsvorgaben (Kapitel \ref{sec:iec})
+ \item Definition der erforderlichen Variablen, Erstellen von Eingabemasken (UI)
+ \item Integration eines Trackings über den Dokumentationsstand
+ \end{compactenum}
+Punkt (i) ist zu Beginn gedacht, wird jedoch während der Bearbeitung verworfen bzw. verschoben.
+Wie in Kapitel \ref{sec:polarion} genannt, gehört eine Import-/Exportfunktion bereits zum Funktionsumfang von Polarion. Jedoch ist es notwendig Importmasken zu definieren.
+Während der Bearbeitung kommt die Idee auf, einen auf den Regeln zum Dokumentationsschema in Kapitel \ref{sub:61355} basierenden Workitem-Multiplikationsalgorythmus zu erstellen.
+%%
+\chapter{Entwurf}
+\label{cha:ent}
+\thispagestyle{scrheadings}
+%%
+Bevor erste Ansätze enstehen, wurden intensive Einarbeitungsgespräche mit Betreuer Paul-Heinz Esters geführt, die dem Zweck dienten einen ersten groben Überblick der Thematiken zu erhalten. Daraufhin erfolgt wie einleitend genannt eine Einarbeitungs-  und Lernphase, durch mehrere Dokumente, Lernvideos und einem Admin-Key Training zu Polarion. Zusätzlich dazu werden Gespräche mit dem Kollegen Andoni Sainz Lopez geführt, die über die API und die Erweiterung aus Kapitel \ref{sub:fmc} informieren.\\
+%%
+\section{Grundelegender Arbeitsblauf}
+\label{sec:ablauf}
+Zu Beginn soll der Ablauf des Projekts festgelegt werden. Dazu gehörte das Erstellen eines Übergeordneten Workflow-Diagramms. Der entgültige Arbeitsablauf steht erst zu Ende des Projekts fest, wird jedoch hier aufgeführt. Aufgrund der COVID-19 Pandemie laufen viele Unternehmensabläufe erschwert ab, die Kommunikation ist eingeschränkt und Tagungen von Ausschüssen zur Besprechung von internen Standards finden nicht oder verspätet statt. Das führt zu Verspätungen von Datenstandards, die zur Festlegung des Arbeitsablaufs nötig sind.
+Zudem ergibt sich die in Kapitel \ref{cha:bedarf} genannt die Idee zur \markss{Datensatz-Multiplikation} erst im Laufe der Bearbeitung.
+Wie in \ref{sub:mtm} erläutert erfasst der \ac{mtp} abschließend auch die Testdokumente der Systemtests der \ac{mtm}. Da dieses Projekt, wie in Kapitel \ref{sec:stand} ausgeführt, allerdings noch nicht vollständig ausgereift ist, wird in der Implementierung nicht darauf geachtet.\\
+Außerdem sind zu gewissen Zeitpunkten, hier nicht aufgeführte, Exporte in das \ac{dms} vorgesehen.
+\newpage
+Im Folgenden ist der Ablauf geschildert. Die Funktonsweise bzw. der Zweck der Skripte wird später erläutert.
+
+%%
+\pic{projectworkflow}{0.9}{Projekt-Ablaufdiagramm}{workflow}
+%%
+%%
+\section{Gestaltung der Anwenderoberfläche}
+\label{sec:gest}
+%%
+Die Anwenderoberfläche in Polarion soll der Exceloberfläche so ähnlich wie möglich sein, um dem Benutzer die Umstellung auf das neue Portal so einfach wie möglich zu machen.\\
+Grundsätzlich bedarf es einem neuen Workitem Typ.
+Die benötigten \markss{Custom Fields} werden auf Grundlage des Excel-\ac{mtp} geplant, für Felder, die mit vordefinierten Inhalten gefüllt sind, werden Enumerationen vorgesehen. Grundätzlich soll jedes Feld der Excel-Vorlage in die Polarion-Version übernommen werden. Je mehr Felder als Enumerationen konfiguriert werden können, desto einfacher ist es fehlerhafte Eingaben durch den Anwender zu vermeiden. Da viele Felder, vorallem projektspezifische, wie z.B. die Stationskennung, nicht vorhersehbar sind, werden diese als Typ \markss{string} konfiguriert.
+Eine Form-Konfiguartion, nach Abbildung \ref{fig:form}, wird zuerst theoretisch überlegt und auf Papier erstellt.
+%%
+%%
+\section{Import- und Exportmasken}
+\label{sec:import}
+%%
+Da das schlussendliche Projekt aus einer Mehrzahl an Datenquellen zusammengesetzt wird, muss feststehen, welche Informationen aus dem jeweiligen Import benötigt werden.\\
+Wie in Abbildung \ref{fig:workflow} zu sehen ist, gibt es aktuell zwei Datenquellen für das Aufsetzen eines jeden Projektes.
+Aus der Excel-Vorlage des \ac{mtp} werden alle Items importiert, die den Aspect-Key Typ \markss{C} haben. Diese sind größtenteils für jedes Projekt gleich, sodass nur kleine Änderungen vorgenommen werden müssen. \\
+Da der Aspektschlüsseltyp \markss{F} nie geführt wird, werden Typ \markss{P} und \markss{L} aus der in Kapitel \ref{sub:pam} erwähnten PAM-Datenbank importiert. Dadurch wird jedes physische Objekt ohne \ac{dcc} in den \ac{mtp} aufgenommen.
+%%
+\section{Javascript Skripte auf der Basis FMC Work Item Save}
+\label{sec:javascripte}
+%%
+Um dem User das bedienen der Oberfläche zu vereinfachen wird mit Skripten des FMC-Einschubprogramms (Plugin), Kapitel \ref{sub:fmc}, gearbeitet. Diese \markss{bauen} z.B. die, aus Kapitel \ref{sub:dokunummer} und \ref{sub:dokudatei}, Dokumentennummern und Dokumentendateinamen aus den einzelnen Bestandteilen zusammen. Es sollen so wenig Daten wie möglich importiert werden müssen, um die Importmasken bzw. die Exportmasken aus \ac{pam} so klein wie möglich zu halten. Deshalb füllen die Skripte das Workitem mit Daten, die aus dem kleinst-möglichen Import gewonnen werden können.
+
+%%
+\section{Multiplikationsverfahren}
+\label{sec:multi}
+%%
+Dieser Teil orientiert sich nach \ref{sub:61355}, Absatz 4.
+Da die Datensätze der physischen Objekte (Aspektschlüsseltyp P und L) der Anlage durch den Import aus Kapitel \ref{sec:import} ohne DCC vorhanden sind, werden diese durch Vervielfältigung und Anhängen eines DCC zu vollwertigen Dokumenten-Datensätzen.
+Für den Multiplikationsalgorythmus gibt es zwei Konzepte, eines in Velocity, eingebettet in einer Wiki-Page, das andere als Erweiterung zu Polarion, auf Basis eines bereits vorhandenen Beispiels. Das erste Konzept erweißt sich als unbrauchbar und wird verworfen. Der theoretischer Ansatz des grundlegenden Algorythmus bzw. Aufbaus der Routine der beiden ist identisch.\\
+Grundsätzlich soll es möglich sein Informationen durch den Anwender zu übergeben.
+%%
+\chapter{Implementierung}
+\label{cha:impl}
+\thispagestyle{scrheadings}
+%%
+Sämtliche\*r XML/Code und die \ac{mtp}-Vorlage sind unter folgendem Link abrufbar: \url{https://drive.google.com/drive/folders/1iwP3RyE5f7-kjzPVVpHDW35wfNTYXkVT?usp=sharing}.
+%%
+\section{Workitem Testdocument}
+\label{sec:testdocu}
+%%
+Die Implementierung der neuen Benutzerobefläche, um den \ac{mtp} nach Polarion zu überführen, setzt die Erstellung eines eigenen Workitemtypen und einiger XML-Schemas vorraus. \\
+Der neue Workitemtyp \markss{testdocument} wurde in Polarion mit allen vom System vorgegebenen Feldern und Werten angelegt.
+Statt wie ursprünglich geplant, wird nicht jedes Feld des Excel-Plans in Polarion übernommen, sondern nur die wichtigsten. Der Excel-Plan ist über einige Jahre entstanden und während einige Felder nicht mehr benötigt werden, sind andere mehrfach vorhanden oder werden durch Funktionalitäten von Polarion abgelöst. Diese werden bewusst nicht übernommen. Implementiert wurden insgesamt 60 \markss{Custom-Fields}, von denen vier allein für die spätere Formkonfiguration dienen.\\
+Folgende Felder wurden erstellt, ausgenommen den oben genannten vier.
+Zu allen, in den Augen des Verfassers nicht offensichtlich ersichtlichen Feldern, wird ein kurzer Absatz gesagt. Die Felder sind in sinnhaften Blöcken angeordnet.
+\newpage
+%
+\begin{table}[H]
+  \centering
+  \begin{tabular}{c}
+  \parbox{10cm}{
+    \begin{compactitem}
+  \item TestingSite, type=enum
+	\item DMS Identifier, type=string
+	\item VSC, type=enum
+    \item LCC, type=enum
+	\item Object Type, type=enum
+	\item Serialnumber, type=string
+\end{compactitem}}
+  \end{tabular}\\
+  \label{tab:first}
+  \caption{Wichtigste Query Informationen}
+\end{table}
+
+%
+Um später durch Bilden von Queries zwischen, in Kapitel \ref{sec:hgue} genannten, off-site und on-site Dokumenten unterscheiden zu können wird hier das Feld \markss{TestingSite} angelegt. Der \markss{\ac{dms}-Identifier} dient dazu um Objekte, bei späteren Exporten in das \ac{dms} eindeutig zu Kennzeichnen. Unter \markss{VSC} und \markss{LCC} wird festgehalten, ob ein Dokument für den jeweiligen Anlagentyp optional oder erforderlich ist. Bei Kennzeichnung mit optional, kann später durch den Benutzer entschieden werden, ob das Dokument entfernt wird, oder nicht.
+Der \markss{Object Type} beschreibt, ob das Objekt physikalisch oder nicht-physikalisch ist. \\
+\newpage
+%
+\begin{table}[H]
+\begin{tabular}{ll}
+ \parbox{7cm}{
+ \begin{compactitem}
+  \item Documentnumber, type=string
+	\item Documentfilename, type=string
+	\item Document Type, type=enum
+    \item Aspect Key, type=enum
+	\item OTC Code, type=string
+    \item Subtype, type=string
+    \item Station number, type=string
+    \item Level B, type=string
+    \item Level C, type=string
+    \item Level D, type=string
+ \end{compactitem}}
+ &
+ \parbox{7cm}{
+ \begin{compactitem}
+  \item Level E, type=string
+    \item Level F, type=string
+    \item Level G, type=string
+    \item Level H, type=string
+	\item Code Letter, type=enum
+	\item DCC Class, type=enum
+	\item Language, type=enum
+	\item Page Counter, type=string
+    \item Revision, type=string
+    \item OTC.Subtype, type=enum
+ \end{compactitem}}
+ \end{tabular}
+ \label{tab:second}
+ \caption{Kennzeichen}
+ \end{table}
+
+%
+Dieser Block implementiert die in Kapitel \ref{sec:iec} genannten, normgerechten Bausteine der Dokumentennummer bzw. des Dokumentendateinamen.
+Die Projekt-ID wird übergeordnet für alle Workitems gleich angelegt, muss also hier nicht extra erzeugt werden. Für spätere Exporte wird das Feld \markss{OTC.Subtype} angelegt, dass den \ac{otc} und seinen optionalen Subtypen in einen String zusammenfasst.
+\newpage
+%
+\begin{table}[H]
+  \centering
+  \begin{tabular}{c}
+  \parbox{10cm}{
+    \begin{compactitem}
+ \item Station number, L, type=string
+    \item Level B, L, type=string
+    \item Level C, L, type=string
+    \item Level D, L, type=string
+    \item Level E, L, type=string
+    \item Level F, L, type=string
+    \item Level G, L, type=string
+    \item Level H, L, type=string
+\end{compactitem}}
+  \end{tabular}
+  \label{tab:third}
+  \caption{Optionaler Location-Aspekt}
+\end{table}
+%
+Die durch diesen Block erstellten Level des Referenzkennzeichens, dienen dazu, falls ein Objekt bereits durch den Aspekt \markss{P} beschrieben wird, hier zusätzlich optionale Informationen über die Lokation des Objekts angeben zu können. Das ist besonders auf der Baustelle hilfreich, da so das physische Gegenstück des Dokuments schneller gefunden werden kann.
+Sollte der Aspekt des Dokuments bereits \markss{L} sein, entfallen diese Informationen. Logischerweise können diese Informationen erst auf der Anlage eingetragen werden können. 
+%
+\begin{table}[H]
+  \centering
+  \begin{tabular}{c}
+  \parbox{10cm}{
+   \begin{compactitem}
+\item Documenttitle, type=string
+    \item DCC description, type=string
+\end{compactitem}}
+  \end{tabular}
+  \label{tab:fourth}
+  \caption{Überschriften}
+\end{table}
+%
+Diese zwei Felder werden durch die in Kapitel \ref{sec:javascripte} erwähnte Methodik mit den Beschreibungen der jeweiligen OTC bzw. DCC befüllt.
+Die Beschreibung des OTC dient gleichzeitig als Dokumententitel.
+\\
+\newpage
+%
+\begin{table}[H]
+  \centering
+  \begin{tabular}{c}
+  \parbox{10cm}{
+   \begin{compactitem}
+ \item Responsible Department, type=enum
+	\item Responsible SubPM, type=enum
+\end{compactitem}}
+  \end{tabular}
+  \label{tab:fifth}
+  \caption{Abteilung}
+\end{table}
+%
+Die Abteilungsbezeichnung aus Feld \markss{Responsible Department} kann durch einen Eintrag in Feld \markss{Responsible SubPM} noch spezifiziert werden.
+\\
+%
+\begin{table}[H]
+  \centering
+  \begin{tabular}{c}
+  \parbox{10cm}{
+    \begin{compactitem}
+  \item issued for information, type=enum
+    \item issued for approval, type=enum
+    \item issued for design, type=enum
+    \item issued for manufacture, type=enum
+    \item issued for construction, type=enum
+    \item as built, type=enum
+\end{compactitem}}
+  \end{tabular}
+  \label{tab:sixth}
+  \caption{Dokumentenmerkmale (documentflags)}
+\end{table}
+%
+Die Felder dieses Blocks beschreiben eine übergeordnete Thematik des Dokuments. Zum Beispiel werden Prüfbescheinigungen (\&* QC04*) immer als \markss{issued for information} gekennzeichnet, während bei Inbetriebsetzungsanleitungen (\&* DC03*) \markss{issued for approval} vermerkt wird. Dadurch können später die richtigen Queries gebildet bzw. dem Kunden die für ihn relevanten Dokumente zur Verfügung gestellt werden.
+\\ 
+%
+\begin{table}[H]
+  \centering
+  \begin{tabular}{c}
+  \parbox{10cm}{
+    \begin{compactitem}
+    \item Contact Person at Siemens, type=string
+    \item Manufacturer, type=string
+    \item Contact Person at Manufacturer, type=string
+    \item Work Progress, type=enum
+    \item Originator, type=string
+    \item Due Date, type=date
+    \item Review Status, type=enum
+    \item Reviewer, type=string
+    \item Due Date, type=date
+    \item Approval Status, type=enum
+    \item Approver, type=string
+    \item Due Date, type=date
+\end{compactitem}}
+  \end{tabular}
+  \label{tab:seventh}
+  \caption{Verantwortliche}
+\end{table}
+%
+Durch diese Custom-Fields sind größtenteils Ansprechpartner bzw. allgemein Personen von Interesse im Bezug auf dieses Objekt vermerkt. Das \markss{Work Progess} Enumeration-Feld erfüllt die Aufgabe den Fortschritt zu überwachen, indem sich mit eigens erstellten Icons verschiedene Fortschritte eintragen lassen (0\%,25\%,50\%,75\%,100\%).\\
+\\
+%
+Zu fast allen hier als Typ \markss{enum} aufgeführten Feldern wurde eine gleichnamige Enumeration erstellt, außer für die jenigen, die nur mit \markss{ja} oder \markss{nein} anzuwählen waren. Für diese wurde ein einziges, immer wieder verwendetes, XML-Schema \markss{enum:yon} erstellt. Alle Enumerations folgen dem in Kapitel \ref{sub:funkti} gezeigten XML-Schema. Die Enumeration des DCC und OTC wurden aus den jeweiligen Listen entnommen, nach Schema aufbereitet und impotiert, sodass jeder Code bzw. seine Beschreibung (z.B. DC071 = Installationsanleitung) in Polarion enthalten ist. Der Option ID ist immer der jeweilige Code bestehenden aus Kleinbuchstaben und die Beschreibung der Inhalt der \markss{description} Variable. Jeder einzelne DCC bzw. OTC hat immer eine Beschreibung. \\
+Die restlichen Enumerationen beinhalten alle grundsätzlich logische Optionen, die hier nicht gesondert aufgezählt werden. 
+%%
+\subsubsection{Form Konfiguartion}
+\label{sub:formconfig}
+%%
+Die vier restlichen Custom-Fields wurden als Abschnittsüberschriften für die Form-Konfiguartion benutzt. Die Felder wurden möglichst übersichtlich und logisch angeordnet.
+\\
+Das formkonfigurierte Interface zum Workitem \markss{Testdocument} ist ab Anhang \ref{sec:testdocuinter} zu sehen. 
+Alle Abschnitte ab \markss{Comments} sind standardmäßig bei allen Workitem-Types aufgeführt und werden deshalb nicht mit abgebildet.
+%%
+%%
+\newpage
+\section{JavaScript Skripte}
+\label{ses:javascripts}
+%%
+Insgesamt werden acht Skripte verfasst, die gemäß der \markss{readme}-Datei der FMC-Erweiterung (\cite{8}) in einem übergeordneten Skript \markss{testdocument-pre-save.js} nach dem in der Grafik zu sehenden Ablaufdiagramm strukturiert werden.
+%
+\pic{scriptsrunning}{1}{Ablaufdiagramm des Skript-Worklfows}{skriptworkflow}
+%
+Nachfolgend wird zu jedem einzelnen Skript kurz dessen Grundfunktion erläutert.
+%%
+\subsubsection{not\_save\_wo\_requiredfields.js}
+\label{sub:notsavewo}
+%%
+Es ist in Polarion zwar möglich, bestimmte Felder als \markss{required} zu setzen, d.h. beim Anlegen eines Workitems müssen diese Felder immer gesetzt sein, allerdings ist diese Funktionalität leicht umgänglich, da z.B. bei Importen nicht darauf geachtet wird. \\
+Während der Bearbeitung und des Testing stellte sich heraus, dass polarion auch beim Import bzw. bei der Vorschau der importierten Daten, die für die Erweiterung notwendige \markss{invoke}-Funktion aufruft. \\
+Dieses Skript setzt eingehend den \markss{default}-Wert der Dokumentensprache auf \markss{EN}, da auch hier die Polarion eigene Funktion zur \markss{default value}-Vergabe nicht funktioniert.\\
+Danach wird geprüft, ob die, für die restlichen Skripte erforderlichen Felder \markss{OTC}, \markss{Aspect Key} und \markss{Document Type} gesetzt sind. Ist das nicht der Fall, wird der Boolean \markss{execute} auf \markss{false} gesetzt und somit die restlichen Skripte nicht ausgeführt.
+Zusätzlich wird die Variable \markss{returnvalue} mit den fehlenden Daten beschrieben und anschließend dem Benutzer anhand einer, durch das Plugin erzeugter, Pop-Up Nachricht dargestellt.
+%%
+\subsubsection{otc\_subtype\_builder.js}
+\label{sub:otcbuilder}
+%%
+Dieses Skript nimmt den Inhalt der als String importierten Felder \markss{OTC} und \markss{Subtype}, und setzt daraus das Enum \markss{OTC.Subtype} zusammen. Dadurch wird auch überprüft, ob die eingegebenen Strings zusammengesetzt einen logischen Wert ergeben. Ist das nicht der Fall, versucht die Methode (\cite{14}) das Feld zu setzen, wobei aber bei einem übergebenem Argument, dass nicht als \markss{Enum-Option} verfügbar ist, das Enum-Feld auf \markss{null} gesetzt wird. Falls das passiert wird \markss{returnvalue} mit einem Hinweis auf eine fehlerhafte Eingabe beschrieben.
+%%
+\subsubsection{docfile\_num\_builder.js}
+\label{sub:docfilenum}
+%%
+Das Skript implementiert die in Kapitel \ref{sub:fmc} als beispiel genannte Funktion, die Dokumentennummer, sowie den Dokumentendateinamen, aus ihren Bausteinen zusammenzusetzen. Für die Bausteine des Referenzkennzeichens wird aus Performance-Gründen eine Schleife mit Abbruchbedingung verwendet. Da das Referenzkennzeichen niemals ein Hierachielevel auslässt, kann ab dem Nichtvorhandensein eines einzelnen Levels die Bildung des Referenzkennzeichens beendet werden.\\
+Da nicht alle Bausteine String-Felder sind, kann auch nicht alles in einer Schleife realisiert werden. Um auf den Inhalt eines Enum-Feldes zuzugreifen, muss die Methode \markss{getName()} verwendet werden, welche bei String-Felder entfällt.\\
+Das Ersetzen der Steuerzeichen, der zuerst generierten Dokumentennummer, nach Kapitel \ref{sub:docfilenum} erfolgt durch die JavaScript-Methode \markss{replace} (\cite{15}) mit einem regulären Ausdruck als Argument. Da jedoch an einer Stelle diese Logik außer Kraft tritt, werden Dokumentennummer, sowie Dokumentendateiname in zwei Blöcke unterteilt und schlussendlich mit dem Trennzeichen \markss{\-} bzw. \markss{\_} zusammengesetzt.
+%%
+\subsubsection{doc\_title\_from\_otc.js}
+\label{sub:titleotc}
+%%
+Der als Enumeration angelegte OTC führt zu jeder \markss{Enum-Option} die Bezeichnung als \markss{decription} der Enum-Option mit.\\
+Durch die API-Methode \markss{getProperty()} mit dem Argument \markss{description} kann die Beschreibung der aktuell gesetzten Option abgefragt werden. Diese wird dann als Inhalt des Feldes \markss{Documenttitle} gesetzt und für spätere Zwecke in der gloablen Variable \markss{doctitle} abgespeichert.
+%%
+\subsubsection{title\_set\_name.js}
+\label{sub:titleset}
+%%
+\markss{title\_set\_name.js} kombiniert die Bezeichnung des OTC, abgespeichert in \markss{doctitle}, und die Dokumentennummer zu einem String und setzt diesen als Workitem-Titel.
+Falls die Dokumentennummer leer ist, wird nur die Bezeichnung des OTC als Titel gesetzt.
+Wenn im aktuellen Titel das Steuerwort \markss{skip} steht, wird kein neuer Titel gesetzt, sondern der Alte beibehalten.
+%%
+\subsubsection{dcc\_description\_setter.js}
+\label{sub:dccdes}
+%%
+Dieses Skript funktioniert identisch zu \markss{doc\_title\_from\_otc.js}, mit dem Ziel das Feld \markss{DCC description} mit dem Inhalt der DCC-Beschreibung zu setzen. Ist der DCC leer, wird das Feld nicht gesetzt.
+%%
+\subsubsection{non\_physical.js}
+\label{sub:physicl}
+%%
+Anhand des OTCs wird in diesem Skript das Feld \markss{Object Type} gesetzt.\\
+Der OTC wird mit der JavaScript Methode \markss{search} (\cite{16}) und einem regulärem Ausdruck als Argument durchsucht
+Fünf Zahlen als OTC beschreiben ein \markss{non-physical} Objekt, sobald er mit einem Buchstaben beginnt, ist der Objekt Typ \markss{physical}. 
+%%
+\subsubsection{issued.js}
+\label{sub:issued}
+%%
+Durch dieses Skript werden die Felder aus Tabelle \ref{tab:sixth} gesetzt. Nach einer, mit dem Betreuer Paul-Heinz Esters erarbeiteten Logik, wird der \markss{Issue} des jeweiligen Dokuments gesetzt.\\
+Zu Beginn werden alle Felder auf die Option \markss{no} gesetzt.\\
+\markss{as built} erhalten alle Dokumente mit DCC \markss{QC05*}, wobei das Sternchen als Platzhalter dient.
+\markss{QC08*},\markss{DC03*} und \markss{DC18*} sind \markss{issued for approval}, \markss{QC04*} und \markss{QC1**} \markss{issued for information}.
+%%
+\newpage
+\section{Multiplizierungsalgorythmus}
+\label{sec:algo}
+%%
+Der Sinn dieser Routine ist es, dem Benutzer bzw. Verwalter des MTP in Polarion, die Arbeit abzunehmen, grundsätzlich immer gleiche DCCs für physische Objekte der Anlage einzupflegen. Der Nutzer soll schlussendlich einen fast fertigen MTP vor sich haben, bei dem es nur noch einigen Änderungen, z.B. zusätzlicher oder weniger Dokumente, bedarf. 
+%%
+\subsection{Wiki Page mit Velocity}
+\label{sub:wikivelo}
+%%
+Ein erster Ansatz wird auf Basis einer Wiki-Page mit der \ac{vtl} erstellt. Die begrenzten Möglichkeiten der bereits veralteten Version sorgen jedoch für Probleme, weswegen der Ansatz verworfen wird. Bei dem Versuch mit Velocity wurde außerdem auf eine Informationsübrgabe von außen verzichtet, Parameter wurden \markss{hardgecoded}.
+Die Grundlage des ersten Ansatzes, der Algorythmus, kann ohne viel Portierungsarbeit für den zweiten Ansatz weiterverwendet werden.
+%%
+\newpage
+\subsection{Plugin auf Basis des Beispiels \markss{Servlet}}
+\label{sub:servlet}
+%%
+Zum Programmieren des Plugins wird die \ac{ide} \markss{Eclipse for Java Enterprise Developers} verwendet. Die Einrichtung der Entwicklungsumgebung wird der Anleitung aus \cite{17}(S.4) entnommen. Statt wie in der Anleitung beschrieben muss im Feld \markss{Runtime JRE} nach vorangehender Installation \markss{jre1.8.0\_241} statt \markss{jdk-11.0.2} gewählt werden.
+%%
+\subsubsection{Workitemtyp \markss{properties}}
+\label{sub:propertieswi}
+%%
+Um dem User wie erwünscht die Möglichkeit zu geben, die Parameter des Vervielfältigungsalgorythmus zu verändern, wurde ein neuer Workitem-Typ \markss{properties} erstellt. Dieser beihaltet folgende Custom-Fields:
+%%
+\begin{compactitem}
+ \item otcs for c\&p objects, type=string
+ \item dccs list for non c\&p objects, type=string
+ \item dcc list for c\&p objects, type=string
+ \item project ids, type=string
+ \item dcc count for offsite cp, type=integer
+ \item dcc count for offsite noncp, type=integer
+ \item optional items list c\&p, type=string
+ \item optional items list non c\&p, type=string
+\end{compactitem}
+%%
+Über diese Felder legt der Benutzer fest, welche OTCs ein Leittechnikobjekt (c\&p object) beschreiben, welche DCCs ein Leittechnikobjekt bzw. nicht-Leittechnikobjekt erhält, welche Projekte von der Vervielfältigung betroffen sein sollen, wie viele DCCs eines Leittechnikobjektes bzw. nicht-Leittechnikobjektes \markss{off-site} bzw. \markss{on-site} sind und welche DCCs nur optional sind.\\
+In den beiden Integer-Feldern, wird die Anzahl der \markss{off-site}-DCCs gespeichert.
+Diese werden in der späteren Routine zuerst abgearbeitet. Sind die in den Feldern gespeicherte Anzahl der DCCs abgearbeitet, sind alle folgenden Dokumente für \markss{on-site}.
+Die Grundlage des Testprojektes, sind die Listen aus Anhang \ref{sec:schema}.
+Somit lassen sich alle Felder außer \markss{otcs for c\&p objects} und \markss{project id} befüllen. \markss{project id} entält in diesem Fall nur den ID des Testprojekts. Aktuell ist nur ein Projekt in diesem Feld möglich.
+Die Liste der OTCs die ein Leittechnikobjekt beschreiben wurde aus \cite{20} entnommen.
+%%
+\subsubsection{Beispielplugin \markss{Servlet}}
+\label{sub:beispiel}
+%%
+Die Beispielerweiterung von Polarion selbst wird von \cite{17}(S.8) wie folgt beschrieben: \markss{This example allows you to create an extension for Wiki pages in form of creating a custom servlet to inform users, e.g. about statistics at the Home or
+Dashboard. The result will be your own servlet with a title and body represented by \glq.jsp\grq{} page (written by you) emebedded into a Wiki page.}\\
+Eine \glq.jsp\grq{}-Datei, \glq.jsp\grq{} steht für \markss{Java Server Pages}, ist eine \ac{html}-Datei, die zusätzlich \markss{Java}-Code enthält und somit dynamische Webseiten ermöglicht. \cite{21}[vgl.]
+Die Klasse des Beispiels erweitert die Javaklasse \markss{HttpServlet} und überschreibt die Methoden \markss{doPost()} und \markss{doGet()}. Im Funktionsrumpf von \markss{doGet()} wird der Beispielcode ausgeführt, in \markss{doPost()} wird \markss{doGet()} aufgerufen. Am Ende der \markss{doGet()} Methode werden Informationen an die \glq.jsp\grq{} Datei übergeben. Durch den Aufruf dieser Datei mit \\ \inline{<iframe  width= 100\%  height=  200   src=/polarion/example/   frameborder=0 ></iframe>} \\ im Code der Wiki-Page wird der Inhalt der Datei  dargestellt. In der \glq.jsp\grq{}-Datei können sowohl HTML als auch Polarion-Makros verwendet werden. Diese Informationen können dem Quellcode der Erweiterung entnommen werden. Dieser ist nicht öffetnlcih zugänglich, ist jedoch im Verzeichnis jeder Poalrion-installation vorhanden.\\
+Auf Basis dieser Erweiterung wird ein eigenes Plugin entwickelt, die  Grundfunktionen bleiben erhalten.
+%%
+\newpage
+\subsubsection{Plugin \markss{WorkItemsMultiply}}
+\label{sub:workitemmul}
+%%
+In folgendem Klassendiagramm sind die implementierten bzw. abgeänderten Klassen zu sehen. \markss{ServiceServlet} implementiert die selbe Grundfunktion wie die Klasse\markss{CurrentUserWorkloadServlet} des Beispiels, jedoch wurde der Code im \markss{doGet()} Funktionsrumpf verändert.\\
+%%
+\pic{classdiagramm}{0.85}{Klassendiagramm der \markss{WorkItemsMultiply} Erweiterung}{classdia}
+%%
+\newpage
+Die Funktionweise der Erweiterung wird anhand der einzelnen Klassen kurz erläutert. Alle Funktionen der API-Klassen können im Verzeichnis unter \cite{19} gefunden  werden. Die Stringvariablen \markss{returnvalue} und \markss{returnvalue[0]} der beiden Klassen werden kontinuierlich mit Debug-Informationen bzw. anwenderrelevanten Daten gefüllt und durch HTML formatiert. Diese Daten werden durch einfaches Ausgeben eines kombinierten Strings in \markss{rendered.jsp} dem Benutzer dargestellt.
+%%
+\subsubsection{ServiceServlet}
+\label{sub:serv}
+%%
+Die Basisklasse der Erweiterung basiert wie oben genannt auf der Klasse des Polarion-Beispiels.\\
+Sämtlicher Code wird, wie auch in der Beispielklasse, in der \markss{doGet()} Methode der Klasse ausgeführt.
+%%
+\newpage
+\subparagraph{doGet}
+%%
+Um den in der \glq.jsp\grq{} Seite dargestellten Text in richtiger Programmablaufreihenfolge darzustellen, wird des Öfteren der \markss{Getter} \markss{getReturnvalue} des \markss{WorkItemsMultiply}-Objekts aufgerufen, anders als dargestellt.\\
+In Folgender Grafik wird \markss{Beenden} bewusst in Anführungszeichen dargestellt, da ein, durch \markss{return}, Beenden in diesem Fall nicht möglich ist.
+Die Funktion wird dadurch beendet, dass Daten an die \glq.jsp\grq{}-Datei übergeben werden. Statt also zu beenden, werden durch \markss{if}-Anweisungen die Aufrufe der \markss{WorkItemsMultiply}-Funktionen verhindert und dementsprechende Informationen an \markss{rendered.jsp} übergeben. Auch der Aufruf der \markss{Multiply}-Funktion kann fehlschlagen, allerdings wird danach sowieso die \markss{doGet}-Funktion \markss{beendet}.
+%%
+\pic{doget}{0.93}{Ablaufdiagram der \markss{doGet}-Methode}{ablaufdoget}
+%%
+%%
+\subsubsection{WorkItemsMultiply}
+\label{sub:workitemsm}
+%%
+Im Konstruktor der Klasse werden die grundlegenden Klassenvariablen initialisiert.
+%%
+\paragraph{getDependencies}
+%%
+Sollte ein Feld des \markss{properties}-Workitems leer sein, gibt die Funktion ein \markss{false} zurück und \markss{doGet()} übergibt die Information, mit Verweis auf das erste leere Feld, an die \glq.jsp\grq{} Datei. Das Einlesen bzw. Speichern der Parameter der Felder wurde durch ein \markss{Enum} und eine \markss{EnumMap}. Das sorgt für kompakteren und übersichtlicheren Code.
+%%
+\pic{getdependencies}{0.9}{Ablaufdiagramm der \markss{getDependencies}-Methode}{ablaufgetdep}
+%%
+\newpage
+\paragraph{Multiply}
+%%
+Die Vervielfältigungsalgorythmen für die zwei Arten von Objekten unterscheiden sich nur durch die Anzahl der DCCs, der Art der DCCs und der Optionalität.
+Die in \markss{getDependencies} gespeicherten Parameterdaten werden je nach Objektart für die Routine genutzt.\\
+Aktuell wird bei jedem Workitem das Feld \markss{Code Letter} auf die Option \markss{E} gesetzt.\\
+Die Funktionen des \markss{TransactionService} können bei Fehlschlagen eine \markss{java.lang.Exception} werfen, die von der höheren Instanz \markss{ServiveServlet} gefangen und verarbeitet wird.
+%
+\pic{multiply}{0.7}{Ablaufdiagramm der \markss{Multiply}-Metode}{multiply}
+%
+\pic{algo}{0.9}{Ablaufdaigramm der Vervielfältigungsroutine, fallunabhängig}{algo}
+%
+\newpage
+\subsubsection{\markss{rendered.jsp}}
+\label{sub:jsp}
+%%
+In der hier verwendeten Java Server Page, wird nur das, aus \markss{ServiceServlet.doGet()} übergebene, \markss{Object}-Array angenommen, gecastet und als einfacher String ausgegeben.
+Die Formatierung dieses Strings findet in den Klassenfunktionen selbst statt.
+%%
+\begin{figure}[H]
+\begin{lstlisting}[language=Java]
+<%@ page import="java.util.Collection" %>
+<%@ page import="java.util.Iterator" %>
+<%@ page import="com.polarion.alm.tracker.model.IWorkItem" %>
+
+<%
+	    Object[] info  = (Object[])request.getAttribute("properties");
+		String display = (String) info[0];
+%>
+Return: <%=display%>
+\end{lstlisting}
+\caption{rendered.jsp}
+\label{fig:jsp}
+\end{figure}
+%%
+\newpage
+\section{Importmasken}
+\label{sec:importmask}
+%%
+Die Objekte der beiden Aspektschlüssel \markss{P} und \markss{L} sollen aus PAM importiert werden. Dafür muss eine Import/Export-Maske festgelegt werden. Aufgrund der JavaSkripte aus Kapitel \ref{sec:javascripte} und dem Plugin aus Kapitel \ref{sec:multi} kann der Import auf ein Minimum reduziert werden.
+Folgende Informationen pro Objekt müssen aus PAM als Import zur Verfügung stehen.
+\begin{compactitem}
+	\item Projekt ID
+	\item Seriennummer
+	\item Dokument Typ
+	\item Aspektschlüssel
+	\item Referenzkennzeichen
+	\item OTC mit optionalem Subtypen
+	\item Hersteller
+	\item zusätzliches optionales Ortskennzeichen
+\end{compactitem}
+%%
+\section{Bedienungsanleitung}
+\label{sec:bedien}
+%%
+Nach allen Tests und Rücksprachen mit dem Betreuer wird eine kurze Bedienungsanleitung zur Verwendung des neuen Workitemtyps und des Plugin angefertigt. Diese beinhaltet den Arbeitsablauf, die zu erledigenden Arbeitsschritte, die benötigten Importdaten und kurze Erklärungen zu Skripten und Plugin.
+%%
+\chapter{Tests}
+\label{cha:tests}
+%%
+Das auf die Implementierung folgende Testen wird aufgrund von Covid-19 mit reiner \markss{Dummy-Data} durchgeführt.\\
+Dafür wurden sechs, auf Basis der Excel-MTP Vorlage erstellte, Workitems durch die Importfunktion in das Polarion Projekt importiert. Um später das Plugin zu Testen, werden jeweils zwei Workitems jedes relevanten Aspektschlüssels importiert. Während des Imports sind neben einigen Grundparametern, wie ab welcher Excel-Zelle der Import beginnen soll, auch ein \markss{Mapping} festzulegen, d.h. vorallem bei Enum-Felder muss festgelegt werden, welche Option der Zelle in Excel der Option des Feldes in Polarion entspricht. Das Mapping kann in eine Konfiguration gespeichert, um so später nocheinmal verwendet zu werden. In Anhang \ref{sec:import} ist ein Teil des Mappings plus der Importvorschau zu sehen.\\
+Um die Funktionalität der JavaScript-Skripte zu testen, werden die importierten Workitems abgeändert und gespeichtert. Zusätzlich werden einige Sonderfälle erzwungen, um bei der Implementierung vergessene Möglichkeiten zu überprüfen.\\
+Nach dem Import und Testen der Daten wird durch Aufrufen einer Wiki-Page, mit der in Kapitel \ref{sub:beispiel} genannten Codezeile als Inhalt, das Plugin aufgerufen. Nach einiger Rechenzeit wird auf der Seite der Rückgabetext angezeigt.\\ 
+Im Prinzip wurde der Arbeitsablauf nach Abbildung \ref{fig:workflow} getestet, nur ohne reale Importe.
+%
+\chapter{Ergebnisse}
+\label{cha:erg}
+%%
+Während des Imports stellt sich heraus, dass die JavaScript-Skripte auch während Erzeugung der Vorschau abgearbeitet werden. Das erspart dem Anwender einige Mühen, da nicht der gesamte Import fehlschlägt, sondern lediglich die Bildung der Vorschau. So kann schnell entweder das \markss{Mapping} oder die Importdatei geändert werden. Schlägt der gesamte Import fehlschlagen, muss die Rückgabeinformation der Skripte einer unübersichtlchen \markss{log}-Datei entnommen werden.  
+Zudem zeigt sich, dass Polarion verlangt, dass entweder Titel- oder Beschreibungsfeld bei einem Import angegeben werden müssen. Beide werden aber durch Skripte automatisch befüllt. So muss \markss{Dummy}-Information auf eines der beiden Felder \markss{gemappt} werden.\\
+Die durch das Plugin neu erstellten Workitems können in der Polarionbenutzeroberfläche (Abbildung \ref{fig:polarionui} betrachetet werden. Workitems des Aspektschlüssels \markss{C} bleiben wie erwartet vom Plugin unberührt.
+%%
+\paragraph{Probleme}
+\label{par:prob}
+%%
+Anders als in der Anleitung \cite{17}(S.5) konnte das eigens entwickelte Plugin nicht in die installierte Polarion Anwendung importiert werden. Das Plugin funktioniert nur dann, wenn Polarion durch die IDE, wie in \cite{17}(S.6) beschrieben, gestartet wird. Jedoch funktioniert auf diesem Weg die \markss{FMC}-Erweiterung nicht. Somit konnte nicht getestet werden, ob wie erwünscht, das Speichern eines Workitems im Code des Plugins auch eine Abarbeitung der JavaSkripte zur Folge hat.\\
+Zugleich scheint das Testen des Plugins \markss{Datenleichen} zu erzeugen, die zwar in der Polarionoberfläche augenscheinlich vorhanden und durch API-Funktionen \markss{geqeued} werden können, aber bei Zugriff über beide Möglichkeiten einen Fehler erzeugen und
+die Exception \\ \markss{com.polarion.platform.persistence.UnresolvableObjectException} werfen. Im Revisionsverzeichnis aller Datensätze in Polarion werden diese Workitems allerdings nicht angezeigt. Polarion verfügt über eine \markss{Mainteance}-Funktion um einige bekannte Fehler zu beheben, Chache zu leeren oder \markss{log}-Datein zu erzeugen. Diese Funktion behebt das Problem nicht.\\
+Möglicherweise werden diese erzeugt, wenn Objekte, die im Plugin noch referenziert sind, über die Oberfläche gelöscht werden. Das ist während des Testens des Öfteren passiert. Durch \markss{null}-Setzen der Objektreferenzen im Plugin und dem darauffolgenden Anstoß des Java \markss{Garbage-Collector} wird versucht dieses Problem zu lösen. Da bis zu diesem Zeitpunkt schon unübersichtlich viele \markss{tote Workitems} enstehen, ist es unmöglich zu Sehen, ob dies das Problem löst. Vielleicht liegt das Problem auch an völlig anderer Stelle. Kollegen kannten diesen Fehler nicht und der Polarion-Support ist, trotz Siemens-Zugehörigkeit, kaum zu Erreichen. Die Fehlermeldung ist in Anhang \ref{sec:error} abgebildet.
+%%

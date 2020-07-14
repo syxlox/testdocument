@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Bachelorarbeit.aux
+The style file: IEEEtran.bst
+A level-1 auxiliary file: Inhalt/Deckblatt.aux
+A level-1 auxiliary file: Inhalt/Eid.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: Inhalt/Glossar.aux
+A level-1 auxiliary file: Inhalt/Einleitung.aux
+A level-1 auxiliary file: Inhalt/Inhalt.aux
+A level-1 auxiliary file: Inhalt/Zusammenfassung.aux
+A level-1 auxiliary file: Inhalt/Anhang.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: literatur.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in 9
+Warning--empty year in 9
+Warning--empty journal in 10
+Warning--empty year in 10
+Warning--empty note in 5
+Warning--empty journal in 12
+Warning--empty year in 12
+Warning--empty note in 2
+Warning--empty note in 18
+Warning--empty note in 20
+
+Done.
+You've used 20 entries,
+            4087 wiz_defined-function locations,
+            884 strings with 9607 characters,
+and the built_in function-call counts, 6084 in all, are:
+= -- 407
+> -- 71
+< -- 0
++ -- 37
+- -- 17
+* -- 229
+:= -- 1140
+add.period$ -- 39
+call.type$ -- 20
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 530
+empty$ -- 620
+format.name$ -- 17
+if$ -- 1290
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 119
+newline$ -- 109
+num.names$ -- 17
+pop$ -- 395
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 433
+stack$ -- 0
+substring$ -- 19
+swap$ -- 249
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 20
+warning$ -- 10
+while$ -- 17
+width$ -- 22
+write$ -- 180
+(There were 10 warnings)

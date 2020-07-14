@@ -1,0 +1,21 @@
+\appendix
+\pagenumbering{roman}
+\newgeometry{left=35mm, right=35mm, top=20mm, bottom=20mm}
+%%%
+\chapter{Anhang}
+%
+\thispagestyle{empty}
+\pagestyle{empty}
+%%
+\section{Dokumentationsschema nach \cite{12}(S.47-50)}
+\label{sec:schema}
+%%
+%%
+\pic{schema1}{0.7}{Schema zur Dokumentation für Leittechnik Objekte off-site}{schema1}
+\pic{schema2}{0.7}{Schema zur Dokumentation für Leittechnik Objekte on-site}{schema2}
+\pic{schema3}{0.7}{Schema zur Dokumentation für nicht-Leittechnik Objekte off-site}{schema3}
+\pic{schema4}{0.7}{Schema zur Dokumentation für nicht-Leittechnik Objekte on-site}{schema4}
+%%
+%\unappendix
+%end of appendix
+\restoregeometry
