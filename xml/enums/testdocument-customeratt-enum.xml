@@ -1,0 +1,6 @@
+<enumeration>
+<option description="" id="yes_cus" name="yes" sortOrder="1"/>
+<option description="" id="no_cus" name="no" sortOrder="2"/>
+<option description="" id="na_cus" name="n/a" sortOrder="3"/>
+<option description="" id="tbd_cus" name="tbd" sortOrder="3"/>
+</enumeration>

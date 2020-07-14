@@ -1,0 +1,7 @@
+<enumeration>
+<option description="extern, customer document" id="doc_e" name="E" sortOrder="1"/>
+<!---<option id="c&p" name="C&P" sortOrder="2"/>-->
+<option description="bid extern" id="doc_b" name="B" sortOrder="2"/>
+<option description="intern, Siemens Document" id="doc_t" name="T" sortOrder="3"/>
+<option description="bid intern" id="doc_s" name="S" sortOrder="4"/>
+</enumeration>

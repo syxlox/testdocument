@@ -1,0 +1,4 @@
+<enumeration>
+<option description="english" id="lan_en" name="EN" sortOrder="1"/>
+<option description="german" id="lan_de" name="DE" sortOrder="2"/>
+</enumeration>

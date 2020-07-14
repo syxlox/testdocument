@@ -1,0 +1,5 @@
+<enumeration>
+<option description="" id="yes_app" name="yes" sortOrder="1"/>
+<option description="" id="no_app" name="no" sortOrder="2"/>
+<option description="" id="na_app" name="n/a" sortOrder="3"/>
+</enumeration>

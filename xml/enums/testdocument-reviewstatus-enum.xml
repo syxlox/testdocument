@@ -1,0 +1,4 @@
+<enumeration>
+<option iconURL="/polarion/icons/default/enums/build_OK.png" id="not_reviewed" name="Not Reviewed" sortOrder="1"/>
+<option iconURL="/polarion/icons/default/enums/build_FAILED.png" id="reviewed" name="Reviewed" sortOrder="2"/>
+</enumeration>

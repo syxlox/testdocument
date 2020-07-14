@@ -1,0 +1,165 @@
+#* wi = workitem *#
+
+#* The maximum allowed number of loops.*#
+directive.foreach.maxloops = 20000
+#set($enumTypes=$trackerService.getTrackerProject($page.project).workItemTypeEnum) #* get the workitemtypes enum*#
+#set($projectId = $doc.getProject($doc.getSpace()))         #* Get project object*#
+#set($pro = $projectService.getProject($projectId))         #* get trackerproject to create stub*#
+#set($tpro = $trackerService.getTrackerProject($pro))
+#set($wis=$trackerService.queryWorkItems($pro, "type:testdocument AND (aspectkey.KEY:aspect_p OR aspectkey.KEY:aspect_l")) #*query all wis within this project*#
+
+#set($cparray = ["AF300","BA300","BC300","BG300","BK300","BK310","BM300","BR300","BT300","BT311",   
+"BU300","BU310","BU311","BU312","BU313","BU314","BU315","BU316","BU317","BU321","BU331","BU332",
+"BU341","BU351","BU361","BU371","BU381","BU383","BU391","BX310","BZ120","BZ300","BZ310","BZ320",
+"BZ330","CA300","CF300","CF310","EA300","EB300","EC300","FA300","FC300","GF311","GF321","GF322",
+"GF331","GF332","GQ300","KF110","KF120","KF300","KF311","KF311","KF311","KF312","KF313","KF315",
+"KF316","KF321","KF321","KF321","KF322","KF322","KF322","KF323","KF324","KF324","KF324","KF331",
+"KF332","KF333","KF334","KF341","KF342","KF391","PF300","PH300","PH310","PJ300","QQ310","RA300",
+"RB300","RL300","SF300","TA300","TB300","TF300","TF310","UC310","UH300","UH310","UH320","WC310",
+"WF310","WH310","XD300","XD310","XF300","XF310","XF320","XF330","XF360","XG300","XG310","XG360",
+"XG370","XH300","XH310"]) #*sadly hard coded, no file access possible, and no dummy data available*#
+
+#set($dclistcp = ["dc080", "dc081", "dc082", "dc083", "dc085", "qc010", "qc020", )
+
+#foreach($wi in $wis)                               #*loop through every wi*#
+    #set($wifi = $wi)  
+    #set($bool = false)
+    #foreach($item in $cparray)
+        #if(!$bool)
+            #if($item == $wi.getCustomField("otc"))
+                #set($bool == true)         #*if bool true its a c&p object*#
+            #end
+        #end
+    #end                             #* workitem for inner*#
+    #* *#
+    #if($cparray.contains($wi.getCustomField("otc")))
+    #if($bool)
+        #foreach($item in [1..22])                       #* loop .. times *#
+            $transactionService.beginTx()
+            #set($newWi=$tpro.createWorkItem("testdocument"))      #* create a new wi *#
+            #*$newWi.setType($enumTypes.wrapOption("testdocument"))*#
+            #*instead of the next line, maybe the "=" operator is possible to use, but who knows*#
+            $wifi.copyTo​($newWi, null, null, true, null, null) #*https://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/platform/persistence/model/IPObject.html#copyTo(com.polarion.platform.persistence.model.IPObject,java.util.Set,java.util.Set,boolean,java.util.Set,java.util.Set)*#
+            #if($item == 1)                                    #* multiply given/importet wi from PAM with DCC Codes *#
+                $newWi.setEnumerationValue("dcc_class", "dc080")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 2)
+                $newWi.setEnumerationValue("dcc_class", "dc081")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","optional")
+                $newWi.setEnumerationValue("lcc","optional")
+            #elseif($item == 3)
+                $newWi.setEnumerationValue("dcc_class", "dc082")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 4)
+                $newWi.setEnumerationValue("dcc_class", "dc083")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 5)
+                $newWi.setEnumerationValue("dcc_class", "dc085")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","optional")
+                $newWi.setEnumerationValue("lcc","optional")
+            #elseif($item == 6)
+                $newWi.setEnumerationValue("dcc_class", "qc010")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 7)
+                $newWi.setEnumerationValue("dcc_class", "qc020")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 8)
+                $newWi.setEnumerationValue("dcc_class", "qc040")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 9)
+                $newWi.setEnumerationValue("dcc_class", "qc041")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","optional")
+                $newWi.setEnumerationValue("lcc","optional")
+            #elseif($item == 10)
+                $newWi.setEnumerationValue("dcc_class", "dc080")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 11)
+                $newWi.setEnumerationValue("dcc_class", "dc080")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 12)
+                $newWi.setEnumerationValue("dcc_class", "dc080")
+                $newWi.setEnumerationValue("testingsite","offsite")
+                $newWi.setEnumerationValue("vsc","used")
+                $newWi.setEnumerationValue("lcc","used")
+            #elseif($item == 13)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 14)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 15)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 16)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 17)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 18)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 19)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 20)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 21)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #elseif($item == 22)
+                $newWi.setEnumerationValue("dcc_class",)
+                $newWi.setEnumerationValue("testingsite",)
+                $newWi.setEnumerationValue("vsc",)
+                $newWi.setEnumerationValue("lcc",)
+            #end
+            $newWi.save()
+            $transactionService.commitTx()
+            $transactionService.endTx() 
+        #end  
+    #else
+        
+    #end
+    $transactionService.beginTx()
+    $wi.delete()
+    $transactionService.commitTx()
+    $transactionService.endTx()
+#end

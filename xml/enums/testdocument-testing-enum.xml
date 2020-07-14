@@ -1,0 +1,5 @@
+<enumeration>
+<option description="test will be performed" id="x_test" name="X" sortOrder="1"/>
+<option description="valid type test report exists" id="valid_test" name="'-*)" sortOrder="2"/>
+<option description="not applicable / part of the installation manual" id="na_test" name="n/a" sortOrder="3"/>
+</enumeration>

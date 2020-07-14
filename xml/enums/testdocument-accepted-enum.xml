@@ -1,0 +1,4 @@
+<enumeration>
+<option description="" id="acc_yes" name="yes" sortOrder="1"/>
+<option description="" id="acc_no" name="no" sortOrder="2"/>
+</enumeration>

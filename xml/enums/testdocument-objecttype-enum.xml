@@ -1,0 +1,4 @@
+<enumeration>
+<option id="not_physical" name="Non Physical Object" sortOrder="1"/>
+<option id="physical" name="Physical Object" sortOrder="2"/>
+</enumeration>

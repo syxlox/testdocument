@@ -1,0 +1,8 @@
+<enumeration>
+<option description="used" id="used" name="x" sortOrder="1"/>
+<option description="optional" id="optional" name="O" sortOrder="2"/>
+<option description="not used" id="notused" name="-" sortOrder="3"/>
+<option description="detailed document" id="detailed_doc" name="xD" sortOrder="4"/>
+<option description="no detailed document" id="no_detailed_doc" name="-D" sortOrder="5"/>
+<option description="optional detailed document" id="opt_detailed_doc" name="OD" sortOrder="6"/>
+</enumeration>

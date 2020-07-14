@@ -1,0 +1,7 @@
+<enumeration>
+<option id="aspect_c" name="C" sortOrder="1"/>
+<!---<option id="c&p" name="C&P" sortOrder="2"/>-->
+<option id="aspect_l" name="L" sortOrder="2"/>
+<option id="aspect_p" name="P" sortOrder="3"/>
+<option id="aspect_f" name="F" sortOrder="4"/>
+</enumeration>

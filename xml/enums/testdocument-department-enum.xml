@@ -1,0 +1,10 @@
+<enumeration>
+<option id="ce_cwc" name="CE-CWC" sortOrder="1"/>
+<option id="ce_meb" name="CE-MEB" sortOrder="2"/>
+<option id="ec" name="EC" sortOrder="3"/>
+<option id="ee" name="EE" sortOrder="4"/>
+<option id="he" name="HE" sortOrder="5"/>
+<option id="pl" name="PL" sortOrder="6"/>
+<option id="pl_aux" name="PL-AUX" sortOrder="7"/>
+<option id="se" name="SE" sortOrder="8"/>
+</enumeration>

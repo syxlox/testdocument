@@ -1,0 +1,4 @@
+<enumeration>
+<option description="On-Site testing" id="onsite" name="On-Site" sortOrder="1"/>
+<option description="Off-Site testing" id="offsite" name="Off-Site" sortOrder="2"/>
+</enumeration>

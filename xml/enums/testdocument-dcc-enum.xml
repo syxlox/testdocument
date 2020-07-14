@@ -1,0 +1,1637 @@
+<enumeration>
+	
+		<option id="aa010"
+		name="AA010"
+		description="Cover Sheet"/>
+	
+	
+		<option id="ab010"
+		name="AB010"
+		description="List of Documents"/>
+	
+	
+		<option id="ab020"
+		name="AB020"
+		description="List of Relations between System/Products and Documents"/>
+	
+	
+		<option id="ab030"
+		name="AB030"
+		description="List of Document Kind Classes"/>
+	
+	
+		<option id="ac010"
+		name="AC010"
+		description="Description Documentation Concept"/>
+	
+	
+		<option id="ac011"
+		name="AC011"
+		description="Application Description "/>
+	
+	
+		<option id="ac020"
+		name="AC020"
+		description="Catalogue of Symbols"/>
+	
+	
+		<option id="ac021"
+		name="AC021"
+		description="Symbol Description"/>
+	
+	
+		<option id="ac030"
+		name="AC030"
+		description="Fill in Instruction"/>
+	
+	
+		<option id="ba010"
+		name="BA010"
+		description="Supplier List"/>
+	
+	
+		<option id="ba020"
+		name="BA020"
+		description="Recipient List"/>
+	
+	
+		<option id="ba030"
+		name="BA030"
+		description="Lists General"/>
+	
+	
+		<option id="bb010"
+		name="BB010"
+		description="Status Report"/>
+	
+	
+		<option id="bb011"
+		name="BB011"
+		description="Site Report"/>
+	
+	
+		<option id="bb020"
+		name="BB020"
+		description="Minutes of Meeting"/>
+	
+	
+		<option id="bb030"
+		name="BB030"
+		description="Experience Report (non Technical)"/>
+	
+	
+		<option id="bb040"
+		name="BB040"
+		description="Notification of Defects"/>
+	
+	
+		<option id="bb050"
+		name="BB050"
+		description="Defects Report"/>
+	
+	
+		<option id="bb060"
+		name="BB060"
+		description="Project Closing Report"/>
+	
+	
+		<option id="bb070"
+		name="BB070"
+		description="Business Report"/>
+	
+	
+		<option id="bb080"
+		name="BB080"
+		description="Notification of significant event, reportable"/>
+	
+	
+		<option id="bc010"
+		name="BC010"
+		description="Internal Correspondence"/>
+	
+	
+		<option id="bc020"
+		name="BC020"
+		description="External Correspondence"/>
+	
+	
+		<option id="bc030"
+		name="BC030"
+		description="Message"/>
+	
+	
+		<option id="bc040"
+		name="BC040"
+		description="Note"/>
+	
+	
+		<option id="bd010"
+		name="BD010"
+		description="Project Application"/>
+	
+	
+		<option id="bd020"
+		name="BD020"
+		description="Project Instruction"/>
+	
+	
+		<option id="bd030"
+		name="BD030"
+		description="Project Approval"/>
+	
+	
+		<option id="bd040"
+		name="BD040"
+		description="Project Manual"/>
+	
+	
+		<option id="bd050"
+		name="BD050"
+		description="Project Calculation"/>
+	
+	
+		<option id="bd060"
+		name="BD060"
+		description="Project Notice"/>
+	
+	
+		<option id="bd070"
+		name="BD070"
+		description="Project Progress Log"/>
+	
+	
+		<option id="bd080"
+		name="BD080"
+		description="Proof of Result"/>
+	
+	
+		<option id="bd090"
+		name="BD090"
+		description="Construction and Erection Inspection Plan"/>
+	
+	
+		<option id="bd100"
+		name="BD100"
+		description="Notice of Delay and Disruption"/>
+	
+	
+		<option id="bd110"
+		name="BD110"
+		description="List of Delivered Documents"/>
+	
+	
+		<option id="bd120"
+		name="BD120"
+		description="Manufacturing Inspection Plan"/>
+	
+	
+		<option id="bd130"
+		name="BD130"
+		description="Information Requirements List"/>
+	
+	
+		<option id="bd140"
+		name="BD140"
+		description="Proof of Delivery"/>
+	
+	
+		<option id="bd150"
+		name="BD150"
+		description="List of Open Points (LOP)"/>
+	
+	
+		<option id="bd160"
+		name="BD160"
+		description="Time Sheet"/>
+	
+	
+		<option id="bd170"
+		name="BD170"
+		description="Document Template"/>
+	
+	
+		<option id="be010"
+		name="BE010"
+		description="Resource Planning Document, Overall"/>
+	
+	
+		<option id="be020"
+		name="BE020"
+		description="Time Schedule"/>
+	
+	
+		<option id="be030"
+		name="BE030"
+		description="Personnel Concept"/>
+	
+	
+		<option id="be040"
+		name="BE040"
+		description="Cost Plan"/>
+	
+	
+		<option id="be050"
+		name="BE050"
+		description="Material Allocation Plan"/>
+	
+	
+		<option id="be060"
+		name="BE060"
+		description="Schedule"/>
+	
+	
+		<option id="be070"
+		name="BE070"
+		description="Project Structure Plan"/>
+	
+	
+		<option id="be080"
+		name="BE080"
+		description="Organisation Chart"/>
+	
+	
+		<option id="bf010"
+		name="BF010"
+		description="Dispatch Specification"/>
+	
+	
+		<option id="bf020"
+		name="BF020"
+		description="Dispatch Document"/>
+	
+	
+		<option id="bf030"
+		name="BF030"
+		description="Transport Specification"/>
+	
+	
+		<option id="bf040"
+		name="BF040"
+		description="Transport Document"/>
+	
+	
+		<option id="bf060"
+		name="BF060"
+		description="Certificate of Origin"/>
+	
+	
+		<option id="bg010"
+		name="BG010"
+		description="Site Organisation Document"/>
+	
+	
+		<option id="bg020"
+		name="BG020"
+		description="Site Equipment Document"/>
+	
+	
+		<option id="bg030"
+		name="BG030"
+		description="Site Progress Log"/>
+	
+	
+		<option id="bg040"
+		name="BG040"
+		description="Method Statement"/>
+	
+	
+		<option id="bh010"
+		name="BH010"
+		description="Notification of Modification"/>
+	
+	
+		<option id="bh020"
+		name="BH020"
+		description="Request for Modification"/>
+	
+	
+		<option id="bh050"
+		name="BH050"
+		description="Modification Order"/>
+	
+	
+		<option id="bh060"
+		name="BH060"
+		description="List of Modifications"/>
+	
+	
+		<option id="bh070"
+		name="BH070"
+		description="Release Note"/>
+	
+	
+		<option id="bs010"
+		name="BS010"
+		description="Plant Protection Instruction"/>
+	
+	
+		<option id="bs020"
+		name="BS020"
+		description="Plant Safety Plan"/>
+	
+	
+		<option id="bs030"
+		name="BS030"
+		description="Alarm Plan"/>
+	
+	
+		<option id="bs040"
+		name="BS040"
+		description="Fire Protection Plan for the Plant"/>
+	
+	
+		<option id="bs050"
+		name="BS050"
+		description="Explosion Protection Document"/>
+	
+	
+		<option id="bs060"
+		name="BS060"
+		description="Fire Brigade Intervention Plan"/>
+	
+	
+		<option id="bs070"
+		name="BS070"
+		description="Fire Brigade Operation Sheet"/>
+	
+	
+		<option id="bs080"
+		name="BS080"
+		description="Fire Brigade Plan for Structures"/>
+	
+	
+		<option id="bs090"
+		name="BS090"
+		description="Escape- and Rescueplan"/>
+	
+	
+		<option id="bs100"
+		name="BS100"
+		description="Flood Protection Plan"/>
+	
+	
+		<option id="bs110"
+		name="BS110"
+		description="Disaster Protection Plan"/>
+	
+	
+		<option id="bs120"
+		name="BS120"
+		description="Emergency Manual"/>
+	
+	
+		<option id="bs130"
+		name="BS130"
+		description="Master Key System Plan"/>
+	
+	
+		<option id="bs140"
+		name="BS140"
+		description="Radiation protection plan against external influences"/>
+	
+	
+		<option id="bt010"
+		name="BT010"
+		description="Training Document"/>
+	
+	
+		<option id="bt020"
+		name="BT020"
+		description="Training Program"/>
+	
+	
+		<option id="bt030"
+		name="BT030"
+		description="Certificate of Attendance"/>
+	
+	
+		<option id="bz010"
+		name="BZ010"
+		description="Mandatory Instruction for Organisation"/>
+	
+	
+		<option id="bz020"
+		name="BZ020"
+		description="Working Instruction"/>
+	
+	
+		<option id="ca010"
+		name="CA010"
+		description="Enquiry"/>
+	
+	
+		<option id="ca020"
+		name="CA020"
+		description="Tender"/>
+	
+	
+		<option id="ca030"
+		name="CA030"
+		description="Comparison of Bids"/>
+	
+	
+		<option id="ca040"
+		name="CA040"
+		description="Invitation to Tender"/>
+	
+	
+		<option id="ca050"
+		name="CA050"
+		description="List of Bidders"/>
+	
+	
+		<option id="ca060"
+		name="CA060"
+		description="Spare Parts Quotation"/>
+	
+	
+		<option id="ca070"
+		name="CA070"
+		description="Financing Plan"/>
+	
+	
+		<option id="ca080"
+		name="CA080"
+		description="Calculation Sheet"/>
+	
+	
+		<option id="ca090"
+		name="CA090"
+		description="Specification of Equipment and/or Services"/>
+	
+	
+		<option id="ca100"
+		name="CA100"
+		description="Bill of Quantities"/>
+	
+	
+		<option id="ca110"
+		name="CA110"
+		description="Price List"/>
+	
+	
+		<option id="ca120"
+		name="CA120"
+		description="Risk Mitigation Plan"/>
+	
+	
+		<option id="ca130"
+		name="CA130"
+		description="Calculation of Profitability"/>
+	
+	
+		<option id="ca140"
+		name="CA140"
+		description="Letter of Acceptance"/>
+	
+	
+		<option id="ca150"
+		name="CA150"
+		description="Acceptance List"/>
+	
+	
+		<option id="ca160"
+		name="CA160"
+		description="Recommendation for Placing an Order"/>
+	
+	
+		<option id="cb010"
+		name="CB010"
+		description="Approval Application"/>
+	
+	
+		<option id="cb020"
+		name="CB020"
+		description="Notification of Approval"/>
+	
+	
+		<option id="cb030"
+		name="CB030"
+		description="License"/>
+	
+	
+		<option id="cb040"
+		name="CB040"
+		description="Approval Notification (Product)"/>
+	
+	
+		<option id="cc010"
+		name="CC010"
+		description="Terms and Conditions of Purchase"/>
+	
+	
+		<option id="cc020"
+		name="CC020"
+		description="Letter of Intent"/>
+	
+	
+		<option id="cc030"
+		name="CC030"
+		description="Contract"/>
+	
+	
+		<option id="cc050"
+		name="CC050"
+		description="Terms of Delivery"/>
+	
+	
+		<option id="cc060"
+		name="CC060"
+		description="Acceptance Specification"/>
+	
+	
+		<option id="cc070"
+		name="CC070"
+		description="Scope of Supply and Services"/>
+	
+	
+		<option id="cc080"
+		name="CC080"
+		description="Terms of Payment"/>
+	
+	
+		<option id="cc090"
+		name="CC090"
+		description="Payment Plan"/>
+	
+	
+		<option id="cc100"
+		name="CC100"
+		description="Confirmation of Acceptance"/>
+	
+	
+		<option id="cd010"
+		name="CD010"
+		description="Order"/>
+	
+	
+		<option id="cd020"
+		name="CD020"
+		description="Confirmation of Order"/>
+	
+	
+		<option id="cd030"
+		name="CD030"
+		description="Delivery Note"/>
+	
+	
+		<option id="ce010"
+		name="CE010"
+		description="Invoice"/>
+	
+	
+		<option id="ce020"
+		name="CE020"
+		description="Credit"/>
+	
+	
+		<option id="ce030"
+		name="CE030"
+		description="Order to Pay"/>
+	
+	
+		<option id="ce040"
+		name="CE040"
+		description="Measurement"/>
+	
+	
+		<option id="cf010"
+		name="CF010"
+		description="Insurance Policy"/>
+	
+	
+		<option id="cf020"
+		name="CF020"
+		description="Application for Insurance"/>
+	
+	
+		<option id="cf030"
+		name="CF030"
+		description="Insurance Certificate"/>
+	
+	
+		<option id="cf040"
+		name="CF040"
+		description="Notification of Damage"/>
+	
+	
+		<option id="cf050"
+		name="CF050"
+		description="Insurance Conditions"/>
+	
+	
+		<option id="cg010"
+		name="CG010"
+		description="Warranty Document"/>
+	
+	
+		<option id="ch010"
+		name="CH010"
+		description="Expertise"/>
+	
+	
+		<option id="ch011"
+		name="CH011"
+		description="Fire Safety Expertise"/>
+	
+	
+		<option id="ch012"
+		name="CH012"
+		description="Fire Alarm Concept"/>
+	
+	
+		<option id="ch020"
+		name="CH020"
+		description="Comment on an Expertise"/>
+	
+	
+		<option id="ch030"
+		name="CH030"
+		description="Technical Study"/>
+	
+	
+		<option id="da010"
+		name="DA010"
+		description="Product Data Sheet"/>
+	
+	
+		<option id="da020"
+		name="DA020"
+		description="Room Specification"/>
+	
+	
+		<option id="db010"
+		name="DB010"
+		description="Abbreviation-Catalogue"/>
+	
+	
+		<option id="db020"
+		name="DB020"
+		description="Description of Designation System"/>
+	
+	
+		<option id="db030"
+		name="DB030"
+		description="System Description"/>
+	
+	
+		<option id="db031"
+		name="DB031"
+		description="List of Plant Designations"/>
+	
+	
+		<option id="db050"
+		name="DB050"
+		description="Building Description"/>
+	
+	
+		<option id="db060"
+		name="DB060"
+		description="Product Description"/>
+	
+	
+		<option id="db070"
+		name="DB070"
+		description="Concept Description"/>
+	
+	
+		<option id="db080"
+		name="DB080"
+		description="Explanatory/Design Report"/>
+	
+	
+		<option id="dc010"
+		name="DC010"
+		description="Instruction for Use"/>
+	
+	
+		<option id="dc011"
+		name="DC011"
+		description="Product Manual"/>
+	
+	
+		<option id="dc030"
+		name="DC030"
+		description="Instruction for Start Up"/>
+	
+	
+		<option id="dc031"
+		name="DC031"
+		description="Instruction for Start Up (Pre-Commissioning)"/>
+	
+	
+		<option id="dc032"
+		name="DC032"
+		description="Instruction for Start Up (Sub-System)"/>
+	
+	
+		<option id="dc033"
+		name="DC033"
+		description="Instruction for Start Up (Station &amp; System Tests)"/>
+	
+	
+		<option id="dc034"
+		name="DC034"
+		description="Instruction for Start Up (Dockyard)"/>
+	
+	
+		<option id="dc035"
+		name="DC035"
+		description="Instruction for Start Up (HV Tests)"/>
+	
+	
+		<option id="dc038"
+		name="DC038"
+		description="Instruction for Start Up (Installation)"/>
+	
+	
+		<option id="dc050"
+		name="DC050"
+		description="Instruction for Repair"/>
+	
+	
+		<option id="dc060"
+		name="DC060"
+		description="Transport and Storage Specification"/>
+	
+	
+		<option id="dc070"
+		name="DC070"
+		description="Instruction for Erection"/>
+	
+	
+		<option id="dc071"
+		name="DC071"
+		description="Instruction for Installation"/>
+	
+	
+		<option id="dc080"
+		name="DC080"
+		description="Inspection and Test Plan (ITP)"/>
+	
+	
+		<option id="dc081"
+		name="DC081"
+		description="Inspection and Test Plan (Type Test)"/>
+	
+	
+		<option id="dc082"
+		name="DC082"
+		description="Inspection and Test Plan (Routine Test)"/>
+	
+	
+		<option id="dc083"
+		name="DC083"
+		description="Inspection and Test Plan (Installation Test)"/>
+	
+	
+		<option id="dc085"
+		name="DC085"
+		description="Inspection and Test Plan (Local Test)"/>
+	
+	
+		<option id="dc090"
+		name="DC090"
+		description="Instruction for Service"/>
+	
+	
+		<option id="dc100"
+		name="DC100"
+		description="Instruction for Disposal"/>
+	
+	
+		<option id="dc180"
+		name="DC180"
+		description="Instruction for Inspection and Test"/>
+	
+	
+		<option id="dc181"
+		name="DC181"
+		description="Instruction for Inspection and Test (IFM)"/>
+	
+	
+		<option id="dc182"
+		name="DC182"
+		description="Instruction for Inspection and Test (RTS)"/>
+	
+	
+		<option id="dc183"
+		name="DC183"
+		description="Instruction for Inspection and Test (EMTDC)"/>
+	
+	
+		<option id="dc184"
+		name="DC184"
+		description="Instruction for Inspection and Test (CTS)"/>
+	
+	
+		<option id="dc185"
+		name="DC185"
+		description="Instruction for Inspection and Test (MTS)"/>
+	
+	
+		<option id="dc186"
+		name="DC186"
+		description="Instruction for Inspection and Test (OTS)"/>
+	
+	
+		<option id="dc187"
+		name="DC187"
+		description="Instruction for Inspection and Test (SimCaP)"/>
+	
+	
+		<option id="dd010"
+		name="DD010"
+		description="Technical Work Report"/>
+	
+	
+		<option id="dd020"
+		name="DD020"
+		description="Result Report"/>
+	
+	
+		<option id="dd110"
+		name="DD110"
+		description="Investigation Report"/>
+	
+	
+		<option id="de010"
+		name="DE010"
+		description="Product Leaflet"/>
+	
+	
+		<option id="de020"
+		name="DE020"
+		description="Catalogue"/>
+	
+	
+		<option id="dz040"
+		name="DZ040"
+		description="Maintenance Instruction"/>
+	
+	
+		<option id="dz050"
+		name="DZ050"
+		description="Work Method Statement for Construction"/>
+	
+	
+		<option id="eb010"
+		name="EB010"
+		description="List of Codes and Standards"/>
+	
+	
+		<option id="eb020"
+		name="EB020"
+		description="In-House Standard"/>
+	
+	
+		<option id="ec010"
+		name="EC010"
+		description="Equipment Specification"/>
+	
+	
+		<option id="ec011"
+		name="EC011"
+		description="Requirement Specification"/>
+	
+	
+		<option id="ec020"
+		name="EC020"
+		description="Design Specification"/>
+	
+	
+		<option id="ec021"
+		name="EC021"
+		description="Technical Specification"/>
+	
+	
+		<option id="ec022"
+		name="EC022"
+		description="Electrical Consumer List"/>
+	
+	
+		<option id="ec030"
+		name="EC030"
+		description="Building Requirements"/>
+	
+	
+		<option id="ec040"
+		name="EC040"
+		description="Technical Query"/>
+	
+	
+		<option id="ed010"
+		name="ED010"
+		description="Design Calculation"/>
+	
+	
+		<option id="ed020"
+		name="ED020"
+		description="Strength Calculation"/>
+	
+	
+		<option id="ed030"
+		name="ED030"
+		description="Network Calculation"/>
+	
+	
+		<option id="fa010"
+		name="FA010"
+		description="Overview Diagram"/>
+	
+	
+		<option id="fa011"
+		name="FA011"
+		description="Alarm Group Overview"/>
+	
+	
+		<option id="fa012"
+		name="FA012"
+		description="Block Diagram"/>
+	
+	
+		<option id="fa013"
+		name="FA013"
+		description="Principle Diagram"/>
+	
+	
+		<option id="fa014"
+		name="FA014"
+		description="Loop Overview"/>
+	
+	
+		<option id="fa030"
+		name="FA030"
+		description="Control Scheme"/>
+	
+	
+		<option id="fb010"
+		name="FB010"
+		description="Block Flow Diagram"/>
+	
+	
+		<option id="fb030"
+		name="FB030"
+		description="P&amp;I Diagram"/>
+	
+	
+		<option id="fc010"
+		name="FC010"
+		description="HMI Plant Display"/>
+	
+	
+		<option id="fe010"
+		name="FE010"
+		description="Process Description"/>
+	
+	
+		<option id="fe020"
+		name="FE020"
+		description="Function Description"/>
+	
+	
+		<option id="ff010"
+		name="FF010"
+		description="Function Diagram"/>
+	
+	
+		<option id="ff020"
+		name="FF020"
+		description="Function Chart"/>
+	
+	
+		<option id="ff030"
+		name="FF030"
+		description="Interlock Diagram"/>
+	
+	
+		<option id="ff040"
+		name="FF040"
+		description="Sequence Chart"/>
+	
+	
+		<option id="ff050"
+		name="FF050"
+		description="Equivalent Circuit Diagram"/>
+	
+	
+		<option id="ff060"
+		name="FF060"
+		description="Time Sequence Chart"/>
+	
+	
+		<option id="fp010"
+		name="FP010"
+		description="Signal List"/>
+	
+	
+		<option id="fp030"
+		name="FP030"
+		description="Signal Description"/>
+	
+	
+		<option id="fq010"
+		name="FQ010"
+		description="Setting List"/>
+	
+	
+		<option id="fq030"
+		name="FQ030"
+		description="Protection Setting Report"/>
+	
+	
+		<option id="fs010"
+		name="FS010"
+		description="Circuit Diagram"/>
+	
+	
+		<option id="ft010"
+		name="FT010"
+		description="Program Description"/>
+	
+	
+		<option id="ft030"
+		name="FT030"
+		description="Program Source Code"/>
+	
+	
+		<option id="ft031"
+		name="FT031"
+		description="Code List"/>
+	
+	
+		<option id="la010"
+		name="LA010"
+		description="Survey Document"/>
+	
+	
+		<option id="lb010"
+		name="LB010"
+		description="Earthwork Document"/>
+	
+	
+		<option id="lb020"
+		name="LB020"
+		description="Foundation Work Document"/>
+	
+	
+		<option id="lb021"
+		name="LB021"
+		description="Foundation Overview"/>
+	
+	
+		<option id="lc010"
+		name="LC010"
+		description="Load Plan"/>
+	
+	
+		<option id="lc011"
+		name="LC011"
+		description="Document with Statements about the Construction Load"/>
+	
+	
+		<option id="lc020"
+		name="LC020"
+		description="Execution Document Shell"/>
+	
+	
+		<option id="lc021"
+		name="LC021"
+		description="Pile Plan"/>
+	
+	
+		<option id="lc022"
+		name="LC022"
+		description="Structural Engineering Drawing"/>
+	
+	
+		<option id="lc030"
+		name="LC030"
+		description="Execution Document Steel Construction"/>
+	
+	
+		<option id="lc032"
+		name="LC032"
+		description="General Drawing of Steel Structure"/>
+	
+	
+		<option id="lc033"
+		name="LC033"
+		description="Grating Layout Drawing"/>
+	
+	
+		<option id="lc034"
+		name="LC034"
+		description="Structural Steelwork Fabrication Drawing"/>
+	
+	
+		<option id="lc040"
+		name="LC040"
+		description="Facade Drawing"/>
+	
+	
+		<option id="lc060"
+		name="LC060"
+		description="Reinforcement Drawing"/>
+	
+	
+		<option id="lc063"
+		name="LC063"
+		description="Bar Bending Schedule"/>
+	
+	
+		<option id="lc070"
+		name="LC070"
+		description="Formwork Drawing"/>
+	
+	
+		<option id="lc071"
+		name="LC071"
+		description="Formwork and Reinforcement Drawing"/>
+	
+	
+		<option id="ld010"
+		name="LD010"
+		description="Location Plan"/>
+	
+	
+		<option id="ld020"
+		name="LD020"
+		description="Arrangement Drawing (Location)"/>
+	
+	
+		<option id="ld021"
+		name="LD021"
+		description="Borehole Drawing"/>
+	
+	
+		<option id="ld022"
+		name="LD022"
+		description="Road Layout and Parking Area Drawing"/>
+	
+	
+		<option id="ld023"
+		name="LD023"
+		description="Fence Layout Drawing"/>
+	
+	
+		<option id="ld027"
+		name="LD027"
+		description="Installation Drawing (Location)"/>
+	
+	
+		<option id="ld028"
+		name="LD028"
+		description="Pipe Routing Plan (Location)"/>
+	
+	
+		<option id="ld040"
+		name="LD040"
+		description="Earthing and Lightning Protection Drawing (Location)"/>
+	
+	
+		<option id="ld041"
+		name="LD041"
+		description="Earthing Drawing (Location)"/>
+	
+	
+		<option id="ld042"
+		name="LD042"
+		description="Lightning Protection Drawing (Location)"/>
+	
+	
+		<option id="ld050"
+		name="LD050"
+		description="Cable Routing Drawing (Location)"/>
+	
+	
+		<option id="ld060"
+		name="LD060"
+		description="Detail Drawing (Location)"/>
+	
+	
+		<option id="lh011"
+		name="LH011"
+		description="General Arrangement Drawing Building"/>
+	
+	
+		<option id="lh020"
+		name="LH020"
+		description="Arrangement Drawing (Building)"/>
+	
+	
+		<option id="lh027"
+		name="LH027"
+		description="Installation Drawing (Building)"/>
+	
+	
+		<option id="lh028"
+		name="LH028"
+		description="Pipe Routing Plan (Building)"/>
+	
+	
+		<option id="lh040"
+		name="LH040"
+		description="Earthing and Lightning Protection Drawing (Building)"/>
+	
+	
+		<option id="lh041"
+		name="LH041"
+		description="Earthing Drawing (Building)"/>
+	
+	
+		<option id="lh042"
+		name="LH042"
+		description="Lightning Protection Drawing (Building)"/>
+	
+	
+		<option id="lh050"
+		name="LH050"
+		description="Cable Routing Drawing (Building)"/>
+	
+	
+		<option id="lh060"
+		name="LH060"
+		description="Construction Detail Drawing (Building)"/>
+	
+	
+		<option id="lh063"
+		name="LH063"
+		description="Finishing Works Drawing"/>
+	
+	
+		<option id="lh065"
+		name="LH065"
+		description="Suspended Ceiling Drawing"/>
+	
+	
+		<option id="lh066"
+		name="LH066"
+		description="Raised Floor Drawing"/>
+	
+	
+		<option id="lh068"
+		name="LH068"
+		description="Doors and Windows Drawing"/>
+	
+	
+		<option id="lh070"
+		name="LH070"
+		description="Tile Arrangement Plan"/>
+	
+	
+		<option id="lu010"
+		name="LU010"
+		description="Arrangement Drawing (Equipment)"/>
+	
+	
+		<option id="ma010"
+		name="MA010"
+		description="Interconnection Diagram"/>
+	
+	
+		<option id="ma020"
+		name="MA020"
+		description="Terminal Connection Diagram"/>
+	
+	
+		<option id="mb010"
+		name="MB010"
+		description="Cable List (incl. Laying Information)"/>
+	
+	
+		<option id="mb020"
+		name="MB020"
+		description="Cable Pulling Card"/>
+	
+	
+		<option id="mb040"
+		name="MB040"
+		description="Piping List"/>
+	
+	
+		<option id="pa010"
+		name="PA010"
+		description="Material List"/>
+	
+	
+		<option id="pa050"
+		name="PA050"
+		description="Tool List"/>
+	
+	
+		<option id="pa070"
+		name="PA070"
+		description="Working Material List"/>
+	
+	
+		<option id="pb010"
+		name="PB010"
+		description="Parts List"/>
+	
+	
+		<option id="pb011"
+		name="PB011"
+		description="Spare parts list"/>
+	
+	
+		<option id="pd010"
+		name="PD010"
+		description="Product List"/>
+	
+	
+		<option id="pf010"
+		name="PF010"
+		description="Function List"/>
+	
+	
+		<option id="pl010"
+		name="PL010"
+		description="Room List"/>
+	
+	
+		<option id="qa010"
+		name="QA010"
+		description="QM Manual"/>
+	
+	
+		<option id="qa011"
+		name="QA011"
+		description="QM Plan"/>
+	
+	
+		<option id="qa020"
+		name="QA020"
+		description="Non-Conformity Report"/>
+	
+	
+		<option id="qa040"
+		name="QA040"
+		description="Quality Certificate"/>
+	
+	
+		<option id="qa041"
+		name="QA041"
+		description="Specialised Companies Certificate"/>
+	
+	
+		<option id="qa060"
+		name="QA060"
+		description="QA Manual"/>
+	
+	
+		<option id="qb010"
+		name="QB010"
+		description="Safety Study"/>
+	
+	
+		<option id="qb020"
+		name="QB020"
+		description="Risk Assessment"/>
+	
+	
+		<option id="qb030"
+		name="QB030"
+		description="Warning and Safety Note"/>
+	
+	
+		<option id="qb040"
+		name="QB040"
+		description="Hazard Assessment"/>
+	
+	
+		<option id="qb050"
+		name="QB050"
+		description="Material Safety Data Sheet (MSDS)"/>
+	
+	
+		<option id="qb060"
+		name="QB060"
+		description="Hazard Drawing"/>
+	
+	
+		<option id="qb070"
+		name="QB070"
+		description="Safety and Health Plan"/>
+	
+	
+		<option id="qc010"
+		name="QC010"
+		description="Declaration of Conformity"/>
+	
+	
+		<option id="qc011"
+		name="QC011"
+		description="Fabricator Certificate"/>
+	
+	
+		<option id="qc020"
+		name="QC020"
+		description="Inspection Certificate"/>
+	
+	
+		<option id="qc030"
+		name="QC030"
+		description="Environment Certificate"/>
+	
+	
+		<option id="qc040"
+		name="QC040"
+		description="Test Certificate"/>
+	
+	
+		<option id="qc041"
+		name="QC041"
+		description="Test Certificate (Type Test)"/>
+	
+	
+		<option id="qc042"
+		name="QC042"
+		description="Test Certificate (Routine Test)"/>
+	
+	
+		<option id="qc043"
+		name="QC043"
+		description="Test Certificate (Installation Test)"/>
+	
+	
+		<option id="qc045"
+		name="QC045"
+		description="Test Certificate (Local Test)"/>
+	
+	
+		<option id="qc050"
+		name="QC050"
+		description="Acceptance Report"/>
+	
+	
+		<option id="qc051"
+		name="QC051"
+		description="Acceptance Report (Pre-Commissioning)"/>
+	
+	
+		<option id="qc052"
+		name="QC052"
+		description="Acceptance Report (Sub-System)"/>
+	
+	
+		<option id="qc053"
+		name="QC053"
+		description="Acceptance Report (Station &amp; System Tests)"/>
+	
+	
+		<option id="qc054"
+		name="QC054"
+		description="Acceptance Report (Dockyard)"/>
+	
+	
+		<option id="qc055"
+		name="QC055"
+		description="Acceptance Report (HV Tests)"/>
+	
+	
+		<option id="qc056"
+		name="QC056"
+		description="Site Acceptance Civil"/>
+	
+	
+		<option id="qc057"
+		name="QC057"
+		description="Site Acceptance Installation"/>
+	
+	
+		<option id="qc058"
+		name="QC058"
+		description="Acceptance Report (Installation)"/>
+	
+	
+		<option id="qc060"
+		name="QC060"
+		description="Calibration Verification"/>
+	
+	
+		<option id="qc090"
+		name="QC090"
+		description="Qualification Record Personal"/>
+	
+	
+		<option id="qc141"
+		name="QC141"
+		description="Test Certificate (IFM)"/>
+	
+	
+		<option id="qc142"
+		name="QC142"
+		description="Test Certificate (RTS)"/>
+	
+	
+		<option id="qc143"
+		name="QC143"
+		description="Test Certificate (EMTDC)"/>
+	
+	
+		<option id="qc144"
+		name="QC144"
+		description="Test Certificate (CTS)"/>
+	
+	
+		<option id="qc145"
+		name="QC145"
+		description="Test Certificate (MTS)"/>
+	
+	
+		<option id="qc146"
+		name="QC146"
+		description="Test Certificate (OTS)"/>
+	
+	
+		<option id="qc147"
+		name="QC147"
+		description="Test Certificate (SimCaP)"/>
+	
+	
+		<option id="qc150"
+		name="QC150"
+		description="Acceptance Report (FQP)"/>
+	
+	
+		<option id="ta010"
+		name="TA010"
+		description="Design Drawing"/>
+	
+	
+		<option id="ta020"
+		name="TA020"
+		description="Architectural Drawing"/>
+	
+	
+		<option id="ta021"
+		name="TA021"
+		description="Architectural Detail"/>
+	
+	
+		<option id="tb010"
+		name="TB010"
+		description="Dimensional Drawing"/>
+	
+	
+		<option id="tb011"
+		name="TB011"
+		description="Prefabricated Element Drawing"/>
+	
+	
+		<option id="tb020"
+		name="TB020"
+		description="Isometric Drawing"/>
+	
+	
+		<option id="tb040"
+		name="TB040"
+		description="Interface Drawing"/>
+	
+	
+		<option id="tb050"
+		name="TB050"
+		description="Name Plate (Drawing)"/>
+	
+	
+		<option id="tc010"
+		name="TC010"
+		description="Buildup Drawing"/>
+	
+	
+		<option id="tc020"
+		name="TC020"
+		description="Erection Drawing"/>
+	
+	
+		<option id="tc021"
+		name="TC021"
+		description="Assembly Drawing"/>
+	
+	
+		<option id="tc030"
+		name="TC030"
+		description="Manufacturing Drawing"/>
+	
+	
+		<option id="tz010"
+		name="TZ010"
+		description="3D Model"/>
+	
+	
+		<option id="wa010"
+		name="WA010"
+		description="Setting Value Document"/>
+	
+	
+		<option id="wt010"
+		name="WT010"
+		description="Operational Record"/>
+	
+	
+		<option id="wt050"
+		name="WT050"
+		description="Work Permit"/>
+	
+</enumeration>

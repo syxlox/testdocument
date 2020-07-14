@@ -1,0 +1,8731 @@
+	<enumeration>
+		<option id="30011"
+		name="30011"
+		description="Single Line Diagram"/>
+	
+	
+		<option id="30011_a001"
+		name="30011.A001"
+		description="Single Line Diagram, variant for FAT (RTS)"/>
+	
+	
+		<option id="30011_a002"
+		name="30011.A002"
+		description="Single Line Diagram, variant for FAT (SubSIM)"/>
+	
+	
+		<option id="30011_b001"
+		name="30011.B001"
+		description="Single Line Diagram, variant for DC configs"/>
+	
+	
+		<option id="30011_bnnn"
+		name="30011.Bnnn"
+		description="Single Line Diagram, variant for…"/>
+	
+	
+		<option id="30011_rnnn"
+		name="30011.Rnnn"
+		description="Single Line Diagram, refurbishment areas and steps"/>
+	
+	
+		<option id="30011_snnn"
+		name="30011.Snnn"
+		description="Single Line Diagram, variant for simulators CTS, MTS"/>
+	
+	
+		<option id="30012"
+		name="30012"
+		description="Three Line Diagram"/>
+	
+	
+		<option id="30030"
+		name="30030"
+		description="HV Equipment"/>
+	
+	
+		<option id="30031"
+		name="30031"
+		description="General Data HV Equipment"/>
+	
+	
+		<option id="30032"
+		name="30032"
+		description="Training HV Equipment"/>
+	
+	
+		<option id="30100"
+		name="30100"
+		description="System Design HVDC"/>
+	
+	
+		<option id="30101"
+		name="30101"
+		description="Preliminary Basic Design"/>
+	
+	
+		<option id="30110"
+		name="30110"
+		description="Main Circuit Parameters"/>
+	
+	
+		<option id="30112"
+		name="30112"
+		description="Transient Current Stresses"/>
+	
+	
+		<option id="30113"
+		name="30113"
+		description="AC / DC Coupling"/>
+	
+	
+		<option id="30120"
+		name="30120"
+		description="Reactive Power"/>
+	
+	
+		<option id="30130"
+		name="30130"
+		description="AC Overvoltage"/>
+	
+	
+		<option id="30140"
+		name="30140"
+		description="AC Filter"/>
+	
+	
+		<option id="30141"
+		name="30141"
+		description="Low Frequency Characteristics AC"/>
+	
+	
+		<option id="30150"
+		name="30150"
+		description="DC Filter"/>
+	
+	
+		<option id="30151"
+		name="30151"
+		description="Low Frequency Characteristics DC"/>
+	
+	
+		<option id="30161"
+		name="30161"
+		description="Insulation Coordination"/>
+	
+	
+		<option id="30162"
+		name="30162"
+		description="Insulation Coordination Lightning"/>
+	
+	
+		<option id="30163"
+		name="30163"
+		description="Transient Stresses"/>
+	
+	
+		<option id="30171"
+		name="30171"
+		description="AC Circuit Breaker Requirement"/>
+	
+	
+		<option id="30172"
+		name="30172"
+		description="DC Switches"/>
+	
+	
+		<option id="30175"
+		name="30175"
+		description="Thermal Rating of Key Equipment"/>
+	
+	
+		<option id="30181"
+		name="30181"
+		description="Losses"/>
+	
+	
+		<option id="30182"
+		name="30182"
+		description="Electromagnetic Compatibility (EMC)"/>
+	
+	
+		<option id="30183"
+		name="30183"
+		description="PLC Filter"/>
+	
+	
+		<option id="30184"
+		name="30184"
+		description="Electrical Interference (RI)"/>
+	
+	
+		<option id="30185"
+		name="30185"
+		description="Electromagnetic Fields (EMF)"/>
+	
+	
+		<option id="30186"
+		name="30186"
+		description="High Frequency Characteristics"/>
+	
+	
+		<option id="30191"
+		name="30191"
+		description="Valve Design Report"/>
+	
+	
+		<option id="30200"
+		name="30200"
+		description="AC System Equivalents"/>
+	
+	
+		<option id="30205"
+		name="30205"
+		description="Stability / Modulation / Frequency Control"/>
+	
+	
+		<option id="30210"
+		name="30210"
+		description="Subsynchronous Torsional Interaction (SSTI)"/>
+	
+	
+		<option id="30215"
+		name="30215"
+		description="Subsynchronous Torsional Interaction (SSTI Part 2 Study)"/>
+	
+	
+		<option id="30220"
+		name="30220"
+		description="Multi-Infeed and Interaction Study (rms)"/>
+	
+	
+		<option id="30225"
+		name="30225"
+		description="Multi-Infeed and Interaction Study (EMT)"/>
+	
+	
+		<option id="30230"
+		name="30230"
+		description="Network Studies (others)"/>
+	
+	
+		<option id="30235"
+		name="30235"
+		description="Digital Transient Program Studies (others)"/>
+	
+	
+		<option id="30240"
+		name="30240"
+		description="Dynamic Performance &amp; Control Parameter Study"/>
+	
+	
+		<option id="30245"
+		name="30245"
+		description="Dynamic Performance Test (offline)"/>
+	
+	
+		<option id="30250"
+		name="30250"
+		description="Digital Stability Program Model (rms)"/>
+	
+	
+		<option id="30255"
+		name="30255"
+		description="Digital Stability Program Model (others)"/>
+	
+	
+		<option id="30260"
+		name="30260"
+		description="Digital Transient Program Model"/>
+	
+	
+		<option id="30265"
+		name="30265"
+		description="Digital Transient Program Model (others)"/>
+	
+	
+		<option id="30270"
+		name="30270"
+		description="Reliability, Availability, Maintainability (RAM)"/>
+	
+	
+		<option id="30271"
+		name="30271"
+		description="RAM (reserve)"/>
+	
+	
+		<option id="30272"
+		name="30272"
+		description="Failure Mode and Effects and Criticality Analysis (FMECA)"/>
+	
+	
+		<option id="30300"
+		name="30300"
+		description="System Design AIS / GIS Substation"/>
+	
+	
+		<option id="30311"
+		name="30311"
+		description="AIS / GIS Substation Insulation Coordination"/>
+	
+	
+		<option id="30400"
+		name="30400"
+		description="System Design FSC"/>
+	
+	
+		<option id="30411"
+		name="30411"
+		description="Basic Design Report"/>
+	
+	
+		<option id="30500"
+		name="30500"
+		description="System Design SVC"/>
+	
+	
+		<option id="30511"
+		name="30511"
+		description="Basic Design"/>
+	
+	
+		<option id="30512"
+		name="30512"
+		description="Short Circuit"/>
+	
+	
+		<option id="30516"
+		name="30516"
+		description="Transient Evaluation"/>
+	
+	
+		<option id="30521"
+		name="30521"
+		description="Load Flow"/>
+	
+	
+		<option id="30540"
+		name="30540"
+		description="Harmonics Analysis"/>
+	
+	
+		<option id="30560"
+		name="30560"
+		description="Insulation Coordination (FACTS)"/>
+	
+	
+		<option id="30580"
+		name="30580"
+		description="Losses"/>
+	
+	
+		<option id="30582"
+		name="30582"
+		description="Reliability, Availability, Maintainability"/>
+	
+	
+		<option id="30595"
+		name="30595"
+		description="Electromagnetical Transient (PSCAD)"/>
+	
+	
+		<option id="30600"
+		name="30600"
+		description="System Design Synchronous Condenser"/>
+	
+	
+		<option id="30611"
+		name="30611"
+		description="Main Circuit Parameters (Synchr.Condenser)"/>
+	
+	
+		<option id="30619"
+		name="30619"
+		description="Protection Co-ordination"/>
+	
+	
+		<option id="30630"
+		name="30630"
+		description="Switching Overvoltage"/>
+	
+	
+		<option id="30640"
+		name="30640"
+		description="Harmonics Analysis"/>
+	
+	
+		<option id="30660"
+		name="30660"
+		description="Insulation Coordination (SYNCON)"/>
+	
+	
+		<option id="30670"
+		name="30670"
+		description="HV Circuit Breaker TRV"/>
+	
+	
+		<option id="30672"
+		name="30672"
+		description="HV Circuit Breaker DC Component"/>
+	
+	
+		<option id="30695"
+		name="30695"
+		description="Dynamic Model Development"/>
+	
+	
+		<option id="30696"
+		name="30696"
+		description="Dynamic Performance"/>
+	
+	
+		<option id="30900"
+		name="30900"
+		description="Grid Code Compliance Studies"/>
+	
+	
+		<option id="30901"
+		name="30901"
+		description="Network Stability Compliance"/>
+	
+	
+		<option id="30902"
+		name="30902"
+		description="Electric Devices Compliance"/>
+	
+	
+		<option id="30903"
+		name="30903"
+		description="Conformity of Power Quality"/>
+	
+	
+		<option id="30904"
+		name="30904"
+		description="Voltage Control"/>
+	
+	
+		<option id="30905"
+		name="30905"
+		description="Reactive Power Capability"/>
+	
+	
+		<option id="30906"
+		name="30906"
+		description="Fault-Ride-Through Capability"/>
+	
+	
+		<option id="30907"
+		name="30907"
+		description="Network Restoration"/>
+	
+	
+		<option id="30908"
+		name="30908"
+		description="Frequency Response Test"/>
+	
+	
+		<option id="30909"
+		name="30909"
+		description="Protection System Compliance"/>
+	
+	
+		<option id="30910"
+		name="30910"
+		description="Information Exchange System Compliance"/>
+	
+	
+		<option id="31000"
+		name="31000"
+		description="System Operation"/>
+	
+	
+		<option id="31010"
+		name="31010"
+		description="General, Glossary"/>
+	
+	
+		<option id="31020"
+		name="31020"
+		description="Overview, Conditions, Limits"/>
+	
+	
+		<option id="31030"
+		name="31030"
+		description="Operating Instructions"/>
+	
+	
+		<option id="31040"
+		name="31040"
+		description="Event Description"/>
+	
+	
+		<option id="31050"
+		name="31050"
+		description="Accessories, Consumables, Spares"/>
+	
+	
+		<option id="32000"
+		name="32000"
+		description="Station Design"/>
+	
+	
+		<option id="32001"
+		name="32001"
+		description="Station Design, General"/>
+	
+	
+		<option id="32011"
+		name="32011"
+		description="Station Earthing System"/>
+	
+	
+		<option id="32021"
+		name="32021"
+		description="Lightning Protection"/>
+	
+	
+		<option id="32031"
+		name="32031"
+		description="Audible Noise"/>
+	
+	
+		<option id="32041"
+		name="32041"
+		description="Buswork Design"/>
+	
+	
+		<option id="32051"
+		name="32051"
+		description="EMC Design"/>
+	
+	
+		<option id="32061"
+		name="32061"
+		description="Seismic Design"/>
+	
+	
+		<option id="32062"
+		name="32062"
+		description="General Design Criteria for Structural Engineering"/>
+	
+	
+		<option id="32063"
+		name="32063"
+		description="Basic Design Criteria for Structural Engineering: Enviromental Loads (Wind and Snow)"/>
+	
+	
+		<option id="32071"
+		name="32071"
+		description="Geotechnical Survey, Soil Investigation &amp; Hydrology"/>
+	
+	
+		<option id="32080"
+		name="32080"
+		description="Fire Protection Concept"/>
+	
+	
+		<option id="32081"
+		name="32081"
+		description="Fire Protection Concept"/>
+	
+	
+		<option id="32100"
+		name="32100"
+		description="Converter Station"/>
+	
+	
+		<option id="32101"
+		name="32101"
+		description="Converter Station, Overall"/>
+	
+	
+		<option id="32101_r001"
+		name="32101.R001"
+		description="Converter Station, Refurbishment areas"/>
+	
+	
+		<option id="32102"
+		name="32102"
+		description="Control Building"/>
+	
+	
+		<option id="32103"
+		name="32103"
+		description="Outdoor Cooling Area"/>
+	
+	
+		<option id="32110"
+		name="32110"
+		description="Converter Area"/>
+	
+	
+		<option id="32111"
+		name="32111"
+		description="Converter Building / Valve Hall"/>
+	
+	
+		<option id="32112"
+		name="32112"
+		description="Converter Transformer Area"/>
+	
+	
+		<option id="32120"
+		name="32120"
+		description="DC Connection Area"/>
+	
+	
+		<option id="32121"
+		name="32121"
+		description="DC Hall"/>
+	
+	
+		<option id="32122"
+		name="32122"
+		description="DC Yard"/>
+	
+	
+		<option id="32123"
+		name="32123"
+		description="for further use"/>
+	
+	
+		<option id="32124"
+		name="32124"
+		description="DC Filter Area"/>
+	
+	
+		<option id="32125"
+		name="32125"
+		description="DC Relay House"/>
+	
+	
+		<option id="32130"
+		name="32130"
+		description="AC Connection Area"/>
+	
+	
+		<option id="32131"
+		name="32131"
+		description="AC Building / GIS Building"/>
+	
+	
+		<option id="32132"
+		name="32132"
+		description="AC HV Switchyard"/>
+	
+	
+		<option id="32133"
+		name="32133"
+		description="for further use"/>
+	
+	
+		<option id="32134"
+		name="32134"
+		description="AC Filter Area / Shunt Reactor"/>
+	
+	
+		<option id="32135"
+		name="32135"
+		description="AC Relay House"/>
+	
+	
+		<option id="32140"
+		name="32140"
+		description="Auxiliary Area"/>
+	
+	
+		<option id="32141"
+		name="32141"
+		description="Storage Building"/>
+	
+	
+		<option id="32142"
+		name="32142"
+		description="Storage Area"/>
+	
+	
+		<option id="32143"
+		name="32143"
+		description="Diesel Generator Building / Area"/>
+	
+	
+		<option id="32144"
+		name="32144"
+		description="Auxiliary Transformer Substations"/>
+	
+	
+		<option id="32145"
+		name="32145"
+		description="Spare Transformer Area"/>
+	
+	
+		<option id="32150"
+		name="32150"
+		description="Other Buildings"/>
+	
+	
+		<option id="32200"
+		name="32200"
+		description="Ground Electrode Station"/>
+	
+	
+		<option id="32201"
+		name="32201"
+		description="Ground Electrode Station, Overall"/>
+	
+	
+		<option id="32202"
+		name="32202"
+		description="Main Building"/>
+	
+	
+		<option id="32221"
+		name="32221"
+		description="DC Connection Area"/>
+	
+	
+		<option id="32222"
+		name="32222"
+		description="for further use"/>
+	
+	
+		<option id="32281"
+		name="32281"
+		description="Auxiliary Area"/>
+	
+	
+		<option id="32300"
+		name="32300"
+		description="Transition Station"/>
+	
+	
+		<option id="32301"
+		name="32301"
+		description="Transition Station, Overall"/>
+	
+	
+		<option id="32302"
+		name="32302"
+		description="Main Building"/>
+	
+	
+		<option id="32321"
+		name="32321"
+		description="DC Connection Area"/>
+	
+	
+		<option id="32322"
+		name="32322"
+		description="for further use"/>
+	
+	
+		<option id="32381"
+		name="32381"
+		description="Auxiliary Area"/>
+	
+	
+		<option id="32400"
+		name="32400"
+		description="Repeater Station"/>
+	
+	
+		<option id="32401"
+		name="32401"
+		description="Repeater Station, Overall"/>
+	
+	
+		<option id="32402"
+		name="32402"
+		description="Building"/>
+	
+	
+		<option id="32421"
+		name="32421"
+		description="DC Connection Area"/>
+	
+	
+		<option id="32422"
+		name="32422"
+		description="for further use"/>
+	
+	
+		<option id="32481"
+		name="32481"
+		description="Auxiliary Area"/>
+	
+	
+		<option id="32500"
+		name="32500"
+		description="Cable / OHL Links"/>
+	
+	
+		<option id="32510"
+		name="32510"
+		description="AC Cable Link"/>
+	
+	
+		<option id="32520"
+		name="32520"
+		description="DC Cable Link"/>
+	
+	
+		<option id="32600"
+		name="32600"
+		description="AC Substation AIS / GIS"/>
+	
+	
+		<option id="32601"
+		name="32601"
+		description="AIS / GIS, Control Building"/>
+	
+	
+		<option id="32610"
+		name="32610"
+		description="AIS / GIS, AC HV Switchyard"/>
+	
+	
+		<option id="32611"
+		name="32611"
+		description="GIS Building for HV Switchgear"/>
+	
+	
+		<option id="32620"
+		name="32620"
+		description="Transformer Area"/>
+	
+	
+		<option id="32700"
+		name="32700"
+		description="FSC Station"/>
+	
+	
+		<option id="32800"
+		name="32800"
+		description="SVC Station"/>
+	
+	
+		<option id="32801"
+		name="32801"
+		description="SVC Building"/>
+	
+	
+		<option id="32810"
+		name="32810"
+		description="AC HV Switchyard and Transformer Area"/>
+	
+	
+		<option id="32900"
+		name="32900"
+		description="Synchronous Condenser Station"/>
+	
+	
+		<option id="32901"
+		name="32901"
+		description="Switchgear and Control Building for SynCon"/>
+	
+	
+		<option id="32930"
+		name="32930"
+		description="Machine Hall for Synchronous Condenser"/>
+	
+	
+		<option id="33000"
+		name="33000"
+		description="Platform Design"/>
+	
+	
+		<option id="33100"
+		name="33100"
+		description="Topside Structure"/>
+	
+	
+		<option id="33110"
+		name="33110"
+		description="Shell- Walls"/>
+	
+	
+		<option id="33120"
+		name="33120"
+		description="Heavy Duty Fundaments"/>
+	
+	
+		<option id="33130"
+		name="33130"
+		description="Bridge Landing"/>
+	
+	
+		<option id="33140"
+		name="33140"
+		description="Helicopter Deck"/>
+	
+	
+		<option id="33150"
+		name="33150"
+		description="Superstructures / Deckshouses"/>
+	
+	
+		<option id="33160"
+		name="33160"
+		description="Sea Bottom"/>
+	
+	
+		<option id="33170"
+		name="33170"
+		description="Piles / Legs"/>
+	
+	
+		<option id="33200"
+		name="33200"
+		description="Jacket Structure"/>
+	
+	
+		<option id="33210"
+		name="33210"
+		description="Jacket"/>
+	
+	
+		<option id="33220"
+		name="33220"
+		description="J-Tubes"/>
+	
+	
+		<option id="33230"
+		name="33230"
+		description="Seewater Risers &amp; Backcharge"/>
+	
+	
+		<option id="33240"
+		name="33240"
+		description="Boatlanding"/>
+	
+	
+		<option id="33250"
+		name="33250"
+		description="Cable Deck"/>
+	
+	
+		<option id="33260"
+		name="33260"
+		description="Appurtenance"/>
+	
+	
+		<option id="34000"
+		name="34000"
+		description="Control and Protection common"/>
+	
+	
+		<option id="34001"
+		name="34001"
+		description="General Control and Protection"/>
+	
+	
+		<option id="34002"
+		name="34002"
+		description="Measuring Scheme"/>
+	
+	
+		<option id="34012"
+		name="34012"
+		description="General Interlocking"/>
+	
+	
+		<option id="34031"
+		name="34031"
+		description="IT Security"/>
+	
+	
+		<option id="34032"
+		name="34032"
+		description="Patch Management"/>
+	
+	
+		<option id="34070"
+		name="34070"
+		description="Control and Protection Simulators"/>
+	
+	
+		<option id="34071"
+		name="34071"
+		description="Operator Training Simulator, common"/>
+	
+	
+		<option id="34072"
+		name="34072"
+		description="Control Trainings Simulator"/>
+	
+	
+		<option id="34073"
+		name="34073"
+		description="Maintenance Training Simulator"/>
+	
+	
+		<option id="34100"
+		name="34100"
+		description="ICMS - Integrated Control and Monitoring Systems"/>
+	
+	
+		<option id="34110"
+		name="34110"
+		description="ICMS - Integrated Control and Monitoring System"/>
+	
+	
+		<option id="34120"
+		name="34120"
+		description="ICMS - Auxiliary Control System"/>
+	
+	
+		<option id="34130"
+		name="34130"
+		description="ICMS - Power Management System"/>
+	
+	
+		<option id="34140"
+		name="34140"
+		description="ICMS - Heating, Ventilation and Air Conditioning"/>
+	
+	
+		<option id="34150"
+		name="34150"
+		description="ICMS - Fire Fighting System"/>
+	
+	
+		<option id="34160"
+		name="34160"
+		description="ICMS - Emergency Shut Down"/>
+	
+	
+		<option id="36000"
+		name="36000"
+		description="Auxiliary Power HVDC"/>
+	
+	
+		<option id="36011"
+		name="36011"
+		description="Auxiliary Power Single Line Diagram"/>
+	
+	
+		<option id="36021"
+		name="36021"
+		description="Auxiliary Power Supply Concept"/>
+	
+	
+		<option id="36031"
+		name="36031"
+		description="Auxiliary Power Design Report"/>
+	
+	
+		<option id="36041"
+		name="36041"
+		description="Auxiliary Power Network Study"/>
+	
+	
+		<option id="36051"
+		name="36051"
+		description="Auxiliary Power General Specification"/>
+	
+	
+		<option id="38000"
+		name="38000"
+		description="Civil Design"/>
+	
+	
+		<option id="38001"
+		name="38001"
+		description="Civil Engineering"/>
+	
+	
+		<option id="38002"
+		name="38002"
+		description="Piling"/>
+	
+	
+		<option id="38003"
+		name="38003"
+		description="Site facilities"/>
+	
+	
+		<option id="38700"
+		name="38700"
+		description="Building Services Design common"/>
+	
+	
+		<option id="38701"
+		name="38701"
+		description="Building Services Engineering"/>
+	
+	
+		<option id="38940"
+		name="38940"
+		description="Building Furnishing"/>
+	
+	
+		<option id="38941"
+		name="38941"
+		description="Office equipment electrical"/>
+	
+	
+		<option id="38942"
+		name="38942"
+		description="Office furniture"/>
+	
+	
+		<option id="38943"
+		name="38943"
+		description="Accomodation furniture"/>
+	
+	
+		<option id="38944"
+		name="38944"
+		description="Kitchen equipment"/>
+	
+	
+		<option id="40000"
+		name="40000"
+		description="Cabling"/>
+	
+	
+		<option id="40001"
+		name="40001"
+		description="Cabling Erection"/>
+	
+	
+		<option id="40010"
+		name="40010"
+		description="Cabling Design"/>
+	
+	
+		<option id="40020"
+		name="40020"
+		description="Cable connections, lists, pulling cards"/>
+	
+	
+		<option id="40020_a001"
+		name="40020.A001"
+		description="Cable connections, lists for FAT"/>
+	
+	
+		<option id="40030"
+		name="40030"
+		description="Cable Routing Outdoor/Typcials (Civil Designer)"/>
+	
+	
+		<option id="40040"
+		name="40040"
+		description="Cable Tray Detail Design (Building Services designer, Interface Document)"/>
+	
+	
+		<option id="42000"
+		name="42000"
+		description="Refurbishment Process"/>
+	
+	
+		<option id="42001"
+		name="42001"
+		description="Refurbishment Process"/>
+	
+	
+		<option id="42002"
+		name="42002"
+		description="Chapter 2"/>
+	
+	
+		<option id="42003"
+		name="42003"
+		description="Chapter 3"/>
+	
+	
+		<option id="44000"
+		name="44000"
+		description="Permission Planning"/>
+	
+	
+		<option id="44001"
+		name="44001"
+		description="Chapter 1"/>
+	
+	
+		<option id="44002"
+		name="44002"
+		description="Chapter 2"/>
+	
+	
+		<option id="44003"
+		name="44003"
+		description="Chapter 3"/>
+	
+	
+		<option id="4400n"
+		name="4400n"
+		description="Chapter n"/>
+	
+	
+		<option id="44299"
+		name="44299"
+		description="List of responsibilities"/>
+	
+	
+		<option id="50000"
+		name="50000"
+		description="Commissioning and System Testing"/>
+	
+	
+		<option id="50001"
+		name="50001"
+		description="Master Test Plan Overview"/>
+	
+	
+		<option id="50001_a001"
+		name="50001.A001"
+		description="Master Test Plan Overview"/>
+	
+	
+		<option id="50001_a002"
+		name="50001.A002"
+		description="Master Test Plan Overview"/>
+	
+	
+		<option id="50002"
+		name="50002"
+		description="Master Test Plan (off-site)"/>
+	
+	
+		<option id="50003"
+		name="50003"
+		description="Master Test Plan (on-site)"/>
+	
+	
+		<option id="50004"
+		name="50004"
+		description="Master Test Matrix (system tests)"/>
+	
+	
+		<option id="50004_a001"
+		name="50004.A001"
+		description="Master Test Matrix (system tests, FAT)"/>
+	
+	
+		<option id="50004_a002"
+		name="50004.A002"
+		description="Master Test Matrix (system tests, SAT)"/>
+	
+	
+		<option id="50010"
+		name="50010"
+		description="Test Management (off-site)"/>
+	
+	
+		<option id="50011"
+		name="50011"
+		description="Organization (off-site)"/>
+	
+	
+		<option id="50012"
+		name="50012"
+		description="Time schedules (off-site)"/>
+	
+	
+		<option id="50013"
+		name="50013"
+		description="Check Lists (off-site)"/>
+	
+	
+		<option id="50014"
+		name="50014"
+		description="Minutes of Meeting (off-site)"/>
+	
+	
+		<option id="50015"
+		name="50015"
+		description="Tools (off-site)"/>
+	
+	
+		<option id="50016"
+		name="50016"
+		description="Time Sheets (off-site)"/>
+	
+	
+		<option id="50017"
+		name="50017"
+		description="Dispatch Notes (off-site)"/>
+	
+	
+		<option id="50020"
+		name="50020"
+		description="FPT / DPT setup"/>
+	
+	
+		<option id="50030"
+		name="50030"
+		description="Test Management (on-site)"/>
+	
+	
+		<option id="50031"
+		name="50031"
+		description="Organization (on-site)"/>
+	
+	
+		<option id="50032"
+		name="50032"
+		description="Time schedules (on-site)"/>
+	
+	
+		<option id="50033"
+		name="50033"
+		description="Check Lists (on-site)"/>
+	
+	
+		<option id="50034"
+		name="50034"
+		description="Minutes of Meeting (on-site)"/>
+	
+	
+		<option id="50035"
+		name="50035"
+		description="Tools (on-site)"/>
+	
+	
+		<option id="50036"
+		name="50036"
+		description="Time Sheets (on-site)"/>
+	
+	
+		<option id="50037"
+		name="50037"
+		description="Dispatch Notes (on-site)"/>
+	
+	
+		<option id="50090"
+		name="50090"
+		description="Offer documentation"/>
+	
+	
+		<option id="50090_c010"
+		name="50090.C010"
+		description="General Testing Process"/>
+	
+	
+		<option id="50090_c021"
+		name="50090.C021"
+		description="Off Site Main Equipment and General Constructions"/>
+	
+	
+		<option id="50090_c022"
+		name="50090.C022"
+		description="- Factory Tests of Main Components"/>
+	
+	
+		<option id="50090_c023"
+		name="50090.C023"
+		description="- Factory Tests for Auxiliary Systems"/>
+	
+	
+		<option id="50090_c024"
+		name="50090.C024"
+		description="- Factory Tests for Installation Equipment"/>
+	
+	
+		<option id="50090_c025"
+		name="50090.C025"
+		description="- Factory Tests for DC Transmission Equipment"/>
+	
+	
+		<option id="50090_c040"
+		name="50090.C040"
+		description="Installation"/>
+	
+	
+		<option id="50090_c060"
+		name="50090.C060"
+		description="Trial Operation"/>
+	
+	
+		<option id="50090_c080"
+		name="50090.C080"
+		description="Test Documentation"/>
+	
+	
+		<option id="50090_c090"
+		name="50090.C090"
+		description="Organizational Structure"/>
+	
+	
+		<option id="50090_l030"
+		name="50090.L030"
+		description="Off-Site Testing of C&amp;P System"/>
+	
+	
+		<option id="50090_l050"
+		name="50090.L050"
+		description="On Site Testing"/>
+	
+	
+		<option id="50090_l070"
+		name="50090.L070"
+		description="Master Test Table"/>
+	
+	
+		<option id="50090_p030"
+		name="50090.P030"
+		description="Off-Site Testing of C&amp;P System"/>
+	
+	
+		<option id="50090_p050"
+		name="50090.P050"
+		description="On Site Testing"/>
+	
+	
+		<option id="50090_p070"
+		name="50090.P070"
+		description="Master Test Table"/>
+	
+	
+		<option id="50100"
+		name="50100"
+		description="Engineering - IFM General"/>
+	
+	
+		<option id="50101"
+		name="50101"
+		description="Software Engineering Preparation"/>
+	
+	
+		<option id="50101_l000"
+		name="50101.L000"
+		description="Software Engineering Preparation"/>
+	
+	
+		<option id="50101_p000"
+		name="50101.P000"
+		description="Software Engineering Preparation"/>
+	
+	
+		<option id="50102_l000"
+		name="50102.L000"
+		description="Basic Communication Setup"/>
+	
+	
+		<option id="50102_p000"
+		name="50102.P000"
+		description="Communication &amp; Interfaces"/>
+	
+	
+		<option id="50103_l000"
+		name="50103.L000"
+		description="Pole Manual"/>
+	
+	
+		<option id="50103_p000"
+		name="50103.P000"
+		description="Control Location/Level"/>
+	
+	
+		<option id="50104_l000"
+		name="50104.L000"
+		description="DC Yard Manual"/>
+	
+	
+		<option id="50104_p000"
+		name="50104.P000"
+		description="Measuring"/>
+	
+	
+		<option id="50105_l000"
+		name="50105.L000"
+		description="Pole Sequence Control"/>
+	
+	
+		<option id="50105_p000"
+		name="50105.P000"
+		description="AC/DC Yard Manual"/>
+	
+	
+		<option id="50106_l000"
+		name="50106.L000"
+		description="AC Filter Control Manual"/>
+	
+	
+		<option id="50106_p000"
+		name="50106.P000"
+		description="BCU Interlocking"/>
+	
+	
+		<option id="50107_l000"
+		name="50107.L000"
+		description="Station Sequence Control"/>
+	
+	
+		<option id="50107_p000"
+		name="50107.P000"
+		description="Converter AC Startup Sequences"/>
+	
+	
+		<option id="50108_l000"
+		name="50108.L000"
+		description="Measuring"/>
+	
+	
+		<option id="50108_p000"
+		name="50108.P000"
+		description="Station Sequence Control"/>
+	
+	
+		<option id="50109_l000"
+		name="50109.L000"
+		description="Power Transmission"/>
+	
+	
+		<option id="50109_p000"
+		name="50109.P000"
+		description="Converter Operational Controls"/>
+	
+	
+		<option id="50110_l000"
+		name="50110.L000"
+		description="Reactive Power Control"/>
+	
+	
+		<option id="50110_p000"
+		name="50110.P000"
+		description="Close Loop Controls (CLC)"/>
+	
+	
+		<option id="50111_l000"
+		name="50111.L000"
+		description="Interlocking"/>
+	
+	
+		<option id="50111_p000"
+		name="50111.P000"
+		description="Active/Reactive Power Control (PQ_Mode)"/>
+	
+	
+		<option id="50112_l000"
+		name="50112.L000"
+		description="Control Modes"/>
+	
+	
+		<option id="50112_p000"
+		name="50112.P000"
+		description="Guaranteed Capability and Limitation Functions"/>
+	
+	
+		<option id="50113_l000"
+		name="50113.L000"
+		description="Dynamic Control Functions"/>
+	
+	
+		<option id="50113_p000"
+		name="50113.P000"
+		description="Converter DC Startup Sequences &amp; UF Control"/>
+	
+	
+		<option id="50114_l000"
+		name="50114.L000"
+		description="Trip Test"/>
+	
+	
+		<option id="50114_p000"
+		name="50114.P000"
+		description="Modulation Modules"/>
+	
+	
+		<option id="50115_l000"
+		name="50115.L000"
+		description="AC Switchyard &amp; Auxiliary Monitoring Functions"/>
+	
+	
+		<option id="50115_p000"
+		name="50115.P000"
+		description="Stability and Modulation Functions"/>
+	
+	
+		<option id="50116_l000"
+		name="50116.L000"
+		description="Plant Level Functions"/>
+	
+	
+		<option id="50116_p000"
+		name="50116.P000"
+		description="Converter Protective Sequences (ESOF, BLOCK, LoL)"/>
+	
+	
+		<option id="50117_l000"
+		name="50117.L000"
+		description="IFM Target 17 -"/>
+	
+	
+		<option id="50117_p000"
+		name="50117.P000"
+		description="Converter Protection (CP) Functions"/>
+	
+	
+		<option id="50118_l000"
+		name="50118.L000"
+		description="IFM Target 18 -"/>
+	
+	
+		<option id="50118_p000"
+		name="50118.P000"
+		description="Move to FPT Hardware"/>
+	
+	
+		<option id="50119_l000"
+		name="50119.L000"
+		description="IFM Target 19 -"/>
+	
+	
+		<option id="50119_p000"
+		name="50119.P000"
+		description="System Functions &amp; Monitoring"/>
+	
+	
+		<option id="50120_l000"
+		name="50120.L000"
+		description="Move to FPT Hardware"/>
+	
+	
+		<option id="50120_p000"
+		name="50120.P000"
+		description="Fault Handling"/>
+	
+	
+		<option id="50121_l000"
+		name="50121.L000"
+		description="Fault Handling"/>
+	
+	
+		<option id="50121_p000"
+		name="50121.P000"
+		description="Measurement Monitoring Functions"/>
+	
+	
+		<option id="50122_l000"
+		name="50122.L000"
+		description="System Monitoring"/>
+	
+	
+		<option id="50122_p000"
+		name="50122.P000"
+		description="Module Management &amp; Monitoring"/>
+	
+	
+		<option id="50123_l000"
+		name="50123.L000"
+		description="General Control and Monitoring"/>
+	
+	
+		<option id="50123_p000"
+		name="50123.P000"
+		description="Protection Settings"/>
+	
+	
+		<option id="50124_l000"
+		name="50124.L000"
+		description="Dynamic Verification Test Environments"/>
+	
+	
+		<option id="50124_p000"
+		name="50124.P000"
+		description="Dynamic Verification Test Environments"/>
+	
+	
+		<option id="50125_l000"
+		name="50125.L000"
+		description="IFM Target 25 -"/>
+	
+	
+		<option id="50125_p000"
+		name="50125.P000"
+		description="Transient Capability Limitation (TCL &amp; SOAD)"/>
+	
+	
+		<option id="50126_l000"
+		name="50126.L000"
+		description="IFM Target 26 -"/>
+	
+	
+		<option id="50126_p000"
+		name="50126.P000"
+		description="Performance Tests (DPT) -&gt; CC&amp;P and CCS"/>
+	
+	
+		<option id="50127_l000"
+		name="50127.L000"
+		description="IFM Target 27 -"/>
+	
+	
+		<option id="50127_p000"
+		name="50127.P000"
+		description="IFM Target 27 -"/>
+	
+	
+		<option id="50128_l000"
+		name="50128.L000"
+		description="IFM Target 28 -"/>
+	
+	
+		<option id="50128_p000"
+		name="50128.P000"
+		description="IFM Target 28 -"/>
+	
+	
+		<option id="50129_l000"
+		name="50129.L000"
+		description="IFM Target 29 -"/>
+	
+	
+		<option id="50129_p000"
+		name="50129.P000"
+		description="IFM Target 29 -"/>
+	
+	
+		<option id="50130_l000"
+		name="50130.L000"
+		description="IFM Target 30 -"/>
+	
+	
+		<option id="50130_p000"
+		name="50130.P000"
+		description="IFM Target 30 -"/>
+	
+	
+		<option id="50200"
+		name="50200"
+		description="Integration phase"/>
+	
+	
+		<option id="50201_c000"
+		name="50201.C000"
+		description="HVDC Protection"/>
+	
+	
+		<option id="50202_c000"
+		name="50202.C000"
+		description="AC &amp; DC Switching Sequences"/>
+	
+	
+		<option id="50203_c000"
+		name="50203.C000"
+		description="Trip Test"/>
+	
+	
+		<option id="50204_l000"
+		name="50204.L000"
+		description="Energization of AC Reactive Power Elements"/>
+	
+	
+		<option id="50204_p000"
+		name="50204.P000"
+		description="Converter Energization"/>
+	
+	
+		<option id="50205_l000"
+		name="50205.L000"
+		description="Energization of Blocked Valve Group"/>
+	
+	
+		<option id="50205_p000"
+		name="50205.P000"
+		description="Converter Operational Performance"/>
+	
+	
+		<option id="50206_l000"
+		name="50206.L000"
+		description="Open Line / Open Cable Test"/>
+	
+	
+		<option id="50206_p000"
+		name="50206.P000"
+		description="DC Voltage Controls"/>
+	
+	
+		<option id="50207_c000"
+		name="50207.C000"
+		description="Operator Control Modes, Setpoints &amp; Limits"/>
+	
+	
+		<option id="50208_l000"
+		name="50208.L000"
+		description="Converter Block / Deblock Performance"/>
+	
+	
+		<option id="50208_p000"
+		name="50208.P000"
+		description="Reactive Power Ramps"/>
+	
+	
+		<option id="50209_c000"
+		name="50209.C000"
+		description="Steady State Performance"/>
+	
+	
+		<option id="50210_l000"
+		name="50210.L000"
+		description="DC Power / Current Ramp"/>
+	
+	
+		<option id="50210_p000"
+		name="50210.P000"
+		description="Active Power Ramps"/>
+	
+	
+		<option id="50211_l000"
+		name="50211.L000"
+		description="Power Step Response"/>
+	
+	
+		<option id="50211_p000"
+		name="50211.P000"
+		description="Active Power Controls"/>
+	
+	
+		<option id="50212_c000"
+		name="50212.C000"
+		description="Power Reversal"/>
+	
+	
+		<option id="50213_l000"
+		name="50213.L000"
+		description="DC Voltage Step Response"/>
+	
+	
+		<option id="50213_p000"
+		name="50213.P000"
+		description="Reactive Power Controls"/>
+	
+	
+		<option id="50214_l000"
+		name="50214.L000"
+		description="DC Current Step Response"/>
+	
+	
+		<option id="50214_p000"
+		name="50214.P000"
+		description="Current Control Performance"/>
+	
+	
+		<option id="50215_l000"
+		name="50215.L000"
+		description="Extinction Angle Step Response"/>
+	
+	
+		<option id="50215_p000"
+		name="50215.P000"
+		description="Power Module Managament"/>
+	
+	
+		<option id="50216_l000"
+		name="50216.L000"
+		description="Control Mode Transfer (Vd/Id/Gamma)"/>
+	
+	
+		<option id="50216_p000"
+		name="50216.P000"
+		description="Capacitor Charge Balancing Controls"/>
+	
+	
+		<option id="50217_c000"
+		name="50217.C000"
+		description="AC Fault Performance"/>
+	
+	
+		<option id="50218_l000"
+		name="50218.L000"
+		description="Commutation Failure / Misfire"/>
+	
+	
+		<option id="50218_p000"
+		name="50218.P000"
+		description="DC Chopper Operation"/>
+	
+	
+		<option id="50219_c000"
+		name="50219.C000"
+		description="Stability and Modulation Functions"/>
+	
+	
+		<option id="50220_c000"
+		name="50220.C000"
+		description="Loss of Auxiliary Power Supply"/>
+	
+	
+		<option id="50221_c000"
+		name="50221.C000"
+		description="Loss of Redundant Equipment"/>
+	
+	
+		<option id="50222_c000"
+		name="50222.C000"
+		description="Loss of Telecommunication"/>
+	
+	
+		<option id="50223_c000"
+		name="50223.C000"
+		description="Heat Run, Overload, Temperature Rise"/>
+	
+	
+		<option id="50224_c000"
+		name="50224.C000"
+		description="Interference / Power Quality Test"/>
+	
+	
+		<option id="50225_c000"
+		name="50225.C000"
+		description="Metallic Ground Return Transition"/>
+	
+	
+		<option id="50226_l000"
+		name="50226.L000"
+		description="Reduced voltage Operation"/>
+	
+	
+		<option id="50226_p000"
+		name="50226.P000"
+		description="Spare"/>
+	
+	
+		<option id="50227_c000"
+		name="50227.C000"
+		description="DC Fault Performance"/>
+	
+	
+		<option id="50228_c000"
+		name="50228.C000"
+		description="Auxiliary Load Losses"/>
+	
+	
+		<option id="50229_c000"
+		name="50229.C000"
+		description="Zero , Round Power Test"/>
+	
+	
+		<option id="50230_c000"
+		name="50230.C000"
+		description="Electromagnetic Compatibilty Test"/>
+	
+	
+		<option id="50231_l000"
+		name="50231.L000"
+		description="Reactive Power Control"/>
+	
+	
+		<option id="50231_p000"
+		name="50231.P000"
+		description="Spare"/>
+	
+	
+		<option id="50232_l000"
+		name="50232.L000"
+		description="Spare"/>
+	
+	
+		<option id="50232_p000"
+		name="50232.P000"
+		description="SRAS Passive Network Controls"/>
+	
+	
+		<option id="50233_l000"
+		name="50233.L000"
+		description="Spare"/>
+	
+	
+		<option id="50233_p000"
+		name="50233.P000"
+		description="SRAS Islanded Network Controls"/>
+	
+	
+		<option id="50234_l000"
+		name="50234.L000"
+		description="Spare"/>
+	
+	
+		<option id="50234_p000"
+		name="50234.P000"
+		description="U/F-Mode Coupled Network (Controls and Mode change-over)"/>
+	
+	
+		<option id="50235_l000"
+		name="50235.L000"
+		description="Spare"/>
+	
+	
+		<option id="50235_p000"
+		name="50235.P000"
+		description="Spare"/>
+	
+	
+		<option id="50236_l000"
+		name="50236.L000"
+		description="Spare"/>
+	
+	
+		<option id="50236_p000"
+		name="50236.P000"
+		description="Spare"/>
+	
+	
+		<option id="50237_l000"
+		name="50237.L000"
+		description="Spare"/>
+	
+	
+		<option id="50237_p000"
+		name="50237.P000"
+		description="Spare"/>
+	
+	
+		<option id="50238_l000"
+		name="50238.L000"
+		description="Spare"/>
+	
+	
+		<option id="50238_p000"
+		name="50238.P000"
+		description="Reconfiguration"/>
+	
+	
+		<option id="50239_c000"
+		name="50239.C000"
+		description="Information Security"/>
+	
+	
+		<option id="50240_c000"
+		name="50240.C000"
+		description="Grid Code Compliance - Reactive Capability Compliance"/>
+	
+	
+		<option id="50241_c000"
+		name="50241.C000"
+		description="Grid Code Compliance - Voltage Control"/>
+	
+	
+		<option id="50242_c000"
+		name="50242.C000"
+		description="Grid Code Compliance - Power System Stabilizer"/>
+	
+	
+		<option id="50243_c000"
+		name="50243.C000"
+		description="Grid Code Compliance - Preliminary Freqeuncy Response"/>
+	
+	
+		<option id="50244_c000"
+		name="50244.C000"
+		description="Grid Code Compliance - Frequency Response Tests"/>
+	
+	
+		<option id="50245_c000"
+		name="50245.C000"
+		description="Grid Code Compliance - System Islanding and Step Response"/>
+	
+	
+		<option id="50246_c000"
+		name="50246.C000"
+		description="Grid Code Compliance - Fault Ride Through"/>
+	
+	
+		<option id="50247_c000"
+		name="50247.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50248_c000"
+		name="50248.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50249_c000"
+		name="50249.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50250_c000"
+		name="50250.C000"
+		description="Capability Verification (PoC, PoR)"/>
+	
+	
+		<option id="50251_l000"
+		name="50251.L000"
+		description="Control Systems"/>
+	
+	
+		<option id="50251_p000"
+		name="50251.P000"
+		description="Control Systems"/>
+	
+	
+		<option id="50252_l000"
+		name="50252.L000"
+		description="Valve Base Electronics (LCC)"/>
+	
+	
+		<option id="50300"
+		name="50300"
+		description="Factory Acceptance test FAT"/>
+	
+	
+		<option id="50301_c000"
+		name="50301.C000"
+		description="HVDC Protection"/>
+	
+	
+		<option id="50302_c000"
+		name="50302.C000"
+		description="AC &amp; DC Switching Sequences"/>
+	
+	
+		<option id="50303_c000"
+		name="50303.C000"
+		description="Trip Test"/>
+	
+	
+		<option id="50304_l000"
+		name="50304.L000"
+		description="Energization of AC Reactive Power Elements"/>
+	
+	
+		<option id="50304_p000"
+		name="50304.P000"
+		description="Converter Energization"/>
+	
+	
+		<option id="50305_l000"
+		name="50305.L000"
+		description="Energization of Blocked Valve Group"/>
+	
+	
+		<option id="50305_p000"
+		name="50305.P000"
+		description="Converter Operational Performance"/>
+	
+	
+		<option id="50306_l000"
+		name="50306.L000"
+		description="Open Line / Open Cable Test"/>
+	
+	
+		<option id="50306_p000"
+		name="50306.P000"
+		description="DC Voltage Controls"/>
+	
+	
+		<option id="50307_c000"
+		name="50307.C000"
+		description="Operator Control Modes, Setpoints &amp; Limits"/>
+	
+	
+		<option id="50308_l000"
+		name="50308.L000"
+		description="Converter Block / Deblock Performance"/>
+	
+	
+		<option id="50308_p000"
+		name="50308.P000"
+		description="Reactive Power Ramps"/>
+	
+	
+		<option id="50309_c000"
+		name="50309.C000"
+		description="Steady State Performance"/>
+	
+	
+		<option id="50310_l000"
+		name="50310.L000"
+		description="DC Power / Current Ramp"/>
+	
+	
+		<option id="50310_p000"
+		name="50310.P000"
+		description="Active Power Ramps"/>
+	
+	
+		<option id="50311_l000"
+		name="50311.L000"
+		description="Power Step Response"/>
+	
+	
+		<option id="50311_p000"
+		name="50311.P000"
+		description="Active Power Controls"/>
+	
+	
+		<option id="50312_c000"
+		name="50312.C000"
+		description="Power Reversal"/>
+	
+	
+		<option id="50313_l000"
+		name="50313.L000"
+		description="DC Voltage Step Response"/>
+	
+	
+		<option id="50313_p000"
+		name="50313.P000"
+		description="Reactive Power Controls"/>
+	
+	
+		<option id="50314_l000"
+		name="50314.L000"
+		description="DC Current Step Response"/>
+	
+	
+		<option id="50314_p000"
+		name="50314.P000"
+		description="Current Control Performance"/>
+	
+	
+		<option id="50315_l000"
+		name="50315.L000"
+		description="Extinction Angle Step Response"/>
+	
+	
+		<option id="50315_p000"
+		name="50315.P000"
+		description="Power Module Managament"/>
+	
+	
+		<option id="50316_l000"
+		name="50316.L000"
+		description="Control Mode Transfer (Vd/Id/Gamma)"/>
+	
+	
+		<option id="50316_p000"
+		name="50316.P000"
+		description="Capacitor Charge Balancing Controls"/>
+	
+	
+		<option id="50317_c000"
+		name="50317.C000"
+		description="AC Fault Performance"/>
+	
+	
+		<option id="50318_l000"
+		name="50318.L000"
+		description="Commutation Failure / Misfire"/>
+	
+	
+		<option id="50318_p000"
+		name="50318.P000"
+		description="DC Chopper Operation"/>
+	
+	
+		<option id="50319_c000"
+		name="50319.C000"
+		description="Stability and Modulation Functions"/>
+	
+	
+		<option id="50320_c000"
+		name="50320.C000"
+		description="Loss of Auxiliary Power Supply"/>
+	
+	
+		<option id="50321_c000"
+		name="50321.C000"
+		description="Loss of Redundant Equipment"/>
+	
+	
+		<option id="50322_c000"
+		name="50322.C000"
+		description="Loss of Telecommunication"/>
+	
+	
+		<option id="50323_c000"
+		name="50323.C000"
+		description="Heat Run, Overload, Temperature Rise"/>
+	
+	
+		<option id="50324_c000"
+		name="50324.C000"
+		description="Interference / Power Quality Test"/>
+	
+	
+		<option id="50325_c000"
+		name="50325.C000"
+		description="Metallic Ground Return Transition"/>
+	
+	
+		<option id="50326_l000"
+		name="50326.L000"
+		description="Reduced voltage Operation"/>
+	
+	
+		<option id="50326_p000"
+		name="50326.P000"
+		description="Spare"/>
+	
+	
+		<option id="50327_c000"
+		name="50327.C000"
+		description="DC Fault Performance"/>
+	
+	
+		<option id="50328_c000"
+		name="50328.C000"
+		description="Auxiliary Load Losses"/>
+	
+	
+		<option id="50329_c000"
+		name="50329.C000"
+		description="Zero , Round Power Test"/>
+	
+	
+		<option id="50330_c000"
+		name="50330.C000"
+		description="Electromagnetic Compatibilty Test"/>
+	
+	
+		<option id="50331_l000"
+		name="50331.L000"
+		description="Reactive Power Control"/>
+	
+	
+		<option id="50331_p000"
+		name="50331.P000"
+		description="Spare"/>
+	
+	
+		<option id="50332_l000"
+		name="50332.L000"
+		description="Spare"/>
+	
+	
+		<option id="50332_p000"
+		name="50332.P000"
+		description="SRAS Passive Network Controls"/>
+	
+	
+		<option id="50333_l000"
+		name="50333.L000"
+		description="Spare"/>
+	
+	
+		<option id="50333_p000"
+		name="50333.P000"
+		description="SRAS Islanded Network Controls"/>
+	
+	
+		<option id="50334_l000"
+		name="50334.L000"
+		description="Spare"/>
+	
+	
+		<option id="50334_p000"
+		name="50334.P000"
+		description="U/F-Mode Coupled Network (Controls and Mode change-over)"/>
+	
+	
+		<option id="50335_l000"
+		name="50335.L000"
+		description="Spare"/>
+	
+	
+		<option id="50335_p000"
+		name="50335.P000"
+		description="Spare"/>
+	
+	
+		<option id="50336_l000"
+		name="50336.L000"
+		description="Spare"/>
+	
+	
+		<option id="50336_p000"
+		name="50336.P000"
+		description="Spare"/>
+	
+	
+		<option id="50337_l000"
+		name="50337.L000"
+		description="Spare"/>
+	
+	
+		<option id="50337_p000"
+		name="50337.P000"
+		description="Spare"/>
+	
+	
+		<option id="50338_l000"
+		name="50338.L000"
+		description="Spare"/>
+	
+	
+		<option id="50338_p000"
+		name="50338.P000"
+		description="Reconfiguration"/>
+	
+	
+		<option id="50339_c000"
+		name="50339.C000"
+		description="Information Security"/>
+	
+	
+		<option id="50340_c000"
+		name="50340.C000"
+		description="Grid Code Compliance - Reactive Capability Compliance"/>
+	
+	
+		<option id="50341_c000"
+		name="50341.C000"
+		description="Grid Code Compliance - Voltage Control"/>
+	
+	
+		<option id="50342_c000"
+		name="50342.C000"
+		description="Grid Code Compliance - Power System Stabilizer"/>
+	
+	
+		<option id="50343_c000"
+		name="50343.C000"
+		description="Grid Code Compliance - Preliminary Freqeuncy Response"/>
+	
+	
+		<option id="50344_c000"
+		name="50344.C000"
+		description="Grid Code Compliance - Frequency Response Tests"/>
+	
+	
+		<option id="50345_c000"
+		name="50345.C000"
+		description="Grid Code Compliance - System Islanding and Step Response"/>
+	
+	
+		<option id="50346_c000"
+		name="50346.C000"
+		description="Grid Code Compliance - Fault Ride Through"/>
+	
+	
+		<option id="50347_c000"
+		name="50347.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50348_c000"
+		name="50348.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50349_c000"
+		name="50349.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50350_c000"
+		name="50350.C000"
+		description="Capability Verification (PoC, PoR)"/>
+	
+	
+		<option id="50351_l000"
+		name="50351.L000"
+		description="Control Systems"/>
+	
+	
+		<option id="50351_p000"
+		name="50351.P000"
+		description="Control Systems"/>
+	
+	
+		<option id="50352_l000"
+		name="50352.L000"
+		description="Valve Base Electronics (LCC)"/>
+	
+	
+		<option id="50400"
+		name="50400"
+		description="Dockyard test"/>
+	
+	
+		<option id="50401_c000"
+		name="50401.C000"
+		description="HVDC Protection"/>
+	
+	
+		<option id="50402_c000"
+		name="50402.C000"
+		description="AC &amp; DC Switching Sequences"/>
+	
+	
+		<option id="50403_c000"
+		name="50403.C000"
+		description="Trip Test"/>
+	
+	
+		<option id="50404_p000"
+		name="50404.P000"
+		description="Converter Energization"/>
+	
+	
+		<option id="50405_p000"
+		name="50405.P000"
+		description="Converter Operational Performance"/>
+	
+	
+		<option id="50406_p000"
+		name="50406.P000"
+		description="DC Voltage Controls"/>
+	
+	
+		<option id="50407_c000"
+		name="50407.C000"
+		description="Operator Control Modes, Setpoints &amp; Limits"/>
+	
+	
+		<option id="50408_p000"
+		name="50408.P000"
+		description="Reactive Power Ramps"/>
+	
+	
+		<option id="50409_c000"
+		name="50409.C000"
+		description="Steady State Performance"/>
+	
+	
+		<option id="50410_p000"
+		name="50410.P000"
+		description="Active Power Ramps"/>
+	
+	
+		<option id="50411_p000"
+		name="50411.P000"
+		description="Active Power Controls"/>
+	
+	
+		<option id="50412_c000"
+		name="50412.C000"
+		description="Power Reversal"/>
+	
+	
+		<option id="50413_p000"
+		name="50413.P000"
+		description="Reactive Power Controls"/>
+	
+	
+		<option id="50414_p000"
+		name="50414.P000"
+		description="Current Control Performance"/>
+	
+	
+		<option id="50415_p000"
+		name="50415.P000"
+		description="Power Module Managament"/>
+	
+	
+		<option id="50416_p000"
+		name="50416.P000"
+		description="Capacitor Charge Balancing Controls"/>
+	
+	
+		<option id="50417_c000"
+		name="50417.C000"
+		description="AC Fault Performance"/>
+	
+	
+		<option id="50418_p000"
+		name="50418.P000"
+		description="DC Chopper Operation"/>
+	
+	
+		<option id="50419_c000"
+		name="50419.C000"
+		description="Stability and Modulation Functions"/>
+	
+	
+		<option id="50420_c000"
+		name="50420.C000"
+		description="Loss of Auxiliary Power Supply"/>
+	
+	
+		<option id="50421_c000"
+		name="50421.C000"
+		description="Loss of Redundant Equipment"/>
+	
+	
+		<option id="50422_c000"
+		name="50422.C000"
+		description="Loss of Telecommunication"/>
+	
+	
+		<option id="50423_c000"
+		name="50423.C000"
+		description="Heat Run, Overload, Temperature Rise"/>
+	
+	
+		<option id="50424_c000"
+		name="50424.C000"
+		description="Interference / Power Quality Test"/>
+	
+	
+		<option id="50425_c000"
+		name="50425.C000"
+		description="Metallic Ground Return Transition"/>
+	
+	
+		<option id="50426_p000"
+		name="50426.P000"
+		description="Spare"/>
+	
+	
+		<option id="50427_c000"
+		name="50427.C000"
+		description="DC Fault Performance"/>
+	
+	
+		<option id="50428_c000"
+		name="50428.C000"
+		description="Auxiliary Load Losses"/>
+	
+	
+		<option id="50429_c000"
+		name="50429.C000"
+		description="Zero , Round Power Test"/>
+	
+	
+		<option id="50430_c000"
+		name="50430.C000"
+		description="Electromagnetic Compatibilty Test"/>
+	
+	
+		<option id="50431_p000"
+		name="50431.P000"
+		description="Spare"/>
+	
+	
+		<option id="50432_p000"
+		name="50432.P000"
+		description="SRAS Passive Network Controls"/>
+	
+	
+		<option id="50433_p000"
+		name="50433.P000"
+		description="SRAS Islanded Network Controls"/>
+	
+	
+		<option id="50434_p000"
+		name="50434.P000"
+		description="U/F-Mode Coupled Network (Controls and Mode change-over)"/>
+	
+	
+		<option id="50435_p000"
+		name="50435.P000"
+		description="Spare"/>
+	
+	
+		<option id="50436_p000"
+		name="50436.P000"
+		description="Spare"/>
+	
+	
+		<option id="50437_p000"
+		name="50437.P000"
+		description="Spare"/>
+	
+	
+		<option id="50438_p000"
+		name="50438.P000"
+		description="Reconfiguration"/>
+	
+	
+		<option id="50439_c000"
+		name="50439.C000"
+		description="Information Security"/>
+	
+	
+		<option id="50440_c000"
+		name="50440.C000"
+		description="Grid Code Compliance - Reactive Capability Compliance"/>
+	
+	
+		<option id="50441_c000"
+		name="50441.C000"
+		description="Grid Code Compliance - Voltage Control"/>
+	
+	
+		<option id="50442_c000"
+		name="50442.C000"
+		description="Grid Code Compliance - Power System Stabilizer"/>
+	
+	
+		<option id="50443_c000"
+		name="50443.C000"
+		description="Grid Code Compliance - Preliminary Freqeuncy Response"/>
+	
+	
+		<option id="50444_c000"
+		name="50444.C000"
+		description="Grid Code Compliance - Frequency Response Tests"/>
+	
+	
+		<option id="50445_c000"
+		name="50445.C000"
+		description="Grid Code Compliance - System Islanding and Step Response"/>
+	
+	
+		<option id="50446_c000"
+		name="50446.C000"
+		description="Grid Code Compliance - Fault Ride Through"/>
+	
+	
+		<option id="50447_c000"
+		name="50447.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50448_c000"
+		name="50448.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50449_c000"
+		name="50449.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50450_c000"
+		name="50450.C000"
+		description="Capability Verification (PoC, PoR)"/>
+	
+	
+		<option id="50451_p000"
+		name="50451.P000"
+		description="Control Systems"/>
+	
+	
+		<option id="50499_c000"
+		name="50499.C000"
+		description="Trial Operation"/>
+	
+	
+		<option id="50500"
+		name="50500"
+		description="Site Acceptance Test SAT"/>
+	
+	
+		<option id="50501"
+		name="50501"
+		description="SAT, Test group 01"/>
+	
+	
+		<option id="50501_c000"
+		name="50501.C000"
+		description="HVDC Protection"/>
+	
+	
+		<option id="50502_c000"
+		name="50502.C000"
+		description="AC &amp; DC Switching Sequences"/>
+	
+	
+		<option id="50503_c000"
+		name="50503.C000"
+		description="Trip Test"/>
+	
+	
+		<option id="50504_l000"
+		name="50504.L000"
+		description="Energization of AC Reactive Power Elements"/>
+	
+	
+		<option id="50504_p000"
+		name="50504.P000"
+		description="Converter Energization"/>
+	
+	
+		<option id="50505_l000"
+		name="50505.L000"
+		description="Energization of Blocked Valve Group"/>
+	
+	
+		<option id="50505_p000"
+		name="50505.P000"
+		description="Converter Operational Performance"/>
+	
+	
+		<option id="50506_l000"
+		name="50506.L000"
+		description="Open Line / Open Cable Test"/>
+	
+	
+		<option id="50506_p000"
+		name="50506.P000"
+		description="DC Voltage Controls"/>
+	
+	
+		<option id="50507_c000"
+		name="50507.C000"
+		description="Operator Control Modes, Setpoints &amp; Limits"/>
+	
+	
+		<option id="50508_l000"
+		name="50508.L000"
+		description="Converter Block / Deblock Performance"/>
+	
+	
+		<option id="50508_p000"
+		name="50508.P000"
+		description="Reactive Power Ramps"/>
+	
+	
+		<option id="50509_c000"
+		name="50509.C000"
+		description="Steady State Performance"/>
+	
+	
+		<option id="50510_l000"
+		name="50510.L000"
+		description="DC Power / Current Ramp"/>
+	
+	
+		<option id="50510_p000"
+		name="50510.P000"
+		description="Active Power Ramps"/>
+	
+	
+		<option id="50511_l000"
+		name="50511.L000"
+		description="Power Step Response"/>
+	
+	
+		<option id="50511_p000"
+		name="50511.P000"
+		description="Active Power Controls"/>
+	
+	
+		<option id="50512_c000"
+		name="50512.C000"
+		description="Power Reversal"/>
+	
+	
+		<option id="50513_l000"
+		name="50513.L000"
+		description="DC Voltage Step Response"/>
+	
+	
+		<option id="50513_p000"
+		name="50513.P000"
+		description="Reactive Power Controls"/>
+	
+	
+		<option id="50514_l000"
+		name="50514.L000"
+		description="DC Current Step Response"/>
+	
+	
+		<option id="50514_p000"
+		name="50514.P000"
+		description="Current Control Performance"/>
+	
+	
+		<option id="50515_l000"
+		name="50515.L000"
+		description="Extinction Angle Step Response"/>
+	
+	
+		<option id="50515_p000"
+		name="50515.P000"
+		description="Power Module Managament"/>
+	
+	
+		<option id="50516_l000"
+		name="50516.L000"
+		description="Control Mode Transfer (Vd/Id/Gamma)"/>
+	
+	
+		<option id="50516_p000"
+		name="50516.P000"
+		description="Capacitor Charge Balancing Controls"/>
+	
+	
+		<option id="50517_c000"
+		name="50517.C000"
+		description="AC Fault Performance"/>
+	
+	
+		<option id="50518_l000"
+		name="50518.L000"
+		description="Commutation Failure / Misfire"/>
+	
+	
+		<option id="50518_p000"
+		name="50518.P000"
+		description="DC Chopper Operation"/>
+	
+	
+		<option id="50519_c000"
+		name="50519.C000"
+		description="Stability and Modulation Functions"/>
+	
+	
+		<option id="50520_c000"
+		name="50520.C000"
+		description="Loss of Auxiliary Power Supply"/>
+	
+	
+		<option id="50521_c000"
+		name="50521.C000"
+		description="Loss of Redundant Equipment"/>
+	
+	
+		<option id="50522_c000"
+		name="50522.C000"
+		description="Loss of Telecommunication"/>
+	
+	
+		<option id="50523_c000"
+		name="50523.C000"
+		description="Heat Run, Overload, Temperature Rise"/>
+	
+	
+		<option id="50524_c000"
+		name="50524.C000"
+		description="Interference / Power Quality Test"/>
+	
+	
+		<option id="50525_c000"
+		name="50525.C000"
+		description="Metallic Ground Return Transition"/>
+	
+	
+		<option id="50526_l000"
+		name="50526.L000"
+		description="Reduced voltage Operation"/>
+	
+	
+		<option id="50526_p000"
+		name="50526.P000"
+		description="Spare"/>
+	
+	
+		<option id="50527_c000"
+		name="50527.C000"
+		description="DC Fault Performance"/>
+	
+	
+		<option id="50528_c000"
+		name="50528.C000"
+		description="Auxiliary Load Losses"/>
+	
+	
+		<option id="50529_c000"
+		name="50529.C000"
+		description="Zero , Round Power Test"/>
+	
+	
+		<option id="50530_c000"
+		name="50530.C000"
+		description="Electromagnetic Compatibilty Test"/>
+	
+	
+		<option id="50531_l000"
+		name="50531.L000"
+		description="Reactive Power Control"/>
+	
+	
+		<option id="50531_p000"
+		name="50531.P000"
+		description="Spare"/>
+	
+	
+		<option id="50532_l000"
+		name="50532.L000"
+		description="Spare"/>
+	
+	
+		<option id="50532_p000"
+		name="50532.P000"
+		description="SRAS Passive Network Controls"/>
+	
+	
+		<option id="50533_l000"
+		name="50533.L000"
+		description="Spare"/>
+	
+	
+		<option id="50533_p000"
+		name="50533.P000"
+		description="SRAS Islanded Network Controls"/>
+	
+	
+		<option id="50534_l000"
+		name="50534.L000"
+		description="Spare"/>
+	
+	
+		<option id="50534_p000"
+		name="50534.P000"
+		description="U/F-Mode Coupled Network (Controls and Mode change-over)"/>
+	
+	
+		<option id="50535_l000"
+		name="50535.L000"
+		description="Spare"/>
+	
+	
+		<option id="50535_p000"
+		name="50535.P000"
+		description="Spare"/>
+	
+	
+		<option id="50536_l000"
+		name="50536.L000"
+		description="Spare"/>
+	
+	
+		<option id="50536_p000"
+		name="50536.P000"
+		description="Spare"/>
+	
+	
+		<option id="50537_l000"
+		name="50537.L000"
+		description="Spare"/>
+	
+	
+		<option id="50537_p000"
+		name="50537.P000"
+		description="Spare"/>
+	
+	
+		<option id="50538_l000"
+		name="50538.L000"
+		description="Spare"/>
+	
+	
+		<option id="50538_p000"
+		name="50538.P000"
+		description="Reconfiguration"/>
+	
+	
+		<option id="50539_c000"
+		name="50539.C000"
+		description="Information Security"/>
+	
+	
+		<option id="50540_c000"
+		name="50540.C000"
+		description="Grid Code Compliance - Reactive Capability Compliance"/>
+	
+	
+		<option id="50541_c000"
+		name="50541.C000"
+		description="Grid Code Compliance - Voltage Control"/>
+	
+	
+		<option id="50542_c000"
+		name="50542.C000"
+		description="Grid Code Compliance - Power System Stabilizer"/>
+	
+	
+		<option id="50543_c000"
+		name="50543.C000"
+		description="Grid Code Compliance - Preliminary Freqeuncy Response"/>
+	
+	
+		<option id="50544_c000"
+		name="50544.C000"
+		description="Grid Code Compliance - Frequency Response Tests"/>
+	
+	
+		<option id="50545_c000"
+		name="50545.C000"
+		description="Grid Code Compliance - System Islanding and Step Response"/>
+	
+	
+		<option id="50546_c000"
+		name="50546.C000"
+		description="Grid Code Compliance - Fault Ride Through"/>
+	
+	
+		<option id="50547_c000"
+		name="50547.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50548_c000"
+		name="50548.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50549_c000"
+		name="50549.C000"
+		description="Grid Code Compliance - Spare"/>
+	
+	
+		<option id="50550_c000"
+		name="50550.C000"
+		description="Capability Verification (PoC, PoR)"/>
+	
+	
+		<option id="50551_l000"
+		name="50551.L000"
+		description="Control Systems"/>
+	
+	
+		<option id="50551_p000"
+		name="50551.P000"
+		description="Control Systems"/>
+	
+	
+		<option id="50552_l000"
+		name="50552.L000"
+		description="Valve Base Electronics (LCC)"/>
+	
+	
+		<option id="50599"
+		name="50599"
+		description="SAT, Test group 99"/>
+	
+	
+		<option id="50599_c000"
+		name="50599.C000"
+		description="Trial Operation"/>
+	
+	
+		<option id="51000"
+		name="51000"
+		description="Operator Training Simulator (OTS)"/>
+	
+	
+		<option id="51001"
+		name="51001"
+		description="Operator Training Simulator, General"/>
+	
+	
+		<option id="51100"
+		name="51100"
+		description="Operator Training Simulator, Engineering"/>
+	
+	
+		<option id="51200"
+		name="51200"
+		description="Operator Training Simulator, Integration phase"/>
+	
+	
+		<option id="51300"
+		name="51300"
+		description="Operator Training Simulator, Factory Acceptance test FAT"/>
+	
+	
+		<option id="51400"
+		name="51400"
+		description="not used"/>
+	
+	
+		<option id="51500"
+		name="51500"
+		description="Operator Training Simulator, Site Acceptance Test SAT"/>
+	
+	
+		<option id="52000"
+		name="52000"
+		description="Control Training Simulator (CTS)"/>
+	
+	
+		<option id="52001"
+		name="52001"
+		description="Control Training Simulator, General"/>
+	
+	
+		<option id="52100"
+		name="52100"
+		description="Control Training Simulator, Engineering"/>
+	
+	
+		<option id="52200"
+		name="52200"
+		description="Control Training Simulator, Integration phase"/>
+	
+	
+		<option id="52300"
+		name="52300"
+		description="Control Training Simulator, Factory Acceptance test FAT"/>
+	
+	
+		<option id="52400"
+		name="52400"
+		description="not used"/>
+	
+	
+		<option id="52500"
+		name="52500"
+		description="Control Training Simulator, Site Acceptance Test SAT"/>
+	
+	
+		<option id="53000"
+		name="53000"
+		description="Maintenance Training Simulator (MTS)"/>
+	
+	
+		<option id="53001"
+		name="53001"
+		description="Maintenance Training Simulator, General"/>
+	
+	
+		<option id="53100"
+		name="53100"
+		description="Maintenance Training Simulator, Engineering"/>
+	
+	
+		<option id="53200"
+		name="53200"
+		description="Maintenance Training Simulator, Integration phase"/>
+	
+	
+		<option id="53300"
+		name="53300"
+		description="Maintenance Training Simulator, Factory Acceptance test FAT"/>
+	
+	
+		<option id="53400"
+		name="53400"
+		description="not used"/>
+	
+	
+		<option id="53500"
+		name="53500"
+		description="Maintenance Training Simulator, Site Acceptance Test SAT"/>
+	
+	
+		<option id="55000"
+		name="55000"
+		description="Fault Analysis and Trouble Shooting (overall plant)"/>
+	
+	
+		<option id="55100"
+		name="55100"
+		description="Engineering - IFM"/>
+	
+	
+		<option id="55200"
+		name="55200"
+		description="Integration phase"/>
+	
+	
+		<option id="55300"
+		name="55300"
+		description="Factory Acceptance test FAT"/>
+	
+	
+		<option id="55400"
+		name="55400"
+		description="Dockyard test"/>
+	
+	
+		<option id="55500"
+		name="55500"
+		description="Site Acceptance Test SAT"/>
+	
+	
+		<option id="56000"
+		name="56000"
+		description="Operator Training Simulator (OTS), Analysis"/>
+	
+	
+		<option id="56100"
+		name="56100"
+		description="Engineering, OTS Analysis"/>
+	
+	
+		<option id="56200"
+		name="56200"
+		description="Integration phase, OTS Analysis"/>
+	
+	
+		<option id="56300"
+		name="56300"
+		description="Factory Acceptance test FAT, OTS Analysis"/>
+	
+	
+		<option id="56400"
+		name="56400"
+		description="not used"/>
+	
+	
+		<option id="56500"
+		name="56500"
+		description="Site Acceptance Test SAT, OTS Analysis"/>
+	
+	
+		<option id="57000"
+		name="57000"
+		description="Control Training Simulator (CTS), Analysis"/>
+	
+	
+		<option id="57100"
+		name="57100"
+		description="Engineering, CTS Analysis"/>
+	
+	
+		<option id="57200"
+		name="57200"
+		description="Integration phase, CTS Analysis"/>
+	
+	
+		<option id="57300"
+		name="57300"
+		description="Factory Acceptance test FAT, CTS Analysis"/>
+	
+	
+		<option id="57400"
+		name="57400"
+		description="not used"/>
+	
+	
+		<option id="57500"
+		name="57500"
+		description="Site Acceptance Test SAT, CTS Analysis"/>
+	
+	
+		<option id="58000"
+		name="58000"
+		description="Maintenance Training Simulator (MTS), Analysis"/>
+	
+	
+		<option id="58100"
+		name="58100"
+		description="Engineering, MTS Analysis"/>
+	
+	
+		<option id="58200"
+		name="58200"
+		description="Integration phase, MTS Analysis"/>
+	
+	
+		<option id="58300"
+		name="58300"
+		description="Factory Acceptance test FAT, MTS Analysis"/>
+	
+	
+		<option id="58400"
+		name="58400"
+		description="not used"/>
+	
+	
+		<option id="58500"
+		name="58500"
+		description="Site Acceptance Test SAT, MTS Analysis"/>
+	
+	
+		<option id="60000"
+		name="60000"
+		description="Commercial operation (overall plant)"/>
+	
+	
+		<option id="a"
+		name="A"
+		description="Two or more purposes or tasks"/>
+	
+	
+		<option id="af"
+		name="AF"
+		description="Two or more purposes or tasks, C&amp;P"/>
+	
+	
+		<option id="af300"
+		name="AF300"
+		description="Two or more purposes or tasks, C&amp;P"/>
+	
+	
+		<option id="b"
+		name="B"
+		description="Converting an input variable into a signal"/>
+	
+	
+		<option id="b0"
+		name="B0"
+		description="Measuring Systems and Devices"/>
+	
+	
+		<option id="b0100"
+		name="B0100"
+		description="Measuring Systems and Devices, HV&amp;MV"/>
+	
+	
+		<option id="b0110"
+		name="B0110"
+		description="Measuring Systems, HV&amp;MV"/>
+	
+	
+		<option id="b0111"
+		name="B0111"
+		description="Measuring System FSC"/>
+	
+	
+		<option id="b0120"
+		name="B0120"
+		description="Measuring Devices, HV&amp;MV"/>
+	
+	
+		<option id="b0300"
+		name="B0300"
+		description="Measuring Systems and Devices, C&amp;P"/>
+	
+	
+		<option id="ba"
+		name="BA"
+		description="Electrical potential"/>
+	
+	
+		<option id="ba100"
+		name="BA100"
+		description="Voltage Measuring Devices, HV&amp;MV"/>
+	
+	
+		<option id="ba110"
+		name="BA110"
+		description="AC Voltage Measuring Devices, HV&amp;MV"/>
+	
+	
+		<option id="ba111"
+		name="BA111"
+		description="AC Voltage Transformer, HV&amp;MV"/>
+	
+	
+		<option id="ba112"
+		name="BA112"
+		description="AC Voltage Divider"/>
+	
+	
+		<option id="ba120"
+		name="BA120"
+		description="DC Voltage Measuring Devices"/>
+	
+	
+		<option id="ba121"
+		name="BA121"
+		description="DC Voltage Divider"/>
+	
+	
+		<option id="ba200"
+		name="BA200"
+		description="Voltage Measuring Devices, Auxiliary power"/>
+	
+	
+		<option id="ba210"
+		name="BA210"
+		description="AC Voltage Measuring Devices, Station Power"/>
+	
+	
+		<option id="ba211"
+		name="BA211"
+		description="AC Voltage Transformer, Station Power"/>
+	
+	
+		<option id="ba300"
+		name="BA300"
+		description="Voltage Measuring Devices, C&amp;P"/>
+	
+	
+		<option id="ba310"
+		name="BA310"
+		description="Coupling Units"/>
+	
+	
+		<option id="ba311"
+		name="BA311"
+		description="Coupling Unit for Line Fault Locator"/>
+	
+	
+		<option id="bc"
+		name="BC"
+		description="Electrical current"/>
+	
+	
+		<option id="bc100"
+		name="BC100"
+		description="Current Measuring Devices, HV&amp;MV"/>
+	
+	
+		<option id="bc110"
+		name="BC110"
+		description="AC Current Measuring Devices"/>
+	
+	
+		<option id="bc111"
+		name="BC111"
+		description="AC Current Transformer, HV&amp;MV"/>
+	
+	
+		<option id="bc112"
+		name="BC112"
+		description="AC Filter Current Transformer"/>
+	
+	
+		<option id="bc113"
+		name="BC113"
+		description="DC Filter Current Transformer"/>
+	
+	
+		<option id="bc114"
+		name="BC114"
+		description="Hall Effect Current Transformer"/>
+	
+	
+		<option id="bc120"
+		name="BC120"
+		description="DC Current Measuring Devices"/>
+	
+	
+		<option id="bc121"
+		name="BC121"
+		description="DC Current Measuring Device"/>
+	
+	
+		<option id="bc122"
+		name="BC122"
+		description="Zero Flux Current Transformer"/>
+	
+	
+		<option id="bc123"
+		name="BC123"
+		description="LEM Current Transducer"/>
+	
+	
+		<option id="bc124"
+		name="BC124"
+		description="Vertical Zero Flux Current Transformer"/>
+	
+	
+		<option id="bc200"
+		name="BC200"
+		description="Current Measuring Devices, Auxiliary power"/>
+	
+	
+		<option id="bc210"
+		name="BC210"
+		description="AC Current Measuring Devices"/>
+	
+	
+		<option id="bc211"
+		name="BC211"
+		description="AC Current Transformer, Station power"/>
+	
+	
+		<option id="bc300"
+		name="BC300"
+		description="Current Measuring Devices, C&amp;P"/>
+	
+	
+		<option id="bf"
+		name="BF"
+		description="Flow meter"/>
+	
+	
+		<option id="bg"
+		name="BG"
+		description="Gauge, position, length"/>
+	
+	
+		<option id="bg300"
+		name="BG300"
+		description="Position, length measuring, C&amp;P"/>
+	
+	
+		<option id="bk"
+		name="BK"
+		description="Time"/>
+	
+	
+		<option id="bk300"
+		name="BK300"
+		description="Time measuring, C&amp;P"/>
+	
+	
+		<option id="bk310"
+		name="BK310"
+		description="Time Synchronisations"/>
+	
+	
+		<option id="bk311"
+		name="BK311"
+		description="Time Synchronisation"/>
+	
+	
+		<option id="bl"
+		name="BL"
+		description="Level"/>
+	
+	
+		<option id="bm"
+		name="BM"
+		description="Moisture, humidity"/>
+	
+	
+		<option id="bm300"
+		name="BM300"
+		description="Moisture, humidity measuring, C&amp;P"/>
+	
+	
+		<option id="bp"
+		name="BP"
+		description="Pressure"/>
+	
+	
+		<option id="bq"
+		name="BQ"
+		description="Quality (composition, concentration, purity, material property)"/>
+	
+	
+		<option id="bq110"
+		name="BQ110"
+		description="Transformer Gas Analysis Systems"/>
+	
+	
+		<option id="bq111"
+		name="BQ111"
+		description="Transformer Gas Analysis System"/>
+	
+	
+		<option id="bq700"
+		name="BQ700"
+		description="Detection Systems, Electrical and Mechanical Systems"/>
+	
+	
+		<option id="bq710"
+		name="BQ710"
+		description="Leakage Detection Systems"/>
+	
+	
+		<option id="bq711"
+		name="BQ711"
+		description="Leakage Oil Detection System"/>
+	
+	
+		<option id="bq712"
+		name="BQ712"
+		description="Leakage Glycol Detection System"/>
+	
+	
+		<option id="br"
+		name="BR"
+		description="Radiation"/>
+	
+	
+		<option id="br300"
+		name="BR300"
+		description="Radiation measuring, C&amp;P"/>
+	
+	
+		<option id="brp00"
+		name="BRP00"
+		description="Radiation, Parts / Spare Parts"/>
+	
+	
+		<option id="brp10"
+		name="BRP10"
+		description="Flame Detectors"/>
+	
+	
+		<option id="brp11"
+		name="BRP11"
+		description="IR Flame Detector"/>
+	
+	
+		<option id="bt"
+		name="BT"
+		description="Temperature"/>
+	
+	
+		<option id="bt300"
+		name="BT300"
+		description="Temperature measuring, C&amp;P"/>
+	
+	
+		<option id="bt311"
+		name="BT311"
+		description="Distributed Temperature Sensing"/>
+	
+	
+		<option id="btp00"
+		name="BTP00"
+		description="Temperature, Parts / Spare Parts"/>
+	
+	
+		<option id="btp10"
+		name="BTP10"
+		description="Temperature Sensors"/>
+	
+	
+		<option id="btp11"
+		name="BTP11"
+		description="Temperature Sensor"/>
+	
+	
+		<option id="bu"
+		name="BU"
+		description="Multi-variables"/>
+	
+	
+		<option id="bu300"
+		name="BU300"
+		description="Multi-variable measuring, C&amp;P"/>
+	
+	
+		<option id="bu310"
+		name="BU310"
+		description="AC Protection"/>
+	
+	
+		<option id="bu311"
+		name="BU311"
+		description="Converter Transformer Protection"/>
+	
+	
+		<option id="bu312"
+		name="BU312"
+		description="Connection Protection"/>
+	
+	
+		<option id="bu313"
+		name="BU313"
+		description="Auxiliary Transformer Protection"/>
+	
+	
+		<option id="bu314"
+		name="BU314"
+		description="Busbar Protection"/>
+	
+	
+		<option id="bu315"
+		name="BU315"
+		description="Line / Cable Protection"/>
+	
+	
+		<option id="bu316"
+		name="BU316"
+		description="Bus Coupler Protection"/>
+	
+	
+		<option id="bu317"
+		name="BU317"
+		description="C.B. Protection"/>
+	
+	
+		<option id="bu320"
+		name="BU320"
+		description="DC Protection"/>
+	
+	
+		<option id="bu321"
+		name="BU321"
+		description="DC Protection"/>
+	
+	
+		<option id="bu330"
+		name="BU330"
+		description="AC Filter Protection"/>
+	
+	
+		<option id="bu331"
+		name="BU331"
+		description="AC Filter Main Protection"/>
+	
+	
+		<option id="bu332"
+		name="BU332"
+		description="AC Filter Back-Up Protection"/>
+	
+	
+		<option id="bu340"
+		name="BU340"
+		description="Special Protection Scheme"/>
+	
+	
+		<option id="bu341"
+		name="BU341"
+		description="Special Protection Scheme"/>
+	
+	
+		<option id="bu350"
+		name="BU350"
+		description="Converter Arc Protection"/>
+	
+	
+		<option id="bu351"
+		name="BU351"
+		description="Converter Arc Protection"/>
+	
+	
+		<option id="bu360"
+		name="BU360"
+		description="Measurement Systems"/>
+	
+	
+		<option id="bu361"
+		name="BU361"
+		description="C&amp;P Measurement System"/>
+	
+	
+		<option id="bu370"
+		name="BU370"
+		description="Energy Metering"/>
+	
+	
+		<option id="bu371"
+		name="BU371"
+		description="Energy Metering System"/>
+	
+	
+		<option id="bu380"
+		name="BU380"
+		description="Power Quality"/>
+	
+	
+		<option id="bu381"
+		name="BU381"
+		description="AC Harmonic Monitoring"/>
+	
+	
+		<option id="bu382"
+		name="BU382"
+		description="DC Harmonic Monitoring"/>
+	
+	
+		<option id="bu383"
+		name="BU383"
+		description="Phasor Measurement"/>
+	
+	
+		<option id="bu384"
+		name="BU384"
+		description="Transformer Saturation Monitoring"/>
+	
+	
+		<option id="bu390"
+		name="BU390"
+		description="Climate Measuring"/>
+	
+	
+		<option id="bu391"
+		name="BU391"
+		description="Climate Measuring System"/>
+	
+	
+		<option id="bu399"
+		name="BU399"
+		description="Cubicle for converting multi-variable (U/I)"/>
+	
+	
+		<option id="bx"
+		name="BX"
+		description="Other Quantities"/>
+	
+	
+		<option id="bx300"
+		name="BX300"
+		description="Audio-visual sensing objects, C&amp;P"/>
+	
+	
+		<option id="bx310"
+		name="BX310"
+		description="Video Conferencing Systems"/>
+	
+	
+		<option id="bx311"
+		name="BX311"
+		description="Video Conferencing System"/>
+	
+	
+		<option id="bz"
+		name="BZ"
+		description="Number of events, counts, combined tasks"/>
+	
+	
+		<option id="bz100"
+		name="BZ100"
+		description="HV&amp;MV Switchgear Components"/>
+	
+	
+		<option id="bz110"
+		name="BZ110"
+		description="Combined Measuring Devices"/>
+	
+	
+		<option id="bz111"
+		name="BZ111"
+		description="AC Combined Instrument Transformer"/>
+	
+	
+		<option id="bz120"
+		name="BZ120"
+		description="Arrester Interfaces"/>
+	
+	
+		<option id="bz121"
+		name="BZ121"
+		description="Arrester Monitoring, Measuring"/>
+	
+	
+		<option id="bz140"
+		name="BZ140"
+		description="Tuning Devices"/>
+	
+	
+		<option id="bz300"
+		name="BZ300"
+		description="Combined measuring, C&amp;P"/>
+	
+	
+		<option id="bz310"
+		name="BZ310"
+		description="Sequence of Event Recording"/>
+	
+	
+		<option id="bz311"
+		name="BZ311"
+		description="Sequenc of Event Recording"/>
+	
+	
+		<option id="bz320"
+		name="BZ320"
+		description="Line Fault Locators"/>
+	
+	
+		<option id="bz321"
+		name="BZ321"
+		description="DC Line Fault Locator (LFL)"/>
+	
+	
+		<option id="bz330"
+		name="BZ330"
+		description="Electrode Line Monitoring"/>
+	
+	
+		<option id="bz331"
+		name="BZ331"
+		description="Pulse Echo Monitoring System"/>
+	
+	
+		<option id="c"
+		name="C"
+		description="Storing Energy and Information"/>
+	
+	
+		<option id="ca"
+		name="CA"
+		description="Capacitive storage of energy"/>
+	
+	
+		<option id="ca100"
+		name="CA100"
+		description="Capacitive storage of energy, HV&amp;MV"/>
+	
+	
+		<option id="ca110"
+		name="CA110"
+		description="HVDC Capacitors"/>
+	
+	
+		<option id="ca111"
+		name="CA111"
+		description="AC Filter Capacitor"/>
+	
+	
+		<option id="ca112"
+		name="CA112"
+		description="AC Shunt Capacitor"/>
+	
+	
+		<option id="ca113"
+		name="CA113"
+		description="DC Filter Capacitor"/>
+	
+	
+		<option id="ca114"
+		name="CA114"
+		description="DC Blocking Filter Capacitor"/>
+	
+	
+		<option id="ca115"
+		name="CA115"
+		description="DC HSS Commutation Capacitor"/>
+	
+	
+		<option id="ca116"
+		name="CA116"
+		description="Submodule Capacitor"/>
+	
+	
+		<option id="ca120"
+		name="CA120"
+		description="PLC Filter Capacitors"/>
+	
+	
+		<option id="ca121"
+		name="CA121"
+		description="AC PLC Filter Capacitor"/>
+	
+	
+		<option id="ca122"
+		name="CA122"
+		description="DC PLC Filter Capacitor"/>
+	
+	
+		<option id="ca130"
+		name="CA130"
+		description="FACTS Capacitors"/>
+	
+	
+		<option id="ca131"
+		name="CA131"
+		description="SVC Capacitor"/>
+	
+	
+		<option id="ca132"
+		name="CA132"
+		description="FSC Capacitor"/>
+	
+	
+		<option id="ca140"
+		name="CA140"
+		description="Surge Capacitors"/>
+	
+	
+		<option id="ca141"
+		name="CA141"
+		description="AC Surge Capacitor"/>
+	
+	
+		<option id="ca142"
+		name="CA142"
+		description="DC Surge Capacitor"/>
+	
+	
+		<option id="ca151"
+		name="CA151"
+		description="Capacitor Measurement Device"/>
+	
+	
+		<option id="ca300"
+		name="CA300"
+		description="Capacitive storage of energy, C&amp;P"/>
+	
+	
+		<option id="cb"
+		name="CB"
+		description="Inductive storage of energy"/>
+	
+	
+		<option id="cb100"
+		name="CB100"
+		description="Inductive storage of energy, HV&amp;MV"/>
+	
+	
+		<option id="cb110"
+		name="CB110"
+		description="HVDC Reactors"/>
+	
+	
+		<option id="cb111"
+		name="CB111"
+		description="AC Filter Reactor"/>
+	
+	
+		<option id="cb112"
+		name="CB112"
+		description="AC Shunt Reactor"/>
+	
+	
+		<option id="cb113"
+		name="CB113"
+		description="DC Filter Reactor"/>
+	
+	
+		<option id="cb115"
+		name="CB115"
+		description="DC HSS Commutation Reactor"/>
+	
+	
+		<option id="cb120"
+		name="CB120"
+		description="SVC Reactors"/>
+	
+	
+		<option id="cb121"
+		name="CB121"
+		description="SVC Reactor"/>
+	
+	
+		<option id="cf"
+		name="CF"
+		description="Storage of information"/>
+	
+	
+		<option id="cf300"
+		name="CF300"
+		description="Storage of information, C&amp;P"/>
+	
+	
+		<option id="cf310"
+		name="CF310"
+		description="Transient Fault Recorders"/>
+	
+	
+		<option id="cf311"
+		name="CF311"
+		description="Transient Fault Recorder"/>
+	
+	
+		<option id="cf311_snnn"
+		name="CF311.Snnn"
+		description="Transient Fault Recorder (CTS, MTS)"/>
+	
+	
+		<option id="cl"
+		name="CL"
+		description="Open storage of material at fixed location (collection, housing)"/>
+	
+	
+		<option id="cl900"
+		name="CL900"
+		description="Storage Outdoor, Civil"/>
+	
+	
+		<option id="cl910"
+		name="CL910"
+		description="Storage Areas"/>
+	
+	
+		<option id="cl911"
+		name="CL911"
+		description="Outdoor Storage"/>
+	
+	
+		<option id="cl920"
+		name="CL920"
+		description="Hazardous Area"/>
+	
+	
+		<option id="cm"
+		name="CM"
+		description="Closed storage of material at fixed location (collection, housing)"/>
+	
+	
+		<option id="cn"
+		name="CN"
+		description="Moveable storage of material (collection, housing)"/>
+	
+	
+		<option id="e"
+		name="E"
+		description="Radiant or Thermal Energy"/>
+	
+	
+		<option id="ea"
+		name="EA"
+		description="Generation of light"/>
+	
+	
+		<option id="ea300"
+		name="EA300"
+		description="Lighting, C&amp;P"/>
+	
+	
+		<option id="ea700"
+		name="EA700"
+		description="Lighting, Electrical Systems"/>
+	
+	
+		<option id="ea710"
+		name="EA710"
+		description="Lighting Systems"/>
+	
+	
+		<option id="ea711"
+		name="EA711"
+		description="Outdoor Lighting System"/>
+	
+	
+		<option id="ea712"
+		name="EA712"
+		description="Building Lighting System"/>
+	
+	
+		<option id="ea713"
+		name="EA713"
+		description="Emergency Lighting System"/>
+	
+	
+		<option id="eb"
+		name="EB"
+		description="Generation of heat by conversion of electrical energy"/>
+	
+	
+		<option id="eb300"
+		name="EB300"
+		description="Heating by electricity, C&amp;P"/>
+	
+	
+		<option id="ec"
+		name="EC"
+		description="Generation of cooling by conversion of electrical energy"/>
+	
+	
+		<option id="ec300"
+		name="EC300"
+		description="Cooling by electricity, C&amp;P"/>
+	
+	
+		<option id="ep"
+		name="EP"
+		description="Heat exchanging"/>
+	
+	
+		<option id="eq"
+		name="EQ"
+		description="Generation of Cooling"/>
+	
+	
+		<option id="eq700"
+		name="EQ700"
+		description="Cooling by convection, Mechanical Systems"/>
+	
+	
+		<option id="eq710"
+		name="EQ710"
+		description="Converter Cooling Systems"/>
+	
+	
+		<option id="eq711"
+		name="EQ711"
+		description="Converter Water Cooling System"/>
+	
+	
+		<option id="eq712"
+		name="EQ712"
+		description="SVC Valve / Converter Water Cooling"/>
+	
+	
+		<option id="eq720"
+		name="EQ720"
+		description="Converter Cooling System, Outdoor Cooler"/>
+	
+	
+		<option id="eq721"
+		name="EQ721"
+		description="Converter Water Cooling, Outdoor Cooler"/>
+	
+	
+		<option id="eq722"
+		name="EQ722"
+		description="SVC Valve / Converter Water Cooling, Outdoor Cooler"/>
+	
+	
+		<option id="eq730"
+		name="EQ730"
+		description="Transformer Cooling Systems"/>
+	
+	
+		<option id="eq731"
+		name="EQ731"
+		description="Transformer Oil-Water Cooling System"/>
+	
+	
+		<option id="eq740"
+		name="EQ740"
+		description="Generator Cooling Systems"/>
+	
+	
+		<option id="eq741"
+		name="EQ741"
+		description="Generator Direct Air Cooling (DAC)"/>
+	
+	
+		<option id="eq742"
+		name="EQ742"
+		description="Generator Water Cooling (TEWAC)"/>
+	
+	
+		<option id="eq750"
+		name="EQ750"
+		description="Bearing Oil Cooling Systems"/>
+	
+	
+		<option id="eq751"
+		name="EQ751"
+		description="Generator Bearing Oil Cooling System"/>
+	
+	
+		<option id="eq760"
+		name="EQ760"
+		description="Sea-Water Cooling"/>
+	
+	
+		<option id="eq770"
+		name="EQ770"
+		description="Fresh Water Cooling"/>
+	
+	
+		<option id="eq780"
+		name="EQ780"
+		description="NaOCl-System"/>
+	
+	
+		<option id="ez"
+		name="EZ"
+		description="Cooling and Heating"/>
+	
+	
+		<option id="ez700"
+		name="EZ700"
+		description="Heating Ventilation Air Conditioning (HVA/C), Mechanical Systems"/>
+	
+	
+		<option id="ez701"
+		name="EZ701"
+		description="Control Building HVA/C common"/>
+	
+	
+		<option id="ez702"
+		name="EZ702"
+		description="Converter Hall HVA/C common"/>
+	
+	
+		<option id="ez703"
+		name="EZ703"
+		description="DC Hall HVA/C common"/>
+	
+	
+		<option id="ez704"
+		name="EZ704"
+		description="Relay House HVA/C common"/>
+	
+	
+		<option id="ez705"
+		name="EZ705"
+		description="Other Building HVA/C common"/>
+	
+	
+		<option id="ez706"
+		name="EZ706"
+		description="Machine Hall HVA/C common"/>
+	
+	
+		<option id="ez707"
+		name="EZ707"
+		description="GIS Building HVA/C common"/>
+	
+	
+		<option id="ez708"
+		name="EZ708"
+		description="SVC Building HVA/C common"/>
+	
+	
+		<option id="ez709"
+		name="EZ709"
+		description="Spare Part Building HVA/C common"/>
+	
+	
+		<option id="ez710"
+		name="EZ710"
+		description="Building Ventilation"/>
+	
+	
+		<option id="ez711"
+		name="EZ711"
+		description="Control Building Ventilation"/>
+	
+	
+		<option id="ez712"
+		name="EZ712"
+		description="Converter Hall Ventilation"/>
+	
+	
+		<option id="ez713"
+		name="EZ713"
+		description="DC Hall Ventilation"/>
+	
+	
+		<option id="ez714"
+		name="EZ714"
+		description="Relay House Ventilation"/>
+	
+	
+		<option id="ez715"
+		name="EZ715"
+		description="Other Building Ventilation"/>
+	
+	
+		<option id="ez716"
+		name="EZ716"
+		description="Machine Hall Ventilation"/>
+	
+	
+		<option id="ez717"
+		name="EZ717"
+		description="GIS Building Ventilation"/>
+	
+	
+		<option id="ez718"
+		name="EZ718"
+		description="SVC Building Ventilation"/>
+	
+	
+		<option id="ez719"
+		name="EZ719"
+		description="Spare Part Building Ventilation"/>
+	
+	
+		<option id="ez720"
+		name="EZ720"
+		description="Building Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez721"
+		name="EZ721"
+		description="Control Building Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez722"
+		name="EZ722"
+		description="Converter Hall Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez723"
+		name="EZ723"
+		description="DC Hall Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez724"
+		name="EZ724"
+		description="Relay House Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez725"
+		name="EZ725"
+		description="Other Building Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez726"
+		name="EZ726"
+		description="Machine Hall Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez727"
+		name="EZ727"
+		description="GIS Building Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez728"
+		name="EZ728"
+		description="SVC Building Refrigeration (Air Conditioning)"/>
+	
+	
+		<option id="ez730"
+		name="EZ730"
+		description="Building Heating"/>
+	
+	
+		<option id="ez731"
+		name="EZ731"
+		description="Control Building Heating"/>
+	
+	
+		<option id="ez732"
+		name="EZ732"
+		description="Converter Hall Heating"/>
+	
+	
+		<option id="ez733"
+		name="EZ733"
+		description="DC Hall Heating"/>
+	
+	
+		<option id="ez734"
+		name="EZ734"
+		description="Relay House Heating"/>
+	
+	
+		<option id="ez735"
+		name="EZ735"
+		description="Other Building Heating"/>
+	
+	
+		<option id="ez736"
+		name="EZ736"
+		description="Machine Hall Heating"/>
+	
+	
+		<option id="ez737"
+		name="EZ737"
+		description="GIS Building Heating"/>
+	
+	
+		<option id="ez738"
+		name="EZ738"
+		description="SVC Building Heating"/>
+	
+	
+		<option id="ez739"
+		name="EZ739"
+		description="Spare Part Building Heating"/>
+	
+	
+		<option id="ez740"
+		name="EZ740"
+		description="Equipment HVA/C"/>
+	
+	
+		<option id="ez741"
+		name="EZ741"
+		description="Cable Sealing End HVA/C"/>
+	
+	
+		<option id="ez760"
+		name="EZ760"
+		description="Container HVAC"/>
+	
+	
+		<option id="ez761"
+		name="EZ761"
+		description="SVC PLUS Converter Container HVAC"/>
+	
+	
+		<option id="ez762"
+		name="EZ762"
+		description="SVC PLUS Aux Container HVAC"/>
+	
+	
+		<option id="f"
+		name="F"
+		description="Direct Protection"/>
+	
+	
+		<option id="f0800"
+		name="F0800"
+		description="Protection against Overvoltage, HV&amp;MV"/>
+	
+	
+		<option id="f0810"
+		name="F0810"
+		description="Surge Protection Units"/>
+	
+	
+		<option id="f0811"
+		name="F0811"
+		description="Transformer Surge Protection Unit"/>
+	
+	
+		<option id="fa"
+		name="FA"
+		description="Protection against Overvoltage"/>
+	
+	
+		<option id="fa100"
+		name="FA100"
+		description="Protection against Overvoltage, HV&amp;MV"/>
+	
+	
+		<option id="fa110"
+		name="FA110"
+		description="AC and DC Surge Arresters"/>
+	
+	
+		<option id="fa111"
+		name="FA111"
+		description="AC Surge Arrester"/>
+	
+	
+		<option id="fa112"
+		name="FA112"
+		description="DC Surge Arrester"/>
+	
+	
+		<option id="fa130"
+		name="FA130"
+		description="Spark Gaps"/>
+	
+	
+		<option id="fa131"
+		name="FA131"
+		description="Spark Gap"/>
+	
+	
+		<option id="fa132"
+		name="FA132"
+		description="Air Gap"/>
+	
+	
+		<option id="fa140"
+		name="FA140"
+		description="Lightning conductor"/>
+	
+	
+		<option id="fa300"
+		name="FA300"
+		description="Protection against Overvoltage, C&amp;P"/>
+	
+	
+		<option id="fa700"
+		name="FA700"
+		description="Protection against Overvoltage, Electrical Systems"/>
+	
+	
+		<option id="fa710"
+		name="FA710"
+		description="Lightning protection building"/>
+	
+	
+		<option id="fa711"
+		name="FA711"
+		description="Lightning conductor"/>
+	
+	
+		<option id="fa800"
+		name="FA800"
+		description="Lightning Protection Installations"/>
+	
+	
+		<option id="fa810"
+		name="FA810"
+		description="Lightning protection Installations"/>
+	
+	
+		<option id="fa811"
+		name="FA811"
+		description="Lightning protection Installations outdoor area"/>
+	
+	
+		<option id="fb"
+		name="FB"
+		description="Protection against Residual Current"/>
+	
+	
+		<option id="fc"
+		name="FC"
+		description="Protection against Overcurrent"/>
+	
+	
+		<option id="fc200"
+		name="FC200"
+		description="Protection Against Overcurrent, Station Power Supply Components"/>
+	
+	
+		<option id="fc220"
+		name="FC220"
+		description="Fuse Boxes, Station Power Supply"/>
+	
+	
+		<option id="fc221"
+		name="FC221"
+		description="Battery Fuse Box"/>
+	
+	
+		<option id="fc300"
+		name="FC300"
+		description="Protection against Overcurrent, C&amp;P"/>
+	
+	
+		<option id="fe"
+		name="FE"
+		description="Protection against other electrical hazards"/>
+	
+	
+		<option id="fe900"
+		name="FE900"
+		description="Protection against electromagnetic radiation, Civil"/>
+	
+	
+		<option id="fe910"
+		name="FE910"
+		description="Screening"/>
+	
+	
+		<option id="fe911"
+		name="FE911"
+		description="Faraday Cage"/>
+	
+	
+		<option id="fm"
+		name="FM"
+		description="Protection against Fire"/>
+	
+	
+		<option id="fm700"
+		name="FM700"
+		description="Fire Protection, Electrical Systems"/>
+	
+	
+		<option id="fm710"
+		name="FM710"
+		description="Fire Protection Systems"/>
+	
+	
+		<option id="fm711"
+		name="FM711"
+		description="Fire Detection System"/>
+	
+	
+		<option id="fm720"
+		name="FM720"
+		description="Fire Fighting Systems"/>
+	
+	
+		<option id="fm721"
+		name="FM721"
+		description="Water Fire Fighting System (Deluge)"/>
+	
+	
+		<option id="fm722"
+		name="FM722"
+		description="Gas Fire Fighting System"/>
+	
+	
+		<option id="fm730"
+		name="FM730"
+		description="fire extinguishant"/>
+	
+	
+		<option id="fm900"
+		name="FM900"
+		description="Fire Protection, Civil"/>
+	
+	
+		<option id="fm910"
+		name="FM910"
+		description="Fire Protection Sealings"/>
+	
+	
+		<option id="fm911"
+		name="FM911"
+		description="Fire Protection Sealing for Buildings"/>
+	
+	
+		<option id="fm912"
+		name="FM912"
+		description="Fire Protection Sealing for Transformer Bushings"/>
+	
+	
+		<option id="fm920"
+		name="FM920"
+		description="Fire Protection Walls"/>
+	
+	
+		<option id="fn"
+		name="FN"
+		description="Protection against hazardous operating condition"/>
+	
+	
+		<option id="fn700"
+		name="FN700"
+		description="Intrusion detection and security"/>
+	
+	
+		<option id="fn710"
+		name="FN710"
+		description="Surveillance and Security Systems"/>
+	
+	
+		<option id="fn711"
+		name="FN711"
+		description="Intruder detection system / Burglar Alarm"/>
+	
+	
+		<option id="fn720"
+		name="FN720"
+		description="CCTV Systems"/>
+	
+	
+		<option id="fq"
+		name="FQ"
+		description="Protection against hazards or unwanted situations for persons or animals (e.g. safeguarding)"/>
+	
+	
+		<option id="fq900"
+		name="FQ900"
+		description="Protection against hazards (Persons), Civil"/>
+	
+	
+		<option id="fq910"
+		name="FQ910"
+		description="Emergency doors"/>
+	
+	
+		<option id="fq920"
+		name="FQ920"
+		description="Fences"/>
+	
+	
+		<option id="fq930"
+		name="FQ930"
+		description="Escape Routes"/>
+	
+	
+		<option id="fq940"
+		name="FQ940"
+		description="Life Saving Equipment"/>
+	
+	
+		<option id="fq950"
+		name="FQ950"
+		description="Roof Anchorage Points"/>
+	
+	
+		<option id="fr"
+		name="FR"
+		description="Protection against wear"/>
+	
+	
+		<option id="fr900"
+		name="FR900"
+		description="Building protection, Civil"/>
+	
+	
+		<option id="fr910"
+		name="FR910"
+		description="Coating / Water Proofing"/>
+	
+	
+		<option id="fs"
+		name="FS"
+		description="Protection against environmental effects"/>
+	
+	
+		<option id="fs900"
+		name="FS900"
+		description="Protection against environmental effects, Civil"/>
+	
+	
+		<option id="fs910"
+		name="FS910"
+		description="Coating"/>
+	
+	
+		<option id="fs920"
+		name="FS920"
+		description="Cladding"/>
+	
+	
+		<option id="fz"
+		name="FZ"
+		description="Direct Protection - Combined Tasks"/>
+	
+	
+		<option id="fz900"
+		name="FZ900"
+		description="Direct Protection, Civil"/>
+	
+	
+		<option id="fz910"
+		name="FZ910"
+		description="False Floor"/>
+	
+	
+		<option id="fz920"
+		name="FZ920"
+		description="Ceilings"/>
+	
+	
+		<option id="fz930"
+		name="FZ930"
+		description="Roof System"/>
+	
+	
+		<option id="g"
+		name="G"
+		description="Initiating of flow of energy or material"/>
+	
+	
+		<option id="ga"
+		name="GA"
+		description="Initiating flow of electrical energy by use of mechanical energy"/>
+	
+	
+		<option id="ga100"
+		name="GA100"
+		description="HV&amp;MV Switchgear Components"/>
+	
+	
+		<option id="ga110"
+		name="GA110"
+		description="Generators (synchronous)"/>
+	
+	
+		<option id="ga111"
+		name="GA111"
+		description="Generator (synchronous)"/>
+	
+	
+		<option id="ga200"
+		name="GA200"
+		description="Generators, Auxiliary power"/>
+	
+	
+		<option id="ga210"
+		name="GA210"
+		description="Diesel generators"/>
+	
+	
+		<option id="ga211"
+		name="GA211"
+		description="Diesel generator"/>
+	
+	
+		<option id="gb"
+		name="GB"
+		description="Initiating of flow by chemical conversion"/>
+	
+	
+		<option id="gb200"
+		name="GB200"
+		description="Initiating of electricity by chemical conversion, Auxiliary power"/>
+	
+	
+		<option id="gb210"
+		name="GB210"
+		description="Storage Batteries"/>
+	
+	
+		<option id="gb211"
+		name="GB211"
+		description="Main Station Battery"/>
+	
+	
+		<option id="gd"
+		name="GD"
+		description="Initiation of an electrical energy flow by electrical voltage"/>
+	
+	
+		<option id="gd100"
+		name="GD100"
+		description="VSC Converters, HV&amp;MV"/>
+	
+	
+		<option id="gd110"
+		name="GD110"
+		description="VSC Converters"/>
+	
+	
+		<option id="gd111"
+		name="GD111"
+		description="HVDC VSC Converter"/>
+	
+	
+		<option id="gf"
+		name="GF"
+		description="Generation of signals"/>
+	
+	
+		<option id="gf300"
+		name="GF300"
+		description="Generation / simulation of signals, C&amp;P"/>
+	
+	
+		<option id="gf310"
+		name="GF310"
+		description="Operation Simulators"/>
+	
+	
+		<option id="gf311"
+		name="GF311"
+		description="Operator Simulator"/>
+	
+	
+		<option id="gf320"
+		name="GF320"
+		description="Real Time Simulators"/>
+	
+	
+		<option id="gf321"
+		name="GF321"
+		description="Real Time Simulator"/>
+	
+	
+		<option id="gf322"
+		name="GF322"
+		description="Real Time Simulator Interface"/>
+	
+	
+		<option id="gf330"
+		name="GF330"
+		description="Substation Simulators"/>
+	
+	
+		<option id="gf331"
+		name="GF331"
+		description="Substation Simulator"/>
+	
+	
+		<option id="gf332"
+		name="GF332"
+		description="Switchyard Simulator"/>
+	
+	
+		<option id="gm"
+		name="GM"
+		description="Initiation of a disicontinuous flow of solid matter"/>
+	
+	
+		<option id="gm500"
+		name="GM500"
+		description="Moving systems, Special Tools"/>
+	
+	
+		<option id="gm510"
+		name="GM510"
+		description="Lifting Devices"/>
+	
+	
+		<option id="gm511"
+		name="GM511"
+		description="Tool Set for FSC Platform Maintenance"/>
+	
+	
+		<option id="gm512"
+		name="GM512"
+		description="Lifting device for SVC module"/>
+	
+	
+		<option id="gm513"
+		name="GM513"
+		description="Electric chain hoist"/>
+	
+	
+		<option id="gm514"
+		name="GM514"
+		description="Capacitor Replacement Tool"/>
+	
+	
+		<option id="gm520"
+		name="GM520"
+		description="Lifting Platforms"/>
+	
+	
+		<option id="gm521"
+		name="GM521"
+		description="Lifting Platform"/>
+	
+	
+		<option id="gm530"
+		name="GM530"
+		description="Moving Systems"/>
+	
+	
+		<option id="gm531"
+		name="GM531"
+		description="Transformer moving system"/>
+	
+	
+		<option id="gm532"
+		name="GM532"
+		description="Transformer turning device"/>
+	
+	
+		<option id="gm533"
+		name="GM533"
+		description="Generator moving system"/>
+	
+	
+		<option id="gm900"
+		name="GM900"
+		description="Moving systems, Civil"/>
+	
+	
+		<option id="gm910"
+		name="GM910"
+		description="Hoisting devices, elevators"/>
+	
+	
+		<option id="gm911"
+		name="GM911"
+		description="Elevators"/>
+	
+	
+		<option id="gm912"
+		name="GM912"
+		description="Hoists / Monorails"/>
+	
+	
+		<option id="gm913"
+		name="GM913"
+		description="Cranes"/>
+	
+	
+		<option id="gp"
+		name="GP"
+		description="Initiation of a flow of liquid or flowable substances"/>
+	
+	
+		<option id="gp700"
+		name="GP700"
+		description="Wastewater treatment, Mechanical Systems"/>
+	
+	
+		<option id="gp710"
+		name="GP710"
+		description="Oil collecting pump systems"/>
+	
+	
+		<option id="gp720"
+		name="GP720"
+		description="Glycol collecting pump systems"/>
+	
+	
+		<option id="gp730"
+		name="GP730"
+		description="Lubrication Oil Skids"/>
+	
+	
+		<option id="gp731"
+		name="GP731"
+		description="Generator Lubrication Oil Skid"/>
+	
+	
+		<option id="gq"
+		name="GQ"
+		description="Initiation of a flow of gaseous substances"/>
+	
+	
+		<option id="gq300"
+		name="GQ300"
+		description="Initiation flow of gas, C&amp;P"/>
+	
+	
+		<option id="h"
+		name="H"
+		description="Producing a new kind of material or product"/>
+	
+	
+		<option id="hn"
+		name="HN"
+		description="Separation of mixtures of substances by gravity"/>
+	
+	
+		<option id="hn900"
+		name="HN900"
+		description="Seperation Systems, Civil"/>
+	
+	
+		<option id="hn910"
+		name="HN910"
+		description="Oil separators"/>
+	
+	
+		<option id="hn911"
+		name="HN911"
+		description="Oil separator"/>
+	
+	
+		<option id="hp"
+		name="HP"
+		description="Separation of mixtures of substances by thermal process"/>
+	
+	
+		<option id="hp500"
+		name="HP500"
+		description="Separation of mixtures by heat, Special Tools"/>
+	
+	
+		<option id="hp510"
+		name="HP510"
+		description="Transformer workshop equipment"/>
+	
+	
+		<option id="hp511"
+		name="HP511"
+		description="Oil Treatment Plant"/>
+	
+	
+		<option id="hp512"
+		name="HP512"
+		description="Air Drying System (for Transformer Installation)"/>
+	
+	
+		<option id="hq"
+		name="HQ"
+		description="Separation of mixtures of substances by filtering"/>
+	
+	
+		<option id="hq700"
+		name="HQ700"
+		description="Separation of mixtures by filtering, Mechanical Systems"/>
+	
+	
+		<option id="hq710"
+		name="HQ710"
+		description="Water Treatment"/>
+	
+	
+		<option id="hq711"
+		name="HQ711"
+		description="Fluid filter"/>
+	
+	
+		<option id="hs"
+		name="HS"
+		description="Separation of mixtures of substances by physical processes"/>
+	
+	
+		<option id="hw"
+		name="HW"
+		description="Generation of new substances by mixing"/>
+	
+	
+		<option id="k"
+		name="K"
+		description="Processing signals or information"/>
+	
+	
+		<option id="kf"
+		name="KF"
+		description="Processing of electrical or electronic signals"/>
+	
+	
+		<option id="kf100"
+		name="KF100"
+		description="HV&amp;MV Switchgear Components"/>
+	
+	
+		<option id="kf110"
+		name="KF110"
+		description="Thyristor Converter Interfaces"/>
+	
+	
+		<option id="kf111"
+		name="KF111"
+		description="Valve Base Electronics"/>
+	
+	
+		<option id="kf120"
+		name="KF120"
+		description="VSC Converter Control"/>
+	
+	
+		<option id="kf121"
+		name="KF121"
+		description="Converter Control System"/>
+	
+	
+		<option id="kf122"
+		name="KF122"
+		description="Power Module Interface"/>
+	
+	
+		<option id="kf123"
+		name="KF123"
+		description="Braking Chopper Control System"/>
+	
+	
+		<option id="kf130"
+		name="KF130"
+		description="SVC Thyristor Valve Interface"/>
+	
+	
+		<option id="kf131"
+		name="KF131"
+		description="SVC Valve Base Electronics"/>
+	
+	
+		<option id="kf140"
+		name="KF140"
+		description="SVC Converter Interface / PLUS Control"/>
+	
+	
+		<option id="kf141"
+		name="KF141"
+		description="SVC Module Management System"/>
+	
+	
+		<option id="kf200"
+		name="KF200"
+		description="Processing signals or information, Auxiliary power"/>
+	
+	
+		<option id="kf210"
+		name="KF210"
+		description="Control cubicles"/>
+	
+	
+		<option id="kf211"
+		name="KF211"
+		description="Automatic transfer"/>
+	
+	
+		<option id="kf300"
+		name="KF300"
+		description="Processing signals or information, C&amp;P"/>
+	
+	
+		<option id="kf310"
+		name="KF310"
+		description="Process Input / Output Systems"/>
+	
+	
+		<option id="kf311_a"
+		name="KF311.A"
+		description="AC Local Control Interface"/>
+	
+	
+		<option id="kf311_b"
+		name="KF311.B"
+		description="AC Filter Local Control Interface"/>
+	
+	
+		<option id="kf312"
+		name="KF312"
+		description="DC Local Control Interface"/>
+	
+	
+		<option id="kf313"
+		name="KF313"
+		description="Transformer Interface"/>
+	
+	
+		<option id="kf315"
+		name="KF315"
+		description="Pole Control Interface"/>
+	
+	
+		<option id="kf316"
+		name="KF316"
+		description="Control &amp; Protection Interface"/>
+	
+	
+		<option id="kf320"
+		name="KF320"
+		description="Special Input / Output Systems"/>
+	
+	
+		<option id="kf321_a"
+		name="KF321.A"
+		description="Substation Interface"/>
+	
+	
+		<option id="kf321_b"
+		name="KF321.B"
+		description="Powerhouse Interface"/>
+	
+	
+		<option id="kf321_c"
+		name="KF321.C"
+		description="Synchronous Condenser"/>
+	
+	
+		<option id="kf322_b"
+		name="KF322.B"
+		description="Bipole Interface"/>
+	
+	
+		<option id="kf322_c"
+		name="KF322.C"
+		description="Automatic Dispatch System"/>
+	
+	
+		<option id="kf322_d"
+		name="KF322.D"
+		description="EPC Interface"/>
+	
+	
+		<option id="kf323"
+		name="KF323"
+		description="HVDC Interface"/>
+	
+	
+		<option id="kf323_a"
+		name="KF323.A"
+		description="HVDC Interface"/>
+	
+	
+		<option id="kf323_b"
+		name="KF323.B"
+		description="AC Station Interface"/>
+	
+	
+		<option id="kf323_c"
+		name="KF323.C"
+		description="AC Filter Interface"/>
+	
+	
+		<option id="kf323_d"
+		name="KF323.D"
+		description="DC Station Interface"/>
+	
+	
+		<option id="kf324"
+		name="KF324"
+		description="Station Service Interfaces"/>
+	
+	
+		<option id="kf324_a"
+		name="KF324.A"
+		description="Station Service Interface (HVDC)"/>
+	
+	
+		<option id="kf324_b"
+		name="KF324.B"
+		description="Station Service Interface (AC)"/>
+	
+	
+		<option id="kf330"
+		name="KF330"
+		description="Process Control Systems"/>
+	
+	
+		<option id="kf331"
+		name="KF331"
+		description="Master Control"/>
+	
+	
+		<option id="kf332"
+		name="KF332"
+		description="AC Station Control"/>
+	
+	
+		<option id="kf333"
+		name="KF333"
+		description="Bipole / DC Station Control"/>
+	
+	
+		<option id="kf334"
+		name="KF334"
+		description="Pole Control, Converter Control"/>
+	
+	
+		<option id="kf340"
+		name="KF340"
+		description="SCADA communication gateways"/>
+	
+	
+		<option id="kf341"
+		name="KF341"
+		description="Remote communication gateway"/>
+	
+	
+		<option id="kf342"
+		name="KF342"
+		description="Local communication gateway"/>
+	
+	
+		<option id="kf380"
+		name="KF380"
+		description="Control&amp;Interface Cubicles FACTS"/>
+	
+	
+		<option id="kf381"
+		name="KF381"
+		description="Plant Control / General Interlocking"/>
+	
+	
+		<option id="kf382"
+		name="KF382"
+		description="Closed Loop Control"/>
+	
+	
+		<option id="kf383"
+		name="KF383"
+		description="TCR DC Evalution"/>
+	
+	
+		<option id="kf384"
+		name="KF384"
+		description="Generator Control Panel (GCP)"/>
+	
+	
+		<option id="kf385"
+		name="KF385"
+		description="Automatic Voltage Regulation (AVR)"/>
+	
+	
+		<option id="kf390"
+		name="KF390"
+		description="Computer Systems"/>
+	
+	
+		<option id="kf391"
+		name="KF391"
+		description="Computer Systems"/>
+	
+	
+		<option id="kf700"
+		name="KF700"
+		description="Processing signals or information, Electr. and Mechan. Systems"/>
+	
+	
+		<option id="kf710"
+		name="KF710"
+		description="Water Cooling Controls"/>
+	
+	
+		<option id="kf711"
+		name="KF711"
+		description="Converter Water Cooling Control"/>
+	
+	
+		<option id="kf720"
+		name="KF720"
+		description="HVA/C Controls"/>
+	
+	
+		<option id="kf721"
+		name="KF721"
+		description="HVA/C Control Control Building"/>
+	
+	
+		<option id="kf722"
+		name="KF722"
+		description="HVA/C Control Converter / DC Hall"/>
+	
+	
+		<option id="kk"
+		name="KK"
+		description="Processing of variuos input/output information carriers"/>
+	
+	
+		<option id="m"
+		name="M"
+		description="Providing mechanical energy"/>
+	
+	
+		<option id="ma"
+		name="MA"
+		description="Drving by electromagnetic force"/>
+	
+	
+		<option id="ma100"
+		name="MA100"
+		description="HV&amp;MV Switchgear Components"/>
+	
+	
+		<option id="ma110"
+		name="MA110"
+		description="Motor drives, electrical"/>
+	
+	
+		<option id="ma111"
+		name="MA111"
+		description="Generator start motor (Ponymotor)"/>
+	
+	
+		<option id="ml"
+		name="ML"
+		description="Drving by mechanical force"/>
+	
+	
+		<option id="mm"
+		name="MM"
+		description="Driving by hydraulic or pneumatic force"/>
+	
+	
+		<option id="ms"
+		name="MS"
+		description="Driving by force using chemical conversion means"/>
+	
+	
+		<option id="p"
+		name="P"
+		description="Presenting information"/>
+	
+	
+		<option id="pf"
+		name="PF"
+		description="Visible presentation of discrete states"/>
+	
+	
+		<option id="pf300"
+		name="PF300"
+		description="Presentation of discrete states, C&amp;P"/>
+	
+	
+		<option id="pg"
+		name="PG"
+		description="Visible presentation of valus of discrete states"/>
+	
+	
+		<option id="ph"
+		name="PH"
+		description="Visible presentation of information"/>
+	
+	
+		<option id="ph300"
+		name="PH300"
+		description="Presentation of information, C&amp;P"/>
+	
+	
+		<option id="ph310"
+		name="PH310"
+		description="HMI systems"/>
+	
+	
+		<option id="ph311"
+		name="PH311"
+		description="HMI system"/>
+	
+	
+		<option id="ph312"
+		name="PH312"
+		description="AC HMI system"/>
+	
+	
+		<option id="ph320"
+		name="PH320"
+		description="Video wall systems"/>
+	
+	
+		<option id="ph321"
+		name="PH321"
+		description="Video wall system"/>
+	
+	
+		<option id="ph700"
+		name="PH700"
+		description="Presentation of information, Electr. and Mechan. Systems"/>
+	
+	
+		<option id="ph710"
+		name="PH710"
+		description="Fire Protection Panels"/>
+	
+	
+		<option id="ph711"
+		name="PH711"
+		description="Fire Protection Information Panel"/>
+	
+	
+		<option id="pj"
+		name="PJ"
+		description="Audible presentation of information"/>
+	
+	
+		<option id="pj300"
+		name="PJ300"
+		description="Audible presentation of information, C&amp;P"/>
+	
+	
+		<option id="pz"
+		name="PZ"
+		description="Visible presentation, combined tasks"/>
+	
+	
+		<option id="q"
+		name="Q"
+		description="Controlled Switching"/>
+	
+	
+		<option id="q0"
+		name="Q0"
+		description="Switching feeder"/>
+	
+	
+		<option id="q0100"
+		name="Q0100"
+		description="Gas Insulated Switchgear, HV&amp;MV"/>
+	
+	
+		<option id="q0110"
+		name="Q0110"
+		description="Gas Insulated AC Switchgear HV"/>
+	
+	
+		<option id="q0111"
+		name="Q0111"
+		description="Gas Insulated AC Switchgear Feeder HV"/>
+	
+	
+		<option id="q0120"
+		name="Q0120"
+		description="Gas Insulated DC Switchgear HV"/>
+	
+	
+		<option id="q0121"
+		name="Q0121"
+		description="Gas Insulated DC Switchgear Feeder HV"/>
+	
+	
+		<option id="q0200"
+		name="Q0200"
+		description="Switchgear, Auxiliary power"/>
+	
+	
+		<option id="q0210"
+		name="Q0210"
+		description="Medium Voltage Switchgear"/>
+	
+	
+		<option id="q0211"
+		name="Q0211"
+		description="Gas Insulated MV Switchgear (GIS)"/>
+	
+	
+		<option id="q0212"
+		name="Q0212"
+		description="Air Insulated MV Switchgear (AIS)"/>
+	
+	
+		<option id="q0800"
+		name="Q0800"
+		description="Switchgear, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="q0810"
+		name="Q0810"
+		description="Air Insulated Feeders"/>
+	
+	
+		<option id="q0830"
+		name="Q0830"
+		description="GCB Feeders"/>
+	
+	
+		<option id="q0840"
+		name="Q0840"
+		description="AC Feeder Installations"/>
+	
+	
+		<option id="q0841"
+		name="Q0841"
+		description="Converter Feeder"/>
+	
+	
+		<option id="q0850"
+		name="Q0850"
+		description="DC Feeder Installations"/>
+	
+	
+		<option id="q0851"
+		name="Q0851"
+		description="Converter Bypass feeder"/>
+	
+	
+		<option id="q0852"
+		name="Q0852"
+		description="DC converter feeders"/>
+	
+	
+		<option id="q0852_a"
+		name="Q0852.A"
+		description="DC HV converter feeder"/>
+	
+	
+		<option id="q0852_b"
+		name="Q0852.B"
+		description="DC LV converter feeder"/>
+	
+	
+		<option id="q0853"
+		name="Q0853"
+		description="DC line feeders"/>
+	
+	
+		<option id="q0853_a"
+		name="Q0853.A"
+		description="DC HV line feeder"/>
+	
+	
+		<option id="q0853_b"
+		name="Q0853.B"
+		description="DC LV line feeder"/>
+	
+	
+		<option id="q0854"
+		name="Q0854"
+		description="DC filter feeders"/>
+	
+	
+		<option id="q0854_a"
+		name="Q0854.A"
+		description="DC HV filter feeder"/>
+	
+	
+		<option id="q0854_b"
+		name="Q0854.B"
+		description="DC LV filter feeder"/>
+	
+	
+		<option id="q0860"
+		name="Q0860"
+		description="AC HV Switchyard
+(equals to Infrastructure Classes B-K)"/>
+	
+	
+		<option id="q0861"
+		name="Q0861"
+		description="AC HV Feeder for FSC and SVC"/>
+	
+	
+		<option id="q0870"
+		name="Q0870"
+		description="Secondary Side AC Switchyard
+(equals to Infrastructure Classes E-K)"/>
+	
+	
+		<option id="q0871"
+		name="Q0871"
+		description="Secondary Side AC Feeder for SVC"/>
+	
+	
+		<option id="qa"
+		name="QA"
+		description="Switching and variation of electrical energy circuits"/>
+	
+	
+		<option id="qa100"
+		name="QA100"
+		description="Switches, HV&amp;MV"/>
+	
+	
+		<option id="qa110"
+		name="QA110"
+		description="AC HV Circuit Breakers"/>
+	
+	
+		<option id="qa111"
+		name="QA111"
+		description="AC HV Circuit Breaker"/>
+	
+	
+		<option id="qa112"
+		name="QA112"
+		description="AC Insertion Bypass Switch"/>
+	
+	
+		<option id="qa113"
+		name="QA113"
+		description="AC Bypass Switch"/>
+	
+	
+		<option id="qa114"
+		name="QA114"
+		description="AC MV Circuit Breaker"/>
+	
+	
+		<option id="qa115"
+		name="QA115"
+		description="Generator Circuit Breaker (GCB)"/>
+	
+	
+		<option id="qa120"
+		name="QA120"
+		description="DC High Speed Switches"/>
+	
+	
+		<option id="qa121"
+		name="QA121"
+		description="DC High Speed Switch"/>
+	
+	
+		<option id="qa122"
+		name="QA122"
+		description="DC Bypass Switch"/>
+	
+	
+		<option id="qa123"
+		name="QA123"
+		description="DC Paralleling Switch"/>
+	
+	
+		<option id="qa130"
+		name="QA130"
+		description="Load Disconnecting Switches"/>
+	
+	
+		<option id="qa131"
+		name="QA131"
+		description="Load Disconnecting Switch"/>
+	
+	
+		<option id="qa140"
+		name="QA140"
+		description="SVC Thyristor Valves"/>
+	
+	
+		<option id="qa141"
+		name="QA141"
+		description="SVC Thyristor Valve"/>
+	
+	
+		<option id="qa150"
+		name="QA150"
+		description="Braking Choppers"/>
+	
+	
+		<option id="qa151"
+		name="QA151"
+		description="Braking Chopper"/>
+	
+	
+		<option id="qa199"
+		name="QA199"
+		description="SF6 Service Maintenance Equipment"/>
+	
+	
+		<option id="qa200"
+		name="QA200"
+		description="Power switchgear, Auxiliary power"/>
+	
+	
+		<option id="qa210"
+		name="QA210"
+		description="Voltage Regulator"/>
+	
+	
+		<option id="qa211"
+		name="QA211"
+		description="Constant Voltage Regulator"/>
+	
+	
+		<option id="qa800"
+		name="QA800"
+		description="DC Switchgear, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="qa810"
+		name="QA810"
+		description="DC High Speed Switches Commutation Circuits"/>
+	
+	
+		<option id="qa811"
+		name="QA811"
+		description="MRTB Commutation Circuit"/>
+	
+	
+		<option id="qa812"
+		name="QA812"
+		description="ERTB Commutation Circuit"/>
+	
+	
+		<option id="qa813"
+		name="QA813"
+		description="NBS Commutation Circuit"/>
+	
+	
+		<option id="qa814"
+		name="QA814"
+		description="NBGS Commutation Circuit"/>
+	
+	
+		<option id="qb"
+		name="QB"
+		description="Isolation of electrical energy circuits"/>
+	
+	
+		<option id="qb100"
+		name="QB100"
+		description="Disconnectors, HV&amp;MV"/>
+	
+	
+		<option id="qb101"
+		name="QB101"
+		description="AC and DC Disconnectors"/>
+	
+	
+		<option id="qb110"
+		name="QB110"
+		description="AC Disconnectors"/>
+	
+	
+		<option id="qb111"
+		name="QB111"
+		description="AC Disconnector with and w/o ES"/>
+	
+	
+		<option id="qb112"
+		name="QB112"
+		description="AC Insertion Resistor Bypass Disconnector"/>
+	
+	
+		<option id="qb120"
+		name="QB120"
+		description="DC Disconnectors"/>
+	
+	
+		<option id="qb121"
+		name="QB121"
+		description="DC Disconnector with and w/o ES"/>
+	
+	
+		<option id="qb130"
+		name="QB130"
+		description="AC MV Disconnectors"/>
+	
+	
+		<option id="qb131"
+		name="QB131"
+		description="AC MV Disconnector with and w/o ES"/>
+	
+	
+		<option id="qb132"
+		name="QB132"
+		description="AC MV Switch-Disconnector / Fuse Combination"/>
+	
+	
+		<option id="qb133"
+		name="QB133"
+		description="AC MV Bypass Disconnector"/>
+	
+	
+		<option id="qb134"
+		name="QB134"
+		description="Isolating Link"/>
+	
+	
+		<option id="qc"
+		name="QC"
+		description="Earthing of electrical energy circuits"/>
+	
+	
+		<option id="qc100"
+		name="QC100"
+		description="Earthing Switches, HV&amp;MV"/>
+	
+	
+		<option id="qc101"
+		name="QC101"
+		description="AC and DC Earthing Switches"/>
+	
+	
+		<option id="qc110"
+		name="QC110"
+		description="AC Earthing Switches"/>
+	
+	
+		<option id="qc111"
+		name="QC111"
+		description="AC Earthing Switch Free Standing"/>
+	
+	
+		<option id="qc112"
+		name="QC112"
+		description="AC Earthing Switch Wall Mounted"/>
+	
+	
+		<option id="qc120"
+		name="QC120"
+		description="DC Earthing Switches"/>
+	
+	
+		<option id="qc121"
+		name="QC121"
+		description="DC Earthing Switch Free Standing"/>
+	
+	
+		<option id="qc122"
+		name="QC122"
+		description="DC Earthing Switch Wall Mounted"/>
+	
+	
+		<option id="qc130"
+		name="QC130"
+		description="AC and DC Converter Hall Earthing Switches"/>
+	
+	
+		<option id="qc131"
+		name="QC131"
+		description="AC and DC Converter Hall Earthing Switch Free Standing"/>
+	
+	
+		<option id="qc132"
+		name="QC132"
+		description="AC and DC Converter Hall Earthing Switch Wall Mounted"/>
+	
+	
+		<option id="qq"
+		name="QQ"
+		description="Providing access to an area"/>
+	
+	
+		<option id="qq300"
+		name="QQ300"
+		description="Access systems, C&amp;P"/>
+	
+	
+		<option id="qq310"
+		name="QQ310"
+		description="Access systems"/>
+	
+	
+		<option id="qq311"
+		name="QQ311"
+		description="Key Interlocking System"/>
+	
+	
+		<option id="qq700"
+		name="QQ700"
+		description="Access systems, Electrical Systems"/>
+	
+	
+		<option id="qq710"
+		name="QQ710"
+		description="Key Systems"/>
+	
+	
+		<option id="qq711"
+		name="QQ711"
+		description="Door access control system (DACS) / Master Key System"/>
+	
+	
+		<option id="qq900"
+		name="QQ900"
+		description="Access systems, Civil"/>
+	
+	
+		<option id="qq910"
+		name="QQ910"
+		description="Outfitting (Accommodation)"/>
+	
+	
+		<option id="qq911"
+		name="QQ911"
+		description="Windows"/>
+	
+	
+		<option id="qq912"
+		name="QQ912"
+		description="Doors / Gates"/>
+	
+	
+		<option id="qq913"
+		name="QQ913"
+		description="Hatches"/>
+	
+	
+		<option id="qz"
+		name="QZ"
+		description="Switching combined tasks"/>
+	
+	
+		<option id="r"
+		name="R"
+		description="Restricting and stabilizing a flow"/>
+	
+	
+		<option id="ra"
+		name="RA"
+		description="Limiting a flow of electrical energy"/>
+	
+	
+		<option id="ra100"
+		name="RA100"
+		description="Limiting Resitors &amp; Reactors, HV&amp;MV"/>
+	
+	
+		<option id="ra110"
+		name="RA110"
+		description="Resistors"/>
+	
+	
+		<option id="ra111"
+		name="RA111"
+		description="AC Filter Resistor"/>
+	
+	
+		<option id="ra112"
+		name="RA112"
+		description="DC Blocking Filter Resistor"/>
+	
+	
+		<option id="ra113"
+		name="RA113"
+		description="DC Filter Resistor"/>
+	
+	
+		<option id="ra115"
+		name="RA115"
+		description="SVC HFBF Resistor"/>
+	
+	
+		<option id="ra116"
+		name="RA116"
+		description="Neutral Grounding Resistor"/>
+	
+	
+		<option id="ra117"
+		name="RA117"
+		description="Submodule Braking Resistors"/>
+	
+	
+		<option id="ra118"
+		name="RA118"
+		description="Interference Elimination Ferrite"/>
+	
+	
+		<option id="ra119"
+		name="RA119"
+		description="DC Neutral Earthing Unit"/>
+	
+	
+		<option id="ra120"
+		name="RA120"
+		description="Delta Winding Resistors"/>
+	
+	
+		<option id="ra121"
+		name="RA121"
+		description="DC Neutral Bus Earthing Resistors"/>
+	
+	
+		<option id="ra122"
+		name="RA122"
+		description="AC Star Point Resistor"/>
+	
+	
+		<option id="ra123"
+		name="RA123"
+		description="Transformer Earthing Resistor"/>
+	
+	
+		<option id="ra130"
+		name="RA130"
+		description="Charging and Discharging Resistors"/>
+	
+	
+		<option id="ra131"
+		name="RA131"
+		description="AC Insertion Resistor"/>
+	
+	
+		<option id="ra132"
+		name="RA132"
+		description="Cable Discharge Resistor"/>
+	
+	
+		<option id="ra140"
+		name="RA140"
+		description="SVC Resistors"/>
+	
+	
+		<option id="ra141"
+		name="RA141"
+		description="SVC Resistor for Reactive Power &amp; Filter Branch"/>
+	
+	
+		<option id="ra142"
+		name="RA142"
+		description="SVC HFBF Resistor"/>
+	
+	
+		<option id="ra150"
+		name="RA150"
+		description="Reactors"/>
+	
+	
+		<option id="ra151"
+		name="RA151"
+		description="HVDC Smoothing Reactor"/>
+	
+	
+		<option id="ra152"
+		name="RA152"
+		description="DC Blocking Filter Reactor"/>
+	
+	
+		<option id="ra153"
+		name="RA153"
+		description="DC Neutral Earthing Reactor"/>
+	
+	
+		<option id="ra154"
+		name="RA154"
+		description="Converter Reactor"/>
+	
+	
+		<option id="ra155"
+		name="RA155"
+		description="Braking Reactor"/>
+	
+	
+		<option id="ra156"
+		name="RA156"
+		description="Delta Winding Reactor"/>
+	
+	
+		<option id="ra157"
+		name="RA157"
+		description="DC Line Reactor"/>
+	
+	
+		<option id="ra158"
+		name="RA158"
+		description="AC Current Limiting Reactor"/>
+	
+	
+		<option id="ra159"
+		name="RA159"
+		description="AC Compensation Reactor"/>
+	
+	
+		<option id="ra160"
+		name="RA160"
+		description="AC Star Point Reactors"/>
+	
+	
+		<option id="ra170"
+		name="RA170"
+		description="PLC Filter Reactors"/>
+	
+	
+		<option id="ra171"
+		name="RA171"
+		description="AC PLC Filter Reactor"/>
+	
+	
+		<option id="ra172"
+		name="RA172"
+		description="DC PLC Filter Reactor"/>
+	
+	
+		<option id="ra173"
+		name="RA173"
+		description="DC High Frequency Reactor"/>
+	
+	
+		<option id="ra180"
+		name="RA180"
+		description="FSC Damping Circuits"/>
+	
+	
+		<option id="ra181"
+		name="RA181"
+		description="FSC Damping Reactor+Resistor+ Discharge Gap"/>
+	
+	
+		<option id="ra200"
+		name="RA200"
+		description="Limiting electrical energy, Auxiliary power"/>
+	
+	
+		<option id="ra210"
+		name="RA210"
+		description="Starpoint Resistors"/>
+	
+	
+		<option id="ra211"
+		name="RA211"
+		description="Starpoint Resistor / Unit"/>
+	
+	
+		<option id="ra220"
+		name="RA220"
+		description="Current Limiting Reactors"/>
+	
+	
+		<option id="ra221"
+		name="RA221"
+		description="Current Limiting Reactor / Unit"/>
+	
+	
+		<option id="ra222"
+		name="RA222"
+		description="Damping Reactor (e.g. for Aux Transformer) / Unit"/>
+	
+	
+		<option id="ra300"
+		name="RA300"
+		description="Limiting electrical energy, C&amp;P"/>
+	
+	
+		<option id="ra800"
+		name="RA800"
+		description="Limiting electrical energy, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="ra810"
+		name="RA810"
+		description="Precharging Units"/>
+	
+	
+		<option id="ra820"
+		name="RA820"
+		description="Starpoint Reactor Units"/>
+	
+	
+		<option id="ra830"
+		name="RA830"
+		description="DC Areas"/>
+	
+	
+		<option id="ra831"
+		name="RA831"
+		description="DC HV Smoothing Reactor"/>
+	
+	
+		<option id="ra832"
+		name="RA832"
+		description="DC LV Blocking Filter"/>
+	
+	
+		<option id="rb"
+		name="RB"
+		description="Stabilizing a flow of electrical energy"/>
+	
+	
+		<option id="rb200"
+		name="RB200"
+		description="Stabilizing of electrical energy, Auxiliary power"/>
+	
+	
+		<option id="rb210"
+		name="RB210"
+		description="Uninterruptible Power Systems (UPS)"/>
+	
+	
+		<option id="rb211"
+		name="RB211"
+		description="Uninterruptible Power System (UPS)"/>
+	
+	
+		<option id="rb212"
+		name="RB212"
+		description="UPS Distribution (AC Secure)"/>
+	
+	
+		<option id="rb220"
+		name="RB220"
+		description="UPS Converter Cooling"/>
+	
+	
+		<option id="rb221"
+		name="RB221"
+		description="UPS Converter Water Cooling"/>
+	
+	
+		<option id="rb222"
+		name="RB222"
+		description="Uninterruptible Motor Drive (UMD) for Converter Cooling"/>
+	
+	
+		<option id="rb300"
+		name="RB300"
+		description="Stabilizing of electrical energy, C&amp;P"/>
+	
+	
+		<option id="rb800"
+		name="RB800"
+		description="Stabilizing of electrical energy, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="rb810"
+		name="RB810"
+		description="AC Power Quality"/>
+	
+	
+		<option id="rb811"
+		name="RB811"
+		description="AC Filter"/>
+	
+	
+		<option id="rb812"
+		name="RB812"
+		description="Shunt Capacitor"/>
+	
+	
+		<option id="rb813"
+		name="RB813"
+		description="Shunt Reactor"/>
+	
+	
+		<option id="rb820"
+		name="RB820"
+		description="DC Power Quality"/>
+	
+	
+		<option id="rb821"
+		name="RB821"
+		description="DC Filter"/>
+	
+	
+		<option id="rb830"
+		name="RB830"
+		description="SVC Reactive Power Area MV"/>
+	
+	
+		<option id="rb831"
+		name="RB831"
+		description="TCR Branch"/>
+	
+	
+		<option id="rb832"
+		name="RB832"
+		description="TSR Branch"/>
+	
+	
+		<option id="rb833"
+		name="RB833"
+		description="TSC Delta Branch"/>
+	
+	
+		<option id="rb834"
+		name="RB834"
+		description="TSC Star Branch"/>
+	
+	
+		<option id="rb835"
+		name="RB835"
+		description="MSR Branch MV"/>
+	
+	
+		<option id="rb836"
+		name="RB836"
+		description="MSC Branch MV"/>
+	
+	
+		<option id="rb837"
+		name="RB837"
+		description="SVC PLUS Branch Containerized"/>
+	
+	
+		<option id="rb838"
+		name="RB838"
+		description="SVC PLUS Branch Open Rack"/>
+	
+	
+		<option id="rb840"
+		name="RB840"
+		description="SVC Reactive Power Area HV"/>
+	
+	
+		<option id="rb841"
+		name="RB841"
+		description="MSR Branch HV"/>
+	
+	
+		<option id="rb842"
+		name="RB842"
+		description="MSC Branch HV"/>
+	
+	
+		<option id="rb850"
+		name="RB850"
+		description="FSC Reactive Power Area HV"/>
+	
+	
+		<option id="rb851"
+		name="RB851"
+		description="FSC Bank"/>
+	
+	
+		<option id="rb860"
+		name="RB860"
+		description="Synchronous Condenser Branches"/>
+	
+	
+		<option id="rb861"
+		name="RB861"
+		description="Synchronous Condenser Branch"/>
+	
+	
+		<option id="rl"
+		name="RL"
+		description="Restricting unauthorized operation"/>
+	
+	
+		<option id="rl300"
+		name="RL300"
+		description="Restricting unauthorized operation, C&amp;P"/>
+	
+	
+		<option id="rp"
+		name="RP"
+		description="Restricting a sound propagation"/>
+	
+	
+		<option id="rp900"
+		name="RP900"
+		description="Noise Protection, Civil"/>
+	
+	
+		<option id="rp910"
+		name="RP910"
+		description="Noise Damping"/>
+	
+	
+		<option id="rp911"
+		name="RP911"
+		description="Noise Barrier"/>
+	
+	
+		<option id="rq"
+		name="RQ"
+		description="Restricting a thermal flow"/>
+	
+	
+		<option id="rq900"
+		name="RQ900"
+		description="Thermal Insulation, Civil"/>
+	
+	
+		<option id="rq910"
+		name="RQ910"
+		description="Insulation"/>
+	
+	
+		<option id="rz"
+		name="RZ"
+		description="Stabilizing a flow - Combined tasks"/>
+	
+	
+		<option id="rz100"
+		name="RZ100"
+		description="Stabilizing of flow - Combined tasks, HV&amp;MV"/>
+	
+	
+		<option id="rz110"
+		name="RZ110"
+		description="Signal Coupling capacitors"/>
+	
+	
+		<option id="rz111"
+		name="RZ111"
+		description="DC signal coupling capacitor"/>
+	
+	
+		<option id="rz120"
+		name="RZ120"
+		description="AC Neutral Earthing Devices"/>
+	
+	
+		<option id="rz121"
+		name="RZ121"
+		description="AC Neutral Earthing Device NED"/>
+	
+	
+		<option id="s"
+		name="S"
+		description="Converting a manual operation into a signal"/>
+	
+	
+		<option id="sf"
+		name="SF"
+		description="Providing an electrical signal"/>
+	
+	
+		<option id="sf300"
+		name="SF300"
+		description="Providing an electrical signal, C&amp;P"/>
+	
+	
+		<option id="sf310"
+		name="SF310"
+		description="Control Cubicles (Operating Device)"/>
+	
+	
+		<option id="sf311"
+		name="SF311"
+		description="Control Cubicle (Operating Device)"/>
+	
+	
+		<option id="t"
+		name="T"
+		description="Conversion of energy, signals or material"/>
+	
+	
+		<option id="ta"
+		name="TA"
+		description="Converting electrical energy (retaining type and form)"/>
+	
+	
+		<option id="ta100"
+		name="TA100"
+		description="Converting electrical energy, HV&amp;MV"/>
+	
+	
+		<option id="ta110"
+		name="TA110"
+		description="Power Transformers"/>
+	
+	
+		<option id="ta111"
+		name="TA111"
+		description="Power Transformer"/>
+	
+	
+		<option id="ta112"
+		name="TA112"
+		description="Neutral Grounding Transformer (NGT)"/>
+	
+	
+		<option id="ta113"
+		name="TA113"
+		description="Converter Transformer"/>
+	
+	
+		<option id="ta114"
+		name="TA114"
+		description="Step-Up Transformer (GSU)"/>
+	
+	
+		<option id="ta115"
+		name="TA115"
+		description="Frequency Converter Transformers"/>
+	
+	
+		<option id="ta115_a"
+		name="TA115.A"
+		description="VFD Transformer MV for FC &amp; SFC"/>
+	
+	
+		<option id="ta115_b"
+		name="TA115.B"
+		description="VFD Transformer LV for SFC"/>
+	
+	
+		<option id="ta116"
+		name="TA116"
+		description="Excitation Transformer"/>
+	
+	
+		<option id="ta120"
+		name="TA120"
+		description="SVC PLUS Converters"/>
+	
+	
+		<option id="ta121"
+		name="TA121"
+		description="SVC PLUS Converter System"/>
+	
+	
+		<option id="ta121_cont"
+		name="TA121.Cont"
+		description="SVC PLUS Converter System"/>
+	
+	
+		<option id="ta121_or"
+		name="TA121.OR"
+		description="SVC PLUS Converter System"/>
+	
+	
+		<option id="ta130"
+		name="TA130"
+		description="Frequency Converters"/>
+	
+	
+		<option id="ta131"
+		name="TA131"
+		description="Frequency Converter (FC) for Pony Motor"/>
+	
+	
+		<option id="ta132"
+		name="TA132"
+		description="Static Frequency Converter (SFC) Compact Unit"/>
+	
+	
+		<option id="ta140"
+		name="TA140"
+		description="Exciter Systems"/>
+	
+	
+		<option id="ta141"
+		name="TA141"
+		description="Static Excitation System"/>
+	
+	
+		<option id="ta142"
+		name="TA142"
+		description="Brushless Excitation Maschine"/>
+	
+	
+		<option id="ta200"
+		name="TA200"
+		description="Converting electrical energy, Auxiliary power"/>
+	
+	
+		<option id="ta210"
+		name="TA210"
+		description="Auxiliary Power Transformers"/>
+	
+	
+		<option id="ta211"
+		name="TA211"
+		description="Auxiliary Power Transformer"/>
+	
+	
+		<option id="ta212"
+		name="TA212"
+		description="Auto Transformer"/>
+	
+	
+		<option id="ta213"
+		name="TA213"
+		description="Earthing Transformer"/>
+	
+	
+		<option id="ta214"
+		name="TA214"
+		description="Transformers for Frequency Converter"/>
+	
+	
+		<option id="ta215"
+		name="TA215"
+		description="AC Isolation Transformer"/>
+	
+	
+		<option id="ta220"
+		name="TA220"
+		description="Stabilizers"/>
+	
+	
+		<option id="ta221"
+		name="TA221"
+		description="Automatic Voltage Stabilizer"/>
+	
+	
+		<option id="ta230"
+		name="TA230"
+		description="AC and DC Converter"/>
+	
+	
+		<option id="ta231"
+		name="TA231"
+		description="AC-AC Converter"/>
+	
+	
+		<option id="ta232"
+		name="TA232"
+		description="DC-DC Converter"/>
+	
+	
+		<option id="ta300"
+		name="TA300"
+		description="Converting electrical energy, C&amp;P"/>
+	
+	
+		<option id="ta800"
+		name="TA800"
+		description="Converting electrical energy, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="ta810"
+		name="TA810"
+		description="Transformer Areas"/>
+	
+	
+		<option id="ta811"
+		name="TA811"
+		description="AC Power Transformer Area"/>
+	
+	
+		<option id="ta812"
+		name="TA812"
+		description="SVC Main Transformer Area"/>
+	
+	
+		<option id="ta813"
+		name="TA813"
+		description="Converter Transformer Area"/>
+	
+	
+		<option id="ta814"
+		name="TA814"
+		description="Step Up Transformer Area"/>
+	
+	
+		<option id="ta820"
+		name="TA820"
+		description="Auxiliary Power Transformer Areas"/>
+	
+	
+		<option id="ta821"
+		name="TA821"
+		description="Auxiliary Power Transformer Area"/>
+	
+	
+		<option id="ta823"
+		name="TA823"
+		description="Earthing Transformer Area"/>
+	
+	
+		<option id="ta830"
+		name="TA830"
+		description="SVC Converter Container Area"/>
+	
+	
+		<option id="tb"
+		name="TB"
+		description="Converting electrical energy (retaining type, changing form)"/>
+	
+	
+		<option id="tb100"
+		name="TB100"
+		description="Converting electrical energy, HV&amp;MV"/>
+	
+	
+		<option id="tb110"
+		name="TB110"
+		description="HVDC Converters"/>
+	
+	
+		<option id="tb111"
+		name="TB111"
+		description="HVDC Thyristor Converter"/>
+	
+	
+		<option id="tb120"
+		name="TB120"
+		description="PLUS Converters for Frequency Stabilizer"/>
+	
+	
+		<option id="tb121"
+		name="TB121"
+		description="PLUS Converter for Frequency Stabilizer"/>
+	
+	
+		<option id="tb200"
+		name="TB200"
+		description="Converting electrical energy, Auxiliary power"/>
+	
+	
+		<option id="tb210"
+		name="TB210"
+		description="Battery Rectifiers"/>
+	
+	
+		<option id="tb211"
+		name="TB211"
+		description="Battery Rectifier"/>
+	
+	
+		<option id="tb220"
+		name="TB220"
+		description="Converter and Inverter"/>
+	
+	
+		<option id="tb221"
+		name="TB221"
+		description="AC-DC Converter"/>
+	
+	
+		<option id="tb222"
+		name="TB222"
+		description="DC-AC Inverter"/>
+	
+	
+		<option id="tb300"
+		name="TB300"
+		description="Converting electrical energy, C&amp;P"/>
+	
+	
+		<option id="tb800"
+		name="TB800"
+		description="Converting electrical energy, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="tb810"
+		name="TB810"
+		description="HVDC Converter Systems"/>
+	
+	
+		<option id="tb811"
+		name="TB811"
+		description="HVDC Thyristor Converter System"/>
+	
+	
+		<option id="tb812"
+		name="TB812"
+		description="HVDC VSC Converter System"/>
+	
+	
+		<option id="tf"
+		name="TF"
+		description="Converting signals (retention of information content)"/>
+	
+	
+		<option id="tf300"
+		name="TF300"
+		description="Converting signals, C&amp;P"/>
+	
+	
+		<option id="tf310"
+		name="TF310"
+		description="Signal converters"/>
+	
+	
+		<option id="tf311"
+		name="TF311"
+		description="GTE-Box"/>
+	
+	
+		<option id="tf312"
+		name="TF312"
+		description="Opto-Box"/>
+	
+	
+		<option id="tf313"
+		name="TF313"
+		description="GPS Antenna Panel"/>
+	
+	
+		<option id="tf314"
+		name="TF314"
+		description="Coupling Unit for Electrode Line Monitoring"/>
+	
+	
+		<option id="tf700"
+		name="TF700"
+		description="Converting signals, Electrical systems"/>
+	
+	
+		<option id="tf710"
+		name="TF710"
+		description="Telephone Systems"/>
+	
+	
+		<option id="tf711"
+		name="TF711"
+		description="Telephone and video conference system"/>
+	
+	
+		<option id="tf720"
+		name="TF720"
+		description="Data Systems"/>
+	
+	
+		<option id="tf730"
+		name="TF730"
+		description="Paging Systems"/>
+	
+	
+		<option id="tf731"
+		name="TF731"
+		description="Paging System"/>
+	
+	
+		<option id="u"
+		name="U"
+		description="Keeping objects in a defined position"/>
+	
+	
+		<option id="u0900"
+		name="U0900"
+		description="Buildings (FACTS and AC Substations)"/>
+	
+	
+		<option id="u0910"
+		name="U0910"
+		description="Main Buildings (FACTS and AC Substations)"/>
+	
+	
+		<option id="u0911"
+		name="U0911"
+		description="Control Building"/>
+	
+	
+		<option id="u0912"
+		name="U0912"
+		description="Reserved"/>
+	
+	
+		<option id="u0913"
+		name="U0913"
+		description="SVC Building"/>
+	
+	
+		<option id="u0914"
+		name="U0914"
+		description="Machine Hall Syncronous Condenser"/>
+	
+	
+		<option id="u0915"
+		name="U0915"
+		description="Switchgear and Control Building for SynCon"/>
+	
+	
+		<option id="u0916"
+		name="U0916"
+		description="GIS Building"/>
+	
+	
+		<option id="u0917"
+		name="U0917"
+		description="FSC Building (Option)"/>
+	
+	
+		<option id="u0920"
+		name="U0920"
+		description="Auxiliary Buildings"/>
+	
+	
+		<option id="u0921"
+		name="U0921"
+		description="Reserved"/>
+	
+	
+		<option id="u0922"
+		name="U0922"
+		description="Reserved"/>
+	
+	
+		<option id="u0923"
+		name="U0923"
+		description="Reserved"/>
+	
+	
+		<option id="u0924"
+		name="U0924"
+		description="Reserved"/>
+	
+	
+		<option id="u0925"
+		name="U0925"
+		description="Reserved"/>
+	
+	
+		<option id="u0926"
+		name="U0926"
+		description="Reserved"/>
+	
+	
+		<option id="u0927"
+		name="U0927"
+		description="Reserved"/>
+	
+	
+		<option id="u0928"
+		name="U0928"
+		description="Reserved"/>
+	
+	
+		<option id="u0929"
+		name="U0929"
+		description="Reserved"/>
+	
+	
+		<option id="u0930"
+		name="U0930"
+		description="Reserved"/>
+	
+	
+		<option id="u0950"
+		name="U0950"
+		description="Buildings (Cross Functional)"/>
+	
+	
+		<option id="u0951"
+		name="U0951"
+		description="Other Buildings"/>
+	
+	
+		<option id="ua"
+		name="UA"
+		description="Holding and supporting electrical energy equipment"/>
+	
+	
+		<option id="ua100"
+		name="UA100"
+		description="HV&amp;MV Switchgear Components"/>
+	
+	
+		<option id="ua110"
+		name="UA110"
+		description="Steel Support Structures"/>
+	
+	
+		<option id="ua111"
+		name="UA111"
+		description="Steel column"/>
+	
+	
+		<option id="ua112"
+		name="UA112"
+		description="Steel gantry"/>
+	
+	
+		<option id="ua113"
+		name="UA113"
+		description="Steel support structure for electrical equipment"/>
+	
+	
+		<option id="ua114"
+		name="UA114"
+		description="Steel structure for FSC platforms"/>
+	
+	
+		<option id="ua120"
+		name="UA120"
+		description="OHL Towers"/>
+	
+	
+		<option id="ua121"
+		name="UA121"
+		description="AC OHL Tower"/>
+	
+	
+		<option id="ua122"
+		name="UA122"
+		description="DC OHL Tower"/>
+	
+	
+		<option id="ua190"
+		name="UA190"
+		description="Other steel structures"/>
+	
+	
+		<option id="ub"
+		name="UB"
+		description="Holding and supporting electrical energy cables and conductors"/>
+	
+	
+		<option id="ub100"
+		name="UB100"
+		description="Insulators, HV&amp;MV"/>
+	
+	
+		<option id="ub101"
+		name="UB101"
+		description="AC and DC Insulators"/>
+	
+	
+		<option id="ub110"
+		name="UB110"
+		description="AC Insulators"/>
+	
+	
+		<option id="ub111"
+		name="UB111"
+		description="AC Post Insulator"/>
+	
+	
+		<option id="ub112"
+		name="UB112"
+		description="AC Disc Insulator"/>
+	
+	
+		<option id="ub113"
+		name="UB113"
+		description="AC Long Rod Insulator"/>
+	
+	
+		<option id="ub114"
+		name="UB114"
+		description="AC Inclined Insulator"/>
+	
+	
+		<option id="ub120"
+		name="UB120"
+		description="DC Insulators"/>
+	
+	
+		<option id="ub121"
+		name="UB121"
+		description="DC Post Insulator"/>
+	
+	
+		<option id="ub122"
+		name="UB122"
+		description="DC Disc Insulator"/>
+	
+	
+		<option id="ub123"
+		name="UB123"
+		description="DC Long Rod Insulator"/>
+	
+	
+		<option id="ub124"
+		name="UB124"
+		description="DC Inclined Insulator - reserved"/>
+	
+	
+		<option id="uc"
+		name="UC"
+		description="Enclosing and supporting electrical energy equipment"/>
+	
+	
+		<option id="uc200"
+		name="UC200"
+		description="MV Compact stations, Auxiliary power"/>
+	
+	
+		<option id="uc210"
+		name="UC210"
+		description="MV Compact stations"/>
+	
+	
+		<option id="ug"
+		name="UG"
+		description="Holding and supporting instrumentation, control and communication equipment cables"/>
+	
+	
+		<option id="ug600"
+		name="UG600"
+		description="Holding and supporting C&amp;P cables, Cabling"/>
+	
+	
+		<option id="ug610"
+		name="UG610"
+		description="Cable tray systems"/>
+	
+	
+		<option id="ug611"
+		name="UG611"
+		description="Cable tray system"/>
+	
+	
+		<option id="ug900"
+		name="UG900"
+		description="Cable Ducts / Cable Trenches, Civil"/>
+	
+	
+		<option id="ug910"
+		name="UG910"
+		description="Cable Ducts / Cable Trenches"/>
+	
+	
+		<option id="ug911"
+		name="UG911"
+		description="Cable ducts"/>
+	
+	
+		<option id="ug912"
+		name="UG912"
+		description="Cable trench"/>
+	
+	
+		<option id="ug930"
+		name="UG930"
+		description="Cable trenches indoor"/>
+	
+	
+		<option id="ug931"
+		name="UG931"
+		description="Cable trench indoor"/>
+	
+	
+		<option id="ug940"
+		name="UG940"
+		description="Cable seals"/>
+	
+	
+		<option id="ug941"
+		name="UG941"
+		description="Cable sealing"/>
+	
+	
+		<option id="ug942"
+		name="UG942"
+		description="Pipe sealing"/>
+	
+	
+		<option id="uh"
+		name="UH"
+		description="Enclosing and supporting instrumentation, control and communication equipment"/>
+	
+	
+		<option id="uh300"
+		name="UH300"
+		description="Enclosing instrumentation, C&amp;P"/>
+	
+	
+		<option id="uh310"
+		name="UH310"
+		description="C&amp;P Cubicles"/>
+	
+	
+		<option id="uh311"
+		name="UH311"
+		description="C&amp;P Cubicle"/>
+	
+	
+		<option id="uh312"
+		name="UH312"
+		description="Box"/>
+	
+	
+		<option id="uh320"
+		name="UH320"
+		description="C&amp;P desks"/>
+	
+	
+		<option id="uh321"
+		name="UH321"
+		description="C&amp;P desk"/>
+	
+	
+		<option id="ul"
+		name="UL"
+		description="Holding and supporting machinery"/>
+	
+	
+		<option id="ul900"
+		name="UL900"
+		description="Foundations, Civil"/>
+	
+	
+		<option id="ul910"
+		name="UL910"
+		description="Foundations for equipment"/>
+	
+	
+		<option id="ul911"
+		name="UL911"
+		description="Foundation for steel columns"/>
+	
+	
+		<option id="ul912"
+		name="UL912"
+		description="Foundation for steel gantries"/>
+	
+	
+		<option id="ul913"
+		name="UL913"
+		description="Foundation for electrical equipment or related steel supports"/>
+	
+	
+		<option id="ul914"
+		name="UL914"
+		description="Foundation for FSC Platforms"/>
+	
+	
+		<option id="ul920"
+		name="UL920"
+		description="Foundations for OHL Tower"/>
+	
+	
+		<option id="ul921"
+		name="UL921"
+		description="Foundation for AC OHL Towers"/>
+	
+	
+		<option id="ul922"
+		name="UL922"
+		description="Foundation for DC OHL Towers"/>
+	
+	
+		<option id="ul930"
+		name="UL930"
+		description="Foundations for transformers"/>
+	
+	
+		<option id="ul931"
+		name="UL931"
+		description="Foundation for transformer"/>
+	
+	
+		<option id="ul990"
+		name="UL990"
+		description="Other foundations"/>
+	
+	
+		<option id="um"
+		name="UM"
+		description="Holding and supporting structural objects"/>
+	
+	
+		<option id="um900"
+		name="UM900"
+		description="Holding and supporting buildings, Civil"/>
+	
+	
+		<option id="um910"
+		name="UM910"
+		description="Deep Foundations"/>
+	
+	
+		<option id="um920"
+		name="UM920"
+		description="Shallow Foundations"/>
+	
+	
+		<option id="um930"
+		name="UM930"
+		description="Steel Structure"/>
+	
+	
+		<option id="um940"
+		name="UM940"
+		description="Concrete / Masonry Structures"/>
+	
+	
+		<option id="up"
+		name="UP"
+		description="Conducting or Guiding Track-bound Transport Equipment"/>
+	
+	
+		<option id="up700"
+		name="UP700"
+		description="Conducting or Guiding, Electrical and Mechanical Systems"/>
+	
+	
+		<option id="up710"
+		name="UP710"
+		description="Bearings"/>
+	
+	
+		<option id="up711"
+		name="UP711"
+		description="Generator Bearing"/>
+	
+	
+		<option id="ur"
+		name="UR"
+		description="Fastening and anchoring machinery"/>
+	
+	
+		<option id="ur900"
+		name="UR900"
+		description="Fastening and anchoring,Civil"/>
+	
+	
+		<option id="ur910"
+		name="UR910"
+		description="Embedded Parts"/>
+	
+	
+		<option id="us"
+		name="US"
+		description="Spatial objects, housing and supporting other ojects"/>
+	
+	
+		<option id="us100"
+		name="US100"
+		description="HV&amp;MV Switchgear Components"/>
+	
+	
+		<option id="us110"
+		name="US110"
+		description="Converter Transformer Enclosures"/>
+	
+	
+		<option id="us800"
+		name="US800"
+		description="Spatial objects, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="us810"
+		name="US810"
+		description="HVDC Halls - Installations"/>
+	
+	
+		<option id="us811"
+		name="US811"
+		description="Converter Hall - Installations"/>
+	
+	
+		<option id="us812"
+		name="US812"
+		description="DC Hall - Installations"/>
+	
+	
+		<option id="us813"
+		name="US813"
+		description="Reactor Hall - Installations"/>
+	
+	
+		<option id="us814"
+		name="US814"
+		description="Other Hall - Installations"/>
+	
+	
+		<option id="us820"
+		name="US820"
+		description="SVC Rooms - Installations"/>
+	
+	
+		<option id="us821"
+		name="US821"
+		description="SVC Valve Room - Installations"/>
+	
+	
+		<option id="us822"
+		name="US822"
+		description="SVC Valve Cooling Room - Installations"/>
+	
+	
+		<option id="us823"
+		name="US823"
+		description="SVC Converter and Cooling Room - Installations"/>
+	
+	
+		<option id="us830"
+		name="US830"
+		description="SynCon Halls - Installations"/>
+	
+	
+		<option id="us831"
+		name="US831"
+		description="Machine Hall / Generator Hall - Installations"/>
+	
+	
+		<option id="us840"
+		name="US840"
+		description="GIS Halls - Installations"/>
+	
+	
+		<option id="us841"
+		name="US841"
+		description="Switchgear Hall - Installations"/>
+	
+	
+		<option id="us900"
+		name="US900"
+		description="Spatial objects, Civil"/>
+	
+	
+		<option id="us910"
+		name="US910"
+		description="Building Spaces"/>
+	
+	
+		<option id="us911"
+		name="US911"
+		description="Rooms"/>
+	
+	
+		<option id="us912"
+		name="US912"
+		description="Corridor"/>
+	
+	
+		<option id="v"
+		name="V"
+		description="Processing (treating) of material or products"/>
+	
+	
+		<option id="vp"
+		name="VP"
+		description="Treating material or product"/>
+	
+	
+		<option id="vp700"
+		name="VP700"
+		description="Treating material, Electrical and Mechanical Systems"/>
+	
+	
+		<option id="vp710"
+		name="VP710"
+		description="Dosing systems"/>
+	
+	
+		<option id="w"
+		name="W"
+		description="Guiding energy, signals or materials"/>
+	
+	
+		<option id="wa"
+		name="WA"
+		description="Distributing high voltage electrical energy 
+(&gt; 1 000 V a.c. or &gt; 1 500 V d.c.)"/>
+	
+	
+		<option id="wa800"
+		name="WA800"
+		description="Distributing high voltage energy, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="wa810"
+		name="WA810"
+		description="Busbar"/>
+	
+	
+		<option id="wa811"
+		name="WA811"
+		description="AC Switchgear Busbar"/>
+	
+	
+		<option id="wa812"
+		name="WA812"
+		description="DC Switchgear Busbar"/>
+	
+	
+		<option id="wb"
+		name="WB"
+		description="Transporting high voltage electrical energy 
+(&gt; 1 000 V a.c. or &gt; 1 500 V d.c.)"/>
+	
+	
+		<option id="wb100"
+		name="WB100"
+		description="Transporting high voltage energy, HV&amp;MV"/>
+	
+	
+		<option id="wb110"
+		name="WB110"
+		description="AC and DC Bushings"/>
+	
+	
+		<option id="wb111"
+		name="WB111"
+		description="AC Bushing"/>
+	
+	
+		<option id="wb112"
+		name="WB112"
+		description="DC Bushing"/>
+	
+	
+		<option id="wb120"
+		name="WB120"
+		description="Insulated Busbars"/>
+	
+	
+		<option id="wb121"
+		name="WB121"
+		description="Insulated Busbar (Duresca) AC"/>
+	
+	
+		<option id="wb122"
+		name="WB122"
+		description="Gas Insulated Busbar AC (GIL)"/>
+	
+	
+		<option id="wb130"
+		name="WB130"
+		description="Flat Bars"/>
+	
+	
+		<option id="wb131"
+		name="WB131"
+		description="Flat Bar (Al)"/>
+	
+	
+		<option id="wb140"
+		name="WB140"
+		description="Tubes"/>
+	
+	
+		<option id="wb141"
+		name="WB141"
+		description="Tube (Al)"/>
+	
+	
+		<option id="wb150"
+		name="WB150"
+		description="Wires"/>
+	
+	
+		<option id="wb151"
+		name="WB151"
+		description="Wire (AAC)"/>
+	
+	
+		<option id="wb152"
+		name="WB152"
+		description="Wire (ACSR)"/>
+	
+	
+		<option id="wb153"
+		name="WB153"
+		description="Wire (SAL)"/>
+	
+	
+		<option id="wb600"
+		name="WB600"
+		description="Transporting high voltage energy, Cabling"/>
+	
+	
+		<option id="wb610"
+		name="WB610"
+		description="AC HV and MV Cables"/>
+	
+	
+		<option id="wb611"
+		name="WB611"
+		description="AC HV Cable"/>
+	
+	
+		<option id="wb612"
+		name="WB612"
+		description="AC MV Cable"/>
+	
+	
+		<option id="wb620"
+		name="WB620"
+		description="DC HV and MV Cables"/>
+	
+	
+		<option id="wb621"
+		name="WB621"
+		description="DC HV Cable"/>
+	
+	
+		<option id="wb622"
+		name="WB622"
+		description="DC MV Cable"/>
+	
+	
+		<option id="wb800"
+		name="WB800"
+		description="Transporting high voltage energy, HV&amp;MV Assemblies"/>
+	
+	
+		<option id="wb810"
+		name="WB810"
+		description="Isolated Phase Bus Ducts (IPB)"/>
+	
+	
+		<option id="wb811"
+		name="WB811"
+		description="Isolated Phase Bus Duct (IPB)"/>
+	
+	
+		<option id="wb820"
+		name="WB820"
+		description="Gas Insulated Ducts (GIL)"/>
+	
+	
+		<option id="wb821"
+		name="WB821"
+		description="Gas Insulated Duct (GIL)"/>
+	
+	
+		<option id="wb830"
+		name="WB830"
+		description="Overhead Lines (OHL)"/>
+	
+	
+		<option id="wb831"
+		name="WB831"
+		description="AC Overhead Line (OHL)"/>
+	
+	
+		<option id="wb832"
+		name="WB832"
+		description="DC Overhead Line (OHL)"/>
+	
+	
+		<option id="wbp00"
+		name="WBP00"
+		description="Connection Packages, HV&amp;MV"/>
+	
+	
+		<option id="wbp10"
+		name="WBP10"
+		description="Valve Connection Packages"/>
+	
+	
+		<option id="wbp11"
+		name="WBP11"
+		description="Valve Connection Package"/>
+	
+	
+		<option id="wc"
+		name="WC"
+		description="Distributing low voltage electrical energy
+(≤ 1 000 V a.c. or ≤ 1 500 V d.c.)"/>
+	
+	
+		<option id="wc200"
+		name="WC200"
+		description="Distributing low voltage energy, Auxiliary power"/>
+	
+	
+		<option id="wc210"
+		name="WC210"
+		description="AC LV Switchgears"/>
+	
+	
+		<option id="wc211"
+		name="WC211"
+		description="AC LV Main Switchgear"/>
+	
+	
+		<option id="wc212"
+		name="WC212"
+		description="AC LV Distribution"/>
+	
+	
+		<option id="wc213"
+		name="WC213"
+		description="UPS Distribution"/>
+	
+	
+		<option id="wc220"
+		name="WC220"
+		description="AC LV Sub Distributions"/>
+	
+	
+		<option id="wc221"
+		name="WC221"
+		description="AC LV Sub Distribution"/>
+	
+	
+		<option id="wc230"
+		name="WC230"
+		description="DC Distribution &gt;=110V"/>
+	
+	
+		<option id="wc231"
+		name="WC231"
+		description="DC Distribution &gt;=110V"/>
+	
+	
+		<option id="wc240"
+		name="WC240"
+		description="DC Distribution &lt;110V"/>
+	
+	
+		<option id="wc241"
+		name="WC241"
+		description="DC Distribution &lt;110V"/>
+	
+	
+		<option id="wc310"
+		name="WC310"
+		description="Distribution Boxes"/>
+	
+	
+		<option id="wc311"
+		name="WC311"
+		description="Distribution Boxes, AC"/>
+	
+	
+		<option id="wc311_a"
+		name="WC311.A"
+		description="Distribution Box, AC yard"/>
+	
+	
+		<option id="wc311_b"
+		name="WC311.B"
+		description="Distribution Box, AC Filter yard"/>
+	
+	
+		<option id="wc312"
+		name="WC312"
+		description="Distribution Box, DC yard"/>
+	
+	
+		<option id="wc313"
+		name="WC313"
+		description="Distribution Box, transformer"/>
+	
+	
+		<option id="wc700"
+		name="WC700"
+		description="Distributing low voltage energy, Electrical Systems"/>
+	
+	
+		<option id="wc710"
+		name="WC710"
+		description="Small Power &amp; Lighting"/>
+	
+	
+		<option id="wc711"
+		name="WC711"
+		description="Emergency Lighting"/>
+	
+	
+		<option id="wc712"
+		name="WC712"
+		description="Cable Tray"/>
+	
+	
+		<option id="wc720"
+		name="WC720"
+		description="Control Systems Building Services"/>
+	
+	
+		<option id="wd"
+		name="WD"
+		description="Transporting low voltage electrical energy
+(≤ 1 000 V a.c. or ≤ 1 500 V d.c.)"/>
+	
+	
+		<option id="wd200"
+		name="WD200"
+		description="Transporting low voltage electrical energy, Auxiliary power"/>
+	
+	
+		<option id="wd210"
+		name="WD210"
+		description="Busbar Trunking Systems"/>
+	
+	
+		<option id="wd211"
+		name="WD211"
+		description="Busbar Trunking System"/>
+	
+	
+		<option id="wd600"
+		name="WD600"
+		description="Transporting low voltage electrical energy, Cabling"/>
+	
+	
+		<option id="wd610"
+		name="WD610"
+		description="LV Cables"/>
+	
+	
+		<option id="wd611"
+		name="WD611"
+		description="LV Cables"/>
+	
+	
+		<option id="wd620"
+		name="WD620"
+		description="Cable glands"/>
+	
+	
+		<option id="wd621"
+		name="WD621"
+		description="Cable gland"/>
+	
+	
+		<option id="we"
+		name="WE"
+		description="Conducting earth potential or reference potential"/>
+	
+	
+		<option id="we100"
+		name="WE100"
+		description="HV&amp;MV Switchgear Components"/>
+	
+	
+		<option id="we110"
+		name="WE110"
+		description="Cables"/>
+	
+	
+		<option id="we111"
+		name="WE111"
+		description="Cables (Cu)"/>
+	
+	
+		<option id="we120"
+		name="WE120"
+		description="Flat Bars"/>
+	
+	
+		<option id="we121"
+		name="WE121"
+		description="Flat Bars (Cu)"/>
+	
+	
+		<option id="we122"
+		name="WE122"
+		description="Flat Bars (ST)"/>
+	
+	
+		<option id="we130"
+		name="WE130"
+		description="Wires"/>
+	
+	
+		<option id="we131"
+		name="WE131"
+		description="Wires (Cu)"/>
+	
+	
+		<option id="we132"
+		name="WE132"
+		description="Wires (St)"/>
+	
+	
+		<option id="we500"
+		name="WE500"
+		description="Conducting earth potential, Special Tools"/>
+	
+	
+		<option id="we510"
+		name="WE510"
+		description="Portable earthing devices"/>
+	
+	
+		<option id="we511"
+		name="WE511"
+		description="Portable earthing device"/>
+	
+	
+		<option id="we700"
+		name="WE700"
+		description="Conducting earth potential, Electrical Systems"/>
+	
+	
+		<option id="we710"
+		name="WE710"
+		description="Grounding Systems"/>
+	
+	
+		<option id="we720"
+		name="WE720"
+		description="Equipotential Bonding Systems"/>
+	
+	
+		<option id="we800"
+		name="WE800"
+		description="Conducting earth potential, HV&amp;MV"/>
+	
+	
+		<option id="we810"
+		name="WE810"
+		description="Station Earthing Grid"/>
+	
+	
+		<option id="we811"
+		name="WE811"
+		description="Outdoor Earthing Grid"/>
+	
+	
+		<option id="we812"
+		name="WE812"
+		description="Building Earthing Grid"/>
+	
+	
+		<option id="we820"
+		name="WE820"
+		description="Earth Electrodes"/>
+	
+	
+		<option id="we821"
+		name="WE821"
+		description="Earth Electrode"/>
+	
+	
+		<option id="wf"
+		name="WF"
+		description="Distributing electrical or electronic signal"/>
+	
+	
+		<option id="wf300"
+		name="WF300"
+		description="Distributing electrical signal, C&amp;P"/>
+	
+	
+		<option id="wf310"
+		name="WF310"
+		description="Data cables"/>
+	
+	
+		<option id="wf311"
+		name="WF311"
+		description="Data cables"/>
+	
+	
+		<option id="wg"
+		name="WG"
+		description="Transporting electrical or electronic signal"/>
+	
+	
+		<option id="wg300"
+		name="WG300"
+		description="Transporting electrical signal, C&amp;P"/>
+	
+	
+		<option id="wg310"
+		name="WG310"
+		description="Control Cables"/>
+	
+	
+		<option id="wg311"
+		name="WG311"
+		description="Control Cables"/>
+	
+	
+		<option id="wh"
+		name="WH"
+		description="Transporting and routing optical signal"/>
+	
+	
+		<option id="wh100"
+		name="WH100"
+		description="Transporting optical signal, HV&amp;MV"/>
+	
+	
+		<option id="wh120"
+		name="WH120"
+		description="Signal Columns"/>
+	
+	
+		<option id="wh121"
+		name="WH121"
+		description="Signal Column"/>
+	
+	
+		<option id="wh130"
+		name="WH130"
+		description="OPGW"/>
+	
+	
+		<option id="wh131"
+		name="WH131"
+		description="OPGW for OHL"/>
+	
+	
+		<option id="wh300"
+		name="WH300"
+		description="Transporting optical signal, C&amp;P"/>
+	
+	
+		<option id="wh310"
+		name="WH310"
+		description="Fibre Optic Cables"/>
+	
+	
+		<option id="wh311"
+		name="WH311"
+		description="Fibre Optic Cable"/>
+	
+	
+		<option id="wp"
+		name="WP"
+		description="Conducting or guiding flow of substance in rigid,
+closed enclosure"/>
+	
+	
+		<option id="wp700"
+		name="WP700"
+		description="Drinking Water- , Waste Water and Drainage Systems"/>
+	
+	
+		<option id="wp710"
+		name="WP710"
+		description="Drinking Water Systems"/>
+	
+	
+		<option id="wp711"
+		name="WP711"
+		description="Drinking Water System indoor"/>
+	
+	
+		<option id="wp712"
+		name="WP712"
+		description="Drinking Water System outdoor (supply pipe)"/>
+	
+	
+		<option id="wp720"
+		name="WP720"
+		description="Waste Water Systems"/>
+	
+	
+		<option id="wp721"
+		name="WP721"
+		description="Waste Water System indoor"/>
+	
+	
+		<option id="wp722"
+		name="WP722"
+		description="Waste Water System outdoor"/>
+	
+	
+		<option id="wp730"
+		name="WP730"
+		description="Drainage Systems"/>
+	
+	
+		<option id="wp731"
+		name="WP731"
+		description="Drainage System"/>
+	
+	
+		<option id="wp732"
+		name="WP732"
+		description="Drainage Pipes"/>
+	
+	
+		<option id="wp740"
+		name="WP740"
+		description="Fire fighting water systems"/>
+	
+	
+		<option id="wp741"
+		name="WP741"
+		description="Fire fighting water system"/>
+	
+	
+		<option id="wq"
+		name="WQ"
+		description="Transporting mechanical energy"/>
+	
+	
+		<option id="wq500"
+		name="WQ500"
+		description="Transporting mechanical energy, Special Tools"/>
+	
+	
+		<option id="wq510"
+		name="WQ510"
+		description="Rod (for manual operation)"/>
+	
+	
+		<option id="wq511"
+		name="WQ511"
+		description="Earthing rod (for manual operation)"/>
+	
+	
+		<option id="wr"
+		name="WR"
+		description="Conducting or guiding track-bound transport equipment"/>
+	
+	
+		<option id="wr900"
+		name="WR900"
+		description="Guiding track-bound transport equipment, Civil"/>
+	
+	
+		<option id="wr910"
+		name="WR910"
+		description="Rail Systems"/>
+	
+	
+		<option id="wr911"
+		name="WR911"
+		description="Rail Road"/>
+	
+	
+		<option id="ws"
+		name="WS"
+		description="Conducting or guiding persons (access equipment)"/>
+	
+	
+		<option id="ws900"
+		name="WS900"
+		description="Conducting or guiding persons, Civil"/>
+	
+	
+		<option id="ws910"
+		name="WS910"
+		description="Access Equipment"/>
+	
+	
+		<option id="ws911"
+		name="WS911"
+		description="Stairs"/>
+	
+	
+		<option id="ws912"
+		name="WS912"
+		description="Platforms"/>
+	
+	
+		<option id="wt"
+		name="WT"
+		description="Conducting or guiding mobile transport equipment"/>
+	
+	
+		<option id="wt900"
+		name="WT900"
+		description="Guiding mobile transport equipment, Civil"/>
+	
+	
+		<option id="wt910"
+		name="WT910"
+		description="Roads / Pavement"/>
+	
+	
+		<option id="wt920"
+		name="WT920"
+		description="Outdoor Facilities"/>
+	
+	
+		<option id="x"
+		name="X"
+		description="Connecting objects"/>
+	
+	
+		<option id="xb"
+		name="XB"
+		description="Connecting high voltage objects
+(&gt; 1 000 V a.c. or &gt; 1 500 V d.c.)"/>
+	
+	
+		<option id="xb100"
+		name="XB100"
+		description="Connecting high voltage objects, HV&amp;MV"/>
+	
+	
+		<option id="xb110"
+		name="XB110"
+		description="Cable Sealing Ends"/>
+	
+	
+		<option id="xb111"
+		name="XB111"
+		description="Cable Sealing End AC"/>
+	
+	
+		<option id="xb112"
+		name="XB112"
+		description="Cable Sealing End DC"/>
+	
+	
+		<option id="xb120"
+		name="XB120"
+		description="HV Connectors"/>
+	
+	
+		<option id="xb121"
+		name="XB121"
+		description="HV Connectors AC&amp;DC"/>
+	
+	
+		<option id="xd"
+		name="XD"
+		description="Connecting low voltage objects
+(≤ 1 000 V a.c. or ≤ 1 500 V d.c.)"/>
+	
+	
+		<option id="xd300"
+		name="XD300"
+		description="Connecting low voltage objects, C&amp;P"/>
+	
+	
+		<option id="xd310"
+		name="XD310"
+		description="Connection Boxes"/>
+	
+	
+		<option id="xd311"
+		name="XD311"
+		description="Connection Box, distributions box"/>
+	
+	
+		<option id="xd312"
+		name="XD312"
+		description="Neutral and Line Cabinet (Main Terminal Box MTB)"/>
+	
+	
+		<option id="xe"
+		name="XE"
+		description="Connecting to earth potential or reference
+potential"/>
+	
+	
+		<option id="xe100"
+		name="XE100"
+		description="Connecting to earth potential, HV&amp;MV"/>
+	
+	
+		<option id="xe110"
+		name="XE110"
+		description="Earthing Connectors"/>
+	
+	
+		<option id="xe111"
+		name="XE111"
+		description="Earthing fix point connectors"/>
+	
+	
+		<option id="xe112"
+		name="XE112"
+		description="Cable Lugs"/>
+	
+	
+		<option id="xe113"
+		name="XE113"
+		description="Compression clamps"/>
+	
+	
+		<option id="xe114"
+		name="XE114"
+		description="Flat bar supports"/>
+	
+	
+		<option id="xe120"
+		name="XE120"
+		description="Neutral Grounding Compact Units"/>
+	
+	
+		<option id="xe121"
+		name="XE121"
+		description="Neutral Grounding Compact Unit"/>
+	
+	
+		<option id="xe500"
+		name="XE500"
+		description="Connecting to earth potential, Special Tools"/>
+	
+	
+		<option id="xe510"
+		name="XE510"
+		description="Earthing connection devices"/>
+	
+	
+		<option id="xe511"
+		name="XE511"
+		description="Earthing ball for portable earthing"/>
+	
+	
+		<option id="xe512"
+		name="XE512"
+		description="Earthing clamp for portable earthing"/>
+	
+	
+		<option id="xf"
+		name="XF"
+		description="Connecting data network carriers"/>
+	
+	
+		<option id="xf300"
+		name="XF300"
+		description="Connecting data network, C&amp;P"/>
+	
+	
+		<option id="xf310"
+		name="XF310"
+		description="Network Administration"/>
+	
+	
+		<option id="xf320"
+		name="XF320"
+		description="LAN Systems"/>
+	
+	
+		<option id="xf321"
+		name="XF321"
+		description="LAN"/>
+	
+	
+		<option id="xf321_a"
+		name="XF321.A"
+		description="LAN (for FAT)"/>
+	
+	
+		<option id="xf321_snnn"
+		name="XF321.Snnn"
+		description="LAN (for CTS, MTS)"/>
+	
+	
+		<option id="xf330"
+		name="XF330"
+		description="Fieldbus Systems"/>
+	
+	
+		<option id="xf331"
+		name="XF331"
+		description="Fieldbus"/>
+	
+	
+		<option id="xf360"
+		name="XF360"
+		description="Systems for data transfer"/>
+	
+	
+		<option id="xf361"
+		name="XF361"
+		description="System for data transfer"/>
+	
+	
+		<option id="xf362"
+		name="XF362"
+		description="PLC System"/>
+	
+	
+		<option id="xf363"
+		name="XF363"
+		description="System for protection data transfer"/>
+	
+	
+		<option id="xg"
+		name="XG"
+		description="Connecting electrical signal carriers"/>
+	
+	
+		<option id="xg300"
+		name="XG300"
+		description="Connecting electrical signals, C&amp;P"/>
+	
+	
+		<option id="xg310"
+		name="XG310"
+		description="Marshalling Boxes (Kiosks)"/>
+	
+	
+		<option id="xg311"
+		name="XG311"
+		description="Marshalling Boxes (Kiosks), AC"/>
+	
+	
+		<option id="xg311_a"
+		name="XG311.A"
+		description="Marshalling Box (Kiosk), AC yard"/>
+	
+	
+		<option id="xg311_b"
+		name="XG311.B"
+		description="Marshalling Box (Kiosk), AC filter yard"/>
+	
+	
+		<option id="xg312"
+		name="XG312"
+		description="Marshalling Box (Kiosk), DC yard"/>
+	
+	
+		<option id="xg313"
+		name="XG313"
+		description="Marshalling Box (Kiosk), transformer"/>
+	
+	
+		<option id="xg360"
+		name="XG360"
+		description="CT Boxes"/>
+	
+	
+		<option id="xg361"
+		name="XG361"
+		description="CT Boxes, AC"/>
+	
+	
+		<option id="xg361_a"
+		name="XG361.A"
+		description="CT Box, AC yard"/>
+	
+	
+		<option id="xg361_b"
+		name="XG361.B"
+		description="CT Box, AC filter yard"/>
+	
+	
+		<option id="xg362"
+		name="XG362"
+		description="CT Box, DC Filter"/>
+	
+	
+		<option id="xg363"
+		name="XG363"
+		description="Hall Sensor Box"/>
+	
+	
+		<option id="xg370"
+		name="XG370"
+		description="PT Boxes"/>
+	
+	
+		<option id="xg371"
+		name="XG371"
+		description="PT Boxes, AC"/>
+	
+	
+		<option id="xg371_a"
+		name="XG371.A"
+		description="PT Box, AC yard"/>
+	
+	
+		<option id="xg371_b"
+		name="XG371.B"
+		description="PT Box, AC filter yard"/>
+	
+	
+		<option id="xh"
+		name="XH"
+		description="Connecting optical signal carriers"/>
+	
+	
+		<option id="xh300"
+		name="XH300"
+		description="Connecting optical signals, C&amp;P"/>
+	
+	
+		<option id="xh310"
+		name="XH310"
+		description="Optic Connection / Distribution Systems"/>
+	
+	
+		<option id="xh311"
+		name="XH311"
+		description="Fibre Optic Interface"/>
+	
+	
+		<option id="xh312"
+		name="XH312"
+		description="Main Fibre Optic Distribution"/>
+	
+	
+		<option id="xp"
+		name="XP"
+		description="Connecting objects for transport of mechanical energy, detachable"/>
+	
+	
+		<option id="xp700"
+		name="XP700"
+		description="Electrical and Mechanical Systems"/>
+	
+	
+		<option id="xp710"
+		name="XP710"
+		description="Coupling"/>
+	
+	
+		<option id="xp711"
+		name="XP711"
+		description="Generator Coupling"/>
+	
+	
+		<option id="xp720"
+		name="XP720"
+		description="Remote Tank Sounding Systems"/>
+	
+	
+		<option id="xp721"
+		name="XP721"
+		description="Condensate Collecting System"/>
+	
+	
+		<option id="xp730"
+		name="XP730"
+		description="Welding Gas Systems"/>
+	
+	
+		<option id="xp740"
+		name="XP740"
+		description="Deck Wash Systems"/>
+	
+	
+		<option id="xp750"
+		name="XP750"
+		description="Oily Bilge"/>
+	
+	
+		<option id="xp751"
+		name="XP751"
+		description="Leakage Oil"/>
+	
+	
+		<option id="xp760"
+		name="XP760"
+		description="Working Air"/>
+	
+	
+		<option id="xp761"
+		name="XP761"
+		description="Control Air"/>
+	
+	
+		<option id="xp770"
+		name="XP770"
+		description="Potable Water"/>
+	
+	
+		<option id="xp771"
+		name="XP771"
+		description="Technical Fresh Water"/>
+	
+	
+		<option id="xp780"
+		name="XP780"
+		description="Black- and Grey Water"/>
+	
+	
+		<option id="xp790"
+		name="XP790"
+		description="Ballast Systems"/>
+	
+	
+		<option id="xr"
+		name="XR"
+		description="Connecting objects reversible"/>
+	
+	
+		<option id="xrp00"
+		name="XRP00"
+		description="Electrical and Mechanical Systems"/>
+	
+	
+		<option id="xrp10"
+		name="XRP10"
+		description="Anchor Bolts"/>
+	
+	
+		<option id="xrp11"
+		name="XRP11"
+		description="Chemical Anchor Bolt"/>
+	
+	
+		<option id="xrp12"
+		name="XRP12"
+		description="Expansion Anchor Bolt"/>
+	
+	
+		<option id="xrp20"
+		name="XRP20"
+		description="Reversible Connection Materials"/>
+	
+	
+		<option id="xrp21"
+		name="XRP21"
+		description="Bolt"/>
+	
+	
+		<option id="xrp22"
+		name="XRP22"
+		description="Nut"/>
+	
+	
+		<option id="xrp23"
+		name="XRP23"
+		description="Washer"/>
+	
+</enumeration>

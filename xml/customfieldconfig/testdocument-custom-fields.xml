@@ -1,0 +1,71 @@
+<fields>
+    <field description="User specific ID for a work item" id="custom_id" name="Custom ID" type="string"/>
+    <field description="Scope impacted by the work item" id="scope" name="Scope" type="enum:scope"/>
+    <field description="OTC for this specific object" id="otc" name="OTC" required="true" type="string"/>
+    <field default="EN" description="Document language" id="language" name="Language" type="enum:language"/>
+    <field id="int_remark" name="Internal remark" type="string"/>
+    <field id="remark" name="Remark" type="string"/>
+    <field id="contact_s" name="Contact Person at Siemens" type="string"/>
+    <field id="manufacturer" name="Manufacturer" type="string"/>
+    <field id="contact_m" name="Contact Person at Manufacturer" type="string"/>
+    <field id="documentn" name="Document Number" type="string"/>
+    <field description="optional" id="subtype" name="Subtype" type="string"/>
+    <field id="p_stationn" name="Station number" type="string"/>
+    <field id="p_levelb" name="Level B" type="string"/>
+    <field id="p_levelc" name="Level C" type="string"/>
+    <field id="p_leveld" name="Level D" type="string"/>
+    <field id="p_levele" name="Level E" type="string"/>
+    <field id="p_levelf" name="Level F" type="string"/>
+    <field id="p_levelg" name="Level G" type="string"/>
+    <field id="p_levelh" name="Level H" type="string"/>
+    <field description="optional, location aspect" id="l_stationn" name="Station number, L" type="string"/>
+    <field description="optional, location aspect" id="l_levelb" name="Level B, L" type="string"/>
+    <field description="optional, location aspect" id="l_levelc" name="Level C, L" type="string"/>
+    <field description="optional, location aspect" id="l_leveld" name="Level D, L" type="string"/>
+    <field description="optional, location aspect" id="l_levele" name="Level E, L" type="string"/>
+    <field description="optional, location aspect" id="l_levelf" name="Level F, L" type="string"/>
+    <field description="optional, location aspect" id="l_levelg" name="Level G, L" type="string"/>
+    <field description="optional, location aspect" id="l_levelh" name="Level H, L" type="string"/>
+    <field id="testingsite" name="TestingSite" type="enum:site"/>
+    <field id="code_letter" name="Code Letter" type="enum:codeletter"/>
+    <field id="page_counter" name="Page Counter" type="string"/>
+    <field default="R0" id="revision" name="Revision" type="string"/>
+    <field id="dcc_class" name="DCC Class" type="enum:dcc"/>
+    <field description="optional" id="sec_title" name="Second Title" type="string"/>
+    <field id="description" name="Object Description" type="string"/>
+    <field id="dms" name="DMS Identifier" type="string"/>
+    <field id="doc_file" name="Document File Name" type="string"/>
+    <field id="res_dep" multi="true" name="Responsible Department" type="enum:department"/>
+    <field id="doctype" name="Document Type" required="true" type="enum:doctype"/>
+    <field id="aspectkey" name="Aspect Key" required="true" type="enum:aspectkey"/>
+    <field id="obj_type" name="Object Type" type="enum:objecttype"/>
+    <field description="Document use at this type of HVDC unit" id="vsc" name="VSC" type="enum:used_vsclcc"/>
+    <field description="Document use at this type of HVDC unit" id="lcc" name="LCC" type="enum:used_vsclcc"/>
+    <field description="Used" id="used" name="Used" type="enum:yon"/>
+    <field id="subpm" multi="true" name="SubPM" type="enum:subpm"/>
+    <field id="otc_subtype" name="OTC.Subtype" type="enum:otc_subtype"/>
+    <field description="optional" id="serialno" name="Serialnumber" type="string"/>
+    <field default="no" id="ifi" name="issued for information" type="enum:yon"/>
+    <field default="no" id="ifa" name="issued for approval" type="enum:yon"/>
+    <field default="no" id="ifd" name="issued for design" type="enum:yon"/>
+    <field default="no" id="ifm" name="issued for manufacture" type="enum:yon"/>
+    <field default="no" id="ifc" name="issued for construction" type="enum:yon"/>
+    <field default="no" id="ab" name="as built" type="enum:yon"/>
+    <field id="progress" name="Work Progress" type="duration"/>
+    <field id="doc_title" name="Documenttitle" type="string"/>
+    <field id="dcc_description" name="DCC description" type="string"/>
+    <field id="originator" name="Originator" type="string"/>
+    <field id="due_date_o" name="Due Date" type="date"/>
+    <field id="review_status" name="Review Status" type="enum:yon"/>
+    <field id="reviewer" name="Reviewer" type="string"/>
+    <field id="due_date_r" name="Due Date" type="date"/>
+    <field id="approval_status" name="Approval Status" type="enum:yon"/>
+    <field id="approver" name="Approver" type="string"/>
+    <field id="due_date_a" name="Due Date" type="date"/>
+    <field id="documentnumbering" name="---------------------doc_numbering---------------------" type="integer"/>
+    <field id="contacts" name="---------------------contacts---------------------" type="integer"/>
+    <field id="issued" name="---------------------issued for---------------------" type="integer"/>
+    <field id="status_" name="---------------------status---------------------" type="integer"/>
+    <field default="0" id="workprogress" name="Work Progress" type="enum:workprogress"/>
+    <field description="(in progress)" id="otc_forl" name="OTC Code explicit for Location Aspect" type="string"/>
+</fields>

@@ -1,0 +1,10 @@
+<enumeration>
+<option id="aux" name="Auxiliary" sortOrder="1"/>
+<option id="c&amp;p" name="C&amp;P" sortOrder="2"/>
+<option id="cabling" name="Cabling" sortOrder="3"/>
+<option id="ce" name="CE" sortOrder="4"/>
+<option id="civil" name="Civil" sortOrder="5"/>
+<option id="component" name="Component" sortOrder="6"/>
+<option id="ec" name="EC" sortOrder="7"/>
+<option id="ee" name="EE" sortOrder="8"/>
+</enumeration>

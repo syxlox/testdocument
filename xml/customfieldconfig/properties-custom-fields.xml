@@ -1,0 +1,10 @@
+<fields>
+    <field description="otc codes for c&amp;p objects" id="cpotcs" name="otcs for c&amp;p objects" type="string"/>
+    <field description="dcc codes for non c&amp;p objects" id="dcclistnoncp" name="dcc list for non c&amp;p objects" type="string"/>
+    <field description="dcc codes for c&amp;p objects" id="dcclistcp" name="dcc list for c&amp;p objects" type="string"/>
+    <field description="project id which should be processed within the extension " id="projectid" name="project id" type="string"/>
+    <field description="counter for the amount of dccs offsite cp obejcts" id="cpoff" name="dcc count for offsite cp" type="integer"/>
+    <field description="counter for the amount of dccs offsite noncp obejcts" id="noncpoff" name="dcc count for offsite noncp" type="integer"/>
+    <field description="list for the optional c&amp;p items dcc" id="optionalcp" name="optional items list c&amp;p" type="string"/>
+    <field description="list for the optional non c&amp;p items dcc" id="optionalnoncp" name="optional items list non c&amp;p" type="string"/>
+</fields>

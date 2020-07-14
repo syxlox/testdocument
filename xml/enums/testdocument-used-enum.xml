@@ -1,0 +1,4 @@
+<enumeration>
+<option id="used" name="Used" sortOrder="1"/>
+<option id="not_used" name="Not Used" sortOrder="2"/>
+</enumeration>

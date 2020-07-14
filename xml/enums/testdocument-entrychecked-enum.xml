@@ -1,0 +1,4 @@
+<enumeration>
+<option iconURL="/polarion/icons/default/enums/build_OK.png" id="entrynotchecked" name="Template entry not checked" sortOrder="1"/>
+<option iconURL="/polarion/icons/default/enums/build_FAILED.png" id="entrychecked" name="Template entry checked" sortOrder="2"/>
+</enumeration>
