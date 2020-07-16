@@ -115,7 +115,8 @@ public class ServiceServlet extends HttpServlet {
 		}
 		else returnvalue[0] = "more than one properties item found, only one per project is allowed";
         
-        
+		System.gc();
+		
         req.setAttribute("properties", returnvalue);
         
         getServletContext().getRequestDispatcher("/rendered.jsp").forward(req, resp);	//forward data to the servlet
