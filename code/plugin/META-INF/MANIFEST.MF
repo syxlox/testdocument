@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WorkitemsMultiply
+Bundle-SymbolicName: de.leupold.workitemsmultiply;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Polarion Software
+Require-Bundle: com.polarion.portal.tomcat,
+ com.polarion.alm.tracker
+Bundle-ClassPath: example-servlet.jar
